@@ -2,22 +2,33 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+<div class="home">    
+    
+    <div class="row">
+    {% for feature in site.data.frontpage.features %}
+        <div class = "col-md-4">
+            <div class ="thumbnail">
+                <img src="{{ feature.image | prepend: site.baseurl }}" alt="">
+            </div>          
+            <div class="caption">
+                <h3>{{ feature.title }}</h3>
+                <p>{{ feature.description }}</p>
+            </div>
+        </div>
     {% endfor %}
-  </ul>
+    </div>
+    
+    <hr>
+    
+    <div class="post-snippet">
+    <h1>Latest post</h2>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    {% for post in site.posts limit:1 %}
+        {% include latest_post_snippet.html param=post %}  
+    {% endfor %} 
+    </div> 
+    
+
+    {% include contributors.html %}
 
 </div>

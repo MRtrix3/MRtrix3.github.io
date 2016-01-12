@@ -1,0 +1,13 @@
+<contributors>
+    <h1>Contributors</h1>
+    <ul class="contrib-ul">
+    {% for contributor in site.data.frontpage.contributors %}
+        <li class="contrib-li col-xs-2 col-sm-2 col-md-1">
+            <a title="@{{ contributor.login }}" href="{{ contributor.url }}">
+                <img class="contrib-image img-circle" src="{{ contributor.avatar_url }}" alt="@{{ contributor.login }}">
+            </a>       
+        </li>
+    {% endfor %}
+    <ul>
+
+</contributors>

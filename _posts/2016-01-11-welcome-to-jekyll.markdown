@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "MRtrix3 takes over world"
+author: jdtournier
 date:   2016-01-11 20:22:45 +1100
 categories: jekyll update
 ---

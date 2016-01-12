@@ -1,0 +1,24 @@
+- title: Feature 1
+  description: |
+    This is a multi-line string.
+    "special" metacharacters may
+    appear here. The extent of this string is
+    indicated by indentation.
+  image: /images/frontpage/feature.jpeg
+
+- title: Feature 2
+  description: |
+    This is a multi-line string.
+    "special" metacharacters may
+    appear here. The extent of this string is
+    indicated by indentation.
+  image: /images/frontpage/feature.jpeg
+
+- title: Feature 3
+  description: |
+    This is a multi-line string.
+    "special" metacharacters may
+    appear here. The extent of this string is
+    indicated by indentation.
+  image: /images/frontpage/feature.jpeg
+

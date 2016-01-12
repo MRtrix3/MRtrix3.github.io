@@ -1,0 +1,11 @@
+- name: Affiliation 1
+  logo: images/affiliation/logo.png
+  link: link2
+
+- name: Affiliation 2
+  logo: images/affiliation/logo.png
+  link: link2
+
+- name: Affiliation 3
+  logo: images/affiliation/logo.png
+  link: link2

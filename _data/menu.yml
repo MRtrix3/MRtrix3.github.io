@@ -1,0 +1,25 @@
+- title: Download
+  link: /download
+
+- title: Blog
+  link: /blog
+
+- title: Documentation
+  submenu:
+    - title: User
+      link: https://github.com/MRtrix3/mrtrix3/wiki/
+    - title: Development
+      link: http://mrtrix3.github.io/developer-documentation/
+
+- title: Community
+  link: http://community.mrtrix.org/
+
+- title: Development
+  submenu:
+    - title: GitHub
+      link: https://github.com/MRtrix3
+    - title: Issue tracker
+      link: https://github.com/MRtrix3/mrtrix3/issues
+
+- title: Cite
+  link: http://www.mrtrix.org/cite/
