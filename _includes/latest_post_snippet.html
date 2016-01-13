@@ -2,7 +2,7 @@
     {% assign contributor = site.data.frontpage.contributors | where: "login", include.param.author | first %}
     <div class="post-snippet row">
         <div class="text-center col-md-2">
-            <a title="@{{ contributor.login }}" href="{{ contributor.url }}">
+            <a title="@{{ contributor.login }}" href="{{ contributor.html_url }}">
             <img class="post-image img-circle" src="{{ contributor.avatar_url }}" alt="@{{ contributor.login }}">
             <span class="text-center">@{{ contributor.login }}</span>
             </a>
