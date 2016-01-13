@@ -1,0 +1,14 @@
+<affiliations>
+    <div class="wrapper affil-wrapper text-center">
+    <ul class="affil-ul">
+    {% for affiliation in site.data.frontpage.affiliations %}
+        <li class="contrib-li col-xs-6 col-sm-3 col-md-3">
+            <a title="{{ affiliation.name }}" href="{{ affiliation.link }}">
+                <img class="affil-image" src="{{ affiliation.logo }}" alt="{{ affiliation.name }}">
+            </a>       
+        </li>
+    {% endfor %}
+    </ul>
+    </div>
+
+</affiliations>

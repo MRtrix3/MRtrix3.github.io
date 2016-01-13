@@ -1,0 +1,19 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@font-face {
+  font-family: "Sarabun";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/THSarabunNew001.woff");
+}
+
+.btn-primary {
+    color: white !important;
+}
+
+.navbar-brand {
+    font-size: 300%;
+    font-family: "Sarabun",serif;
+}

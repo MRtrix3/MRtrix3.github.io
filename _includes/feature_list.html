@@ -1,0 +1,38 @@
+<feature_list>
+    {% assign feature_index = 0 %}
+    <div id="features-carousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        {% for feature in site.data.frontpage.features %}
+        <li data-target="#features-carousel" data-slide-to="{{ feature_index }}" {% if feature_index == 0 %} class="active"{% endif %}></li>
+        {% assign feature_index = feature_idnex | plus: 1 %}
+        {% endfor %}
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        {% assign feature_index = 0 %}
+        {% for feature in site.data.frontpage.features %}
+        <div class="item {% if feature_index == 0 %}active{% endif %}">
+            <img src="{{ feature.image | prepend: site.baseurl }}" alt="{{ feature.title }}">
+            <div class="carousel-caption">
+                <h3>{{ feature.title }}</h3>
+                <p>{{ feature.description }}</p>
+            </div>
+        </div>
+        {% assign feature_index = feature_idnex | plus: 1 %}
+        {% endfor %}
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#features-carousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#features-carousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+
+    </div>
+</feature_list>

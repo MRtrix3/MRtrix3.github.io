@@ -229,6 +229,8 @@
   & .btn {
     text-shadow: none; // No shadow for button elements in carousel-caption
   }
+
+  @media (max-width: 767px) { font-size: 80% !important; }
 }
 
 

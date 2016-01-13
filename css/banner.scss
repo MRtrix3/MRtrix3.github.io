@@ -1,0 +1,20 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+.banner-container {
+    background-color: black;
+}
+
+.banner-wrapper {
+    color: white;
+}
+
+.banner-background {
+    background: url('../images/frontpage/banner.jpg') no-repeat center center;
+}
+
+.banner-title {
+    font-size: 500% !important;
+    font-family: "Sarabun",serif;
+}

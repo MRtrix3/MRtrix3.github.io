@@ -1,6 +1,7 @@
 <contributors>
+    <div class="contrib-wrapper wrapper">
     <h1>Contributors</h1>
-    <ul class="contrib-ul">
+    <ul>
     {% for contributor in site.data.frontpage.contributors %}
         <li class="contrib-li col-xs-2 col-sm-2 col-md-1">
             <a title="@{{ contributor.login }}" href="{{ contributor.url }}">
@@ -8,6 +9,7 @@
             </a>       
         </li>
     {% endfor %}
-    <ul>
+    </ul>
+    </div>
 
 </contributors>
