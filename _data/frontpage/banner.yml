@@ -3,7 +3,7 @@ description: The most awesome product in the world since 1903
 buttons:
     - title: Download
       icon: fa fa-download
-      link: #
+      link: https://github.com/MRtrix3/mrtrix3/wiki#supported-platforms--installation
     - title: Contribute
       icon: fa fa-github
-      link: #
+      link: https://github.com/MRtrix3/mrtrix3#mrtrix
