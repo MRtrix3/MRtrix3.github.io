@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: frontpage
 ---
 
 <div class="home">    
@@ -13,7 +13,7 @@ layout: default
     <hr>
 
     {% for post in site.posts limit:1 %}
-        {% include latest_post_snippet.html param=post %}  
+        {% include post_snippet.html param=post %}  
     {% endfor %} 
     </div> 
     
