@@ -1,0 +1,31 @@
+<post-header>
+    {% assign contributor = site.data.frontpage.contributors | where: "login", include.param.author | first %}
+    {% assign author = site.data.authors | where: "github", include.param.author | first %}
+    <div class="text-center col-md-2">
+        <img class="post-image img-circle" src="{{ contributor.avatar_url }}" alt="@{{ contributor.login }}">
+        <p class="post-name post-meta">{{ author.nickname }}</p>
+        <!-- GitHub -->            
+        <a class="post-social-media-link" title="@{{ contributor.login }}" href="{{ contributor.html_url }}">
+        <span class="post-social-media-icons text-center">
+            <i class="fa fa-github"></i>
+        </span>
+        </a>
+        <!-- Twitter -->
+        {% if author.twitter %}
+        <a class="post-social-media-link" title="#{{ author.twitter }}" href="{{ author.twitter | prepend: 'https://twitter.com/' }}">
+        <span class="post-social-media-icons text-center">
+            <i class="fa fa-twitter"></i>
+        </span>
+        </a>
+        {% endif %}
+
+        <!-- Website -->
+        {% if author.website %}
+        <a class="post-social-media-link" title="{{ author.name }}'s website" href="{{ author.website }}">
+        <span class="post-social-media-icons text-center">
+            <i class="fa fa-graduation-cap"></i>
+        </span>
+        </a>
+        {% endif %}
+    </div>
+</post-header>

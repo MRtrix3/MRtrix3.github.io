@@ -1,0 +1,14 @@
+<post-footer>
+    <div>
+        <ul class="post-tags-ul">
+        {% for category in include.param.categories %}
+        <li class="post-tag-li">
+        <span class="label label-success">
+            <i class="fa fa-tag"></i>
+            {{ category }}
+        </span>
+        </li>
+        {% endfor %}
+        </ul>
+    </div>
+</post-footer>
