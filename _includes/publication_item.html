@@ -1,0 +1,54 @@
+<publication >
+
+    <div class="media">
+        <div class="media-left media-middle">
+        <p>
+        {% assign mrtrix_contributors = "" | split: "|" %}
+        {% for paper_author in include.param.authors %}  
+            {% for contributor in site.data.frontpage.contributors %}
+                {% assign author = site.data.authors | where: "github", contributor.login | first %}
+                {% if author %}
+                    {% assign author_surname = author.name | split:" " | last %}
+                    {% if author_surname %}
+                        {% if paper_author contains author_surname %}
+                            {% assign mrtrix_contributors = mrtrix_contributors | push: contributor %}
+                        {% endif %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    
+        {% for contributor in mrtrix_contributors %}
+            <a title="@{{ contributor.login }}" href="{{ contributor.html_url }}">
+                <img class="contrib-image img-circle" src="{{ contributor.avatar_url }}" alt="@{{ contributor.login }}">
+            </a>       
+        {% endfor %}
+        </p>
+        </div>
+
+        <div class="media-body">
+            <a href="{{ include.param.url }}">
+            <h4 class="media-heading publication-header">{{ include.param.title }}</h4>
+            </a>
+
+        <p class="publication-content"> 
+            {% if include.param.authors %}
+            {{ include.param.authors | array_to_sentence_string }}
+            {% endif %}
+        </p>
+        <p class="post-meta publication-content">
+            {{ include.param.journal }}, {{ include.param.year }}, {{ include.param.edition }}, {{ include.param.pages }}
+        </p>
+        </div>
+        
+        {% if include.param.citations %}
+        <div class="media-right media-middle">
+            <span class="badge pull-right publication-badge">
+                {{ include.param.citations }}
+                <i class="fa fa-pencil"></i> 
+            </span>
+        </div>
+        {% endif %}
+    </div>
+
+</publication>

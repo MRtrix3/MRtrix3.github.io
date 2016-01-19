@@ -1,0 +1,363 @@
+
+-  title: 'Anatomically-constrained tractography: improved diffusion MRI streamlines tractography through effective use of anatomical information'
+   mrtrix_command: 5tt2gmwmi
+   url: http://www.sciencedirect.com/science/article/pii/S1053811912005824
+   journal: NeuroImage
+   citations: 37
+   year: 2012
+   edition: 62
+   pages: 1924-1938
+   authors: ["Smith R.E.","Tournier J.-D.","Calamante F.","Connelly A."]
+   mrtrix_authors: ["Lestropie", "jdtournier"]
+
+-  title: 'Optimal strategies for measuring diffusion in anisotropic systems by magnetic resonance imaging'
+   mrtrix_command: dirgen
+   url: http://www.lrdc.pitt.edu/schneider/bcm/readings/Lecture%205/Jones%201999.PDF
+   journal: Magnetic Resonance in Medicine
+   citations: 1181
+   year: 1999
+   edition: 42
+   pages: 515-25
+   authors: ['Jones D.', 'Horsfield M.', 'Simmons A.']
+
+-  title: 'Minimal gradient encoding for robust estimation of diffusion anisotropy'
+   mrtrix_command: dirgen
+   url: http://www.sciencedirect.com/science/article/pii/S0730725X0000151X
+   journal: Magnetic Resonance Imaging
+   citations: 126
+   year: 2000
+   edition: 18
+   pages: 671-679
+   authors: ['Papadakis N.G.', 'Murrills C.D.', 'Hall L.D.', 'Huang C.L-H.', 'Adrian-Carpenter T.']
+
+-  title: 'Robust determination of the fibre orientation distribution in diffusion MRI: non-negativity constrained super-resolved spherical deconvolution'
+   mrtrix_command: dwi2fod
+   url: http://www.sciencedirect.com/science/article/pii/S1053811907001243
+   journal: NeuroImage
+   citations: 584
+   year: 2007
+   edition: 35
+   pages: 1459-1472
+   authors: ['Tournier, J.-D.', 'Calamante, F.', 'Connelly, A.' ]
+   mrtrix_authors: ['jdtournier']
+
+-  title: 'Recursive calibration of the fiber response function for spherical deconvolution of diffusion MRI data'
+   mrtrix_command: dwi2response
+   url: http://www.sciencedirect.com/science/article/pii/S1053811913008367
+   journal: NeuroImage
+   citations: 18
+   year: 2014
+   edition: 86
+   pages: 67-80
+   authors: ['Tax C.M.', 'Jeurissen B.', 'Vos S. B.', 'Viergever M. A.', 'Leemans A.']
+   mrtrix_authors: ['bjeurissen']
+
+-  title: 'Beyond fractional anisotropy: extraction of bundle-specific structural metrics from crossing fiber models'
+   mrtrix_command: fixel2voxel
+   url: http://www.sciencedirect.com/science/article/pii/S1053811914004923
+   journal: NeuroImage
+   citations: 12
+   year: 2014
+   edition: 100
+   authors: ['Riffert T. W.', 'Schreiber J.', 'Anwander A.', 'Knosche T.R.' ]
+   option: ['complexity operation']
+
+-  title: "Time to move on: an FOD-based DEC map to replace DTI's trademark DEC FA"
+   mrtrix_command: fod2dec
+   journal: Proc Intl Soc Mag Reson Med
+   year: 2015
+   edition: 23
+   pages: 1027
+   authors: ['Dhollander T.', 'Smith R. E.', 'Tournier J.-D.', 'Jeurissen B.', 'Connelly A.']
+   mrtrix_authors: ['thijsdhollander', 'Lestropie', 'jdtournier', 'bjeurissen']
+
+-  title: 'Panchromatic sharpening of FOD-based DEC maps by structural T1 information'
+   mrtrix_command: fod2dec
+   journal: Proc Intl Soc Mag Reson Med
+   year: 2015
+   edition: 23
+   pages: 566
+   authors: ['Dhollander T.', 'Raffelt D.', 'Smith R. E.', 'Connelly A.']
+   mrtrix_authors: ['thijsdhollander', 'draffelt', 'Lestropie']
+
+-  title: 'SIFT: Spherical-deconvolution informed filtering of tractograms'
+   mrtrix_command: fod2fixel
+   journal: NeuroImage
+   year: 2013
+   edition: 67
+   pages: 298-312 (Appendix 2)
+   authors: ["Smith, R. E.","Tournier, J.-D.","Calamante, F.","Connelly, A."]
+   mrtrix_authors: ['Lestropie', 'jdtournier']
+
+-  title: 'Apparent Fibre Density: a novel measure for the analysis of diffusion-weighted magnetic resonance images'
+   mrtrix_command: fod2fixel
+   url:
+   journal: NeuroImage
+   citations:
+   year: 2012
+   edition: 15;59(4)
+   pages: 3976-94
+
+-  title: 'Anatomically-constrained tractography: improved diffusion MRI streamlines tractography through effective use of anatomical information'
+   mrtrix_command: mesh2pve
+   url: http://www.sciencedirect.com/science/article/pii/S1053811912005824
+   journal: NeuroImage
+   citations: 37
+   year: 2012
+   edition: 62
+   pages: 1924-38
+   authors: ["Smith R.E.","Tournier J.-D.","Calamante F.","Connelly A."]
+   mrtrix_authors: ['Lestropie', 'jdtournier']
+
+-  title: 'Threshold-free cluster enhancement: addressing problems of smoothing, threshold dependence and localisation in cluster inference'
+   mrtrix_command: mrclusterstats
+   url: http://www.sciencedirect.com/science/article/pii/S1053811908002978
+   journal: NeuroImage
+   citations: 1248
+   year: 2009
+   edition: 44
+   pages: 83-98
+   authors: ["Smith, S. M.", "Nichols, T. E."]
+   option: ['not using --threshold']
+
+-  title: Adjusting the effect of nonstationarity in cluster-based and TFCE inference
+   mrtrix_command: mrclusterstats
+   url: http://www.sciencedirect.com/science/article/pii/S1053811910012917
+   journal: Neuroimage
+   citations: 40
+   year: 2011
+   edition: 54
+   pages: 2006-19
+   authors: ['Salimi-Khorshidi, G.', 'Smith, S.M.', 'Nichols, T.E.']
+   option: ['--nonstationary']
+
+-  title: 'Issues with threshold masking in voxel-based morphometry of atrophied brains'
+   mrtrix_command: mrthreshold
+   journal: NeuroImage
+   year: 2009
+   edition: 44
+   pages: 99-111
+   authors: ['Ridgway, G. R.', 'Omar, R.', 'Ourselin, S.', 'Hill, D. L.', 'Warren, J. D.', 'Fox, N. C.']
+
+-  title: 'Reorientation of fiber orientation distributions using apodized point spread functions'
+   mrtrix_command: mrtransform
+   url:
+   journal: Magnetic Resonance in Medicine
+   citations:
+   year: 2012
+   edition: 67
+   pages: 844-855
+   authors: ['Raffelt, D.', 'Tournier, J.-D.', 'Crozier, S.', 'Connelly, A.', 'Salvado, O.']
+   option: ['FOD reorientation']
+
+-  title: 'Apparent fibre density: a novel measure for the analysis of diffusion-weighted magnetic resonance images'
+   mrtrix_command: mrtransform
+   url: http://www.sciencedirect.com/science/article/pii/S1053811911012092
+   journal: NeuroImage
+   citations: 87
+   year: 2012
+   edition: 59
+   pages: 3976-94
+   authors: ['Raffelt, D.', 'Tournier, J.-D.', 'Rose, S.', 'Ridgway, G.R.', 'Henderson, R.', 'Crozier, S.', 'Salvado, O.', 'Connelly, A.' ]
+   option: ['FOD modulation']
+
+-  title: 'MRtrix: diffusion tractography in crossing fiber regions'
+   mrtrix_command: mrview
+   url: http://onlinelibrary.wiley.com/doi/10.1002/ima.22005/full
+   journal: Int. J. Imaging Syst. Technol.
+   citations: 198
+   year: 2012
+   edition: 22
+   pages: 53-66
+   authors: ["Tournier, J.-D.","Calamante, F.","Connelly, A."]
+
+-  title: 'Three‐dimensional tracking of axonal projections in the brain by magnetic resonance imaging'
+   mrtrix_command: tckgen
+   url: http://onlinelibrary.wiley.com/doi/10.1002/1531-8249(199902)45:2%3C265::AID-ANA21%3E3.0.CO;2-3/full
+   journal: Annals of Neurology
+   citations: 2637
+   year: 1999
+   edition: 45
+   pages: 265-269
+   authors: ["Mori, S.","Crain, B. J.","Chacko, V. P.","van Zijl, P."]
+   option: ['FACT']
+
+-  title: 'MRtrix: diffusion tractography in crossing fiber regions'
+   mrtrix_command: tckgen
+   url: http://onlinelibrary.wiley.com/doi/10.1002/ima.22005/full
+   journal: Int. J. Imaging Syst. Technol.
+   citations: 198
+   year: 2012
+   edition: 22
+   pages: 53-66
+   authors: ["Tournier, J.-D","Calamante, F.","Connelly, A."]
+   option: ['iFOD1', 'SD_STREAM']
+
+-  title: 'Improved probabilistic streamlines tractography by 2nd order integration over fibre orientation distributions'
+   mrtrix_command: tckgen
+   url:
+   journal: Proceedings of the International Society for Magnetic Resonance in Medicine
+   year: 2010
+   edition: 1670
+   authors: ['Tournier, J.-D', 'Calamante, F.', 'Connelly, A.']
+   option: ['iFOD2']
+
+-  title: 'Probabilistic fibre tracking: differentiation of connections from chance events'
+   mrtrix_command: tckgen
+   url: http://www.sciencedirect.com/science/article/pii/S1053811908007301
+   journal: NeuroImage
+   citations: 55
+   year: 2008
+   edition: 42
+   pages: 1329-1339
+   authors: ["Morris, D. M.","Embleton, K. V.","Parker, G. J."]
+   option: ['Nulldist1', 'Nulldist2']
+
+-  title: In vivo fiber tractography using DT‐MRI data
+   mrtrix_command: tckgen
+   url: http://onlinelibrary.wiley.com/doi/10.1002/1522-2594(200010)44:4%3C625::AID-MRM17%3E3.0.CO;2-O/pdf
+   journal: Magnetic Resonance in Medicine
+   citations: 2254
+   year: 2000
+   edition: 44
+   pages: 625-632
+   authors: ['Basser, P. J.', 'Pajevic, S.', 'Pierpaoli, C.', 'Duda, J.', 'Aldroubi, A.' ]
+   option: ['Tensor_Det']
+
+-  title: 'Tractography gone wild: probabilistic fibre tracking using the wild bootstrap with diffusion tensor MRI'
+   mrtrix_command: tckgen
+   url: http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4573264
+   journal: IEEE Transactions on Medical Imaging
+   citations: 84
+   year: 2008
+   edition: 27
+   pages: 1268-1274
+   authors: ["Jones, D."]
+   option: ['Tensor_Prob']
+
+-  title: 'In vivo fiber tractography using DT‐MRI data'
+   mrtrix_command: tckgen
+   url: http://onlinelibrary.wiley.com/doi/10.1002/1522-2594(200010)44:4%3C625::AID-MRM17%3E3.0.CO;2-O/pdf
+   journal: Magnetic Resonance in Medicine
+   citations: 2254
+   year: 2000
+   edition: 44
+   pages: 625-632
+   authors: ['Basser, P. J.', 'Pajevic, S.', 'Pierpaoli, C.', 'Duda, J.', 'Aldroubi, A.']
+   option: ['--rk4']
+
+-  title: 'Anatomically-constrained tractography: improved diffusion MRI streamlines tractography through effective use of anatomical information'
+   mrtrix_command: tckgen
+   url: http://www.sciencedirect.com/science/article/pii/S1053811912005824
+   journal: NeuroImage
+   citations: 37
+   year: 2012
+   edition: 62
+   pages: 1924-1938
+   authors: ['Smith, R. E.', 'Tournier, J.-D.', 'Calamante, F.', 'Connelly, A.' ]
+   option: ['--act','--backtrack', '--seed_gmwmi']
+
+-  title: 'SIFT2: Enabling dense quantitative assessment of brain white matter connectivity using streamlines tractography'
+   mrtrix_command: tckgen
+   url: http://www.sciencedirect.com/science/article/pii/S1053811915005972
+   journal: NeuroImage
+   citations: 2
+   year: 2015
+   edition: 119
+   pages: 338-351
+   authors: ['Smith, R. E.', 'Tournier, J.-D.', 'Calamante, F.', 'Connelly, A.' ]
+   option: ['--seed_dynamic']
+
+-  title: Global tractography of multi-shell diffusion-weighted imaging data using a multi-tissue model
+   mrtrix_command: tckglobal
+   url: http://www.sciencedirect.com/science/article/pii/S1053811915007168
+   journal: NeuroImage
+   citations: 1
+   year: 2015
+   edition: 123
+   authors: ["Christiaens, Daan","Reisert, Marco","Dhollander, Thijs","Sunaert, Stefan","Suetens, Paul","Maes, Frederik"]
+
+-  title: 'SIFT: Spherical-deconvolution informed filtering of tractograms'
+   mrtrix_command: tcksift
+   journal: NeuroImage
+   year: 2013
+   edition: 67
+   pages: 298-312
+   authors: ['Smith, R. E.', 'Tournier, J.-D.', 'Calamante, F.', 'Connelly, A.']
+
+-  title: 'SIFT2: Enabling dense quantitative assessment of brain white matter connectivity using streamlines tractography'
+   mrtrix_command: tcksift2
+   url: http://www.sciencedirect.com/science/article/pii/S1053811915005972
+   journal: NeuroImage
+   citations: 2
+   year: 2015
+   edition: 119
+   pages: 338-351
+   authors: ['Smith, R. E.', 'Tournier, J.-D.', 'Calamante, F.', 'Connelly, A.' ]
+
+-  title: 'Track-density imaging (TDI): Super-resolution white matter imaging using whole-brain track-density mapping'
+   mrtrix_command: tckmap
+   url: http://www.sciencedirect.com/science/article/pii/S1053811910009766
+   journal: NeuroImage
+   citations: 116
+   year: 2010
+   edition: 53
+   pages: 1233-1243
+   authors: ['Calamante, F.', 'Tournier, J.-D.','Jackson, G. D.', 'Connelly, A.']
+   option: ['TDI or DEC TDI']
+
+
+-  title: 'The average pathlength map: A diffusion MRI tractography-derived index for studying brain pathology'
+   mrtrix_command: tckmap
+   journal: NeuroImage
+   year: 2011
+   edition: 55
+   pages: 133-141
+   authors: ['Pannek, K.', 'Mathias, J. L.', 'Bigler, E. D.', 'Brown, G.', 'Taylor, J. D.', 'Rose, S. E.']
+   option: ['--contrast']
+
+-  title: 'A novel paradigm for automated segmentation of very large whole-brain probabilistic tractography data sets'
+   mrtrix_command: tckmap
+   journal: In proc. ISMRM
+   year: 2011
+   edition: 19
+   pages: 673
+   authors: ['Smith, R.E.', 'Tournier, J-D.', 'Calamante, F.', 'Connelly, A.']
+   option: ['--dixel and TDI contrast']
+
+-  title: 'Incorporating directional information in diffusion tractography derived maps: angular track imaging (ATI)'
+   mrtrix_command: tckmap
+   journal: In Proc. ISMRM
+   year: 2012
+   edition: 20
+   pages: 1912
+   authors: ['Pannek, K.', 'Raffelt, D.', 'Salvado, O.', 'Rose, S.']
+   option: ['--dixel and non TDI constrast']
+
+-  title: 'Track Orientation Density Imaging (TODI) and Track Orientation Distribution (TOD) based tractography'
+   mrtrix_command: tckmap
+   journal: NeuroImage
+   year: 2014
+   edition: 94
+   pages: 312-336
+   authors: ['Dhollander, T.', 'Emsell, L.', 'Van Hecke, W.', 'Maes, F.', 'Sunaert, S.', 'Suetens, P.']
+   option: ['--tod']
+
+-  title: 'A generalised framework for super-resolution track-weighted imaging'
+   mrtrix_command: tckmap
+   journal: NeuroImage
+   year: 2012
+   edition: 59
+   pages: 2494-2503
+   authors: ['Calamante, F.', 'Tournier, J.-D.', 'Smith, R. E.', 'Connelly, A.']
+
+-  title: 'SIFT: Spherical-deconvolution informed filtering of tractograms'
+   mrtrix_command: tckmap
+   journal: NeuroImage
+   citations:
+   year: 2013
+   edition: 67
+   pages: 298-312 (Appendix 2)
+   authors: ["Smith, R. E.","Tournier, J.-D.","Calamante, F.","Connelly, A."]
+   option: ['--precise']
+
