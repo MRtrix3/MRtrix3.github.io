@@ -1,9 +1,9 @@
 <contributors>
     <div class="contrib-wrapper wrapper">
     <h1>Contributors</h1>
-    <ul>
+    <ul class="list-inline">
     {% for contributor in site.data.frontpage.contributors %}
-        <li class="contrib-li col-xs-2 col-sm-2 col-md-1">
+        <li class="contrib-li">
             <a title="@{{ contributor.login }}" href="{{ contributor.html_url }}">
                 <img class="contrib-image img-circle" src="{{ contributor.avatar_url }}" alt="@{{ contributor.login }}">
             </a>       

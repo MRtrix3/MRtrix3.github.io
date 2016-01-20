@@ -17,3 +17,17 @@
     font-size: 300%;
     font-family: "Sarabun",serif;
 }
+
+.nav-bar-nopadding {
+    margin-bottom: 0 !important;
+}
+
+.site-header {
+    border-bottom: 0 !important;
+    padding: 0 !important;
+    min-height: 50px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100% !important;
+}
