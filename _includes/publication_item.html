@@ -1,6 +1,8 @@
 <publication >
 
     <div class="media">
+        
+        {% if include.param.internal %}
         <div class="media-left media-middle">
         <p>
         {% assign mrtrix_contributors = "" | split: "|" %}
@@ -25,6 +27,7 @@
         {% endfor %}
         </p>
         </div>
+        {% endif %}
 
         <div class="media-body">
             <a href="{{ include.param.url }}">
@@ -33,11 +36,11 @@
 
         <p class="publication-content"> 
             {% if include.param.authors %}
-            {{ include.param.authors | array_to_sentence_string }}
+            {{ include.param.authors }}
             {% endif %}
         </p>
         <p class="post-meta publication-content">
-            {{ include.param.journal }}, {{ include.param.year }}, {{ include.param.edition }}, {{ include.param.pages }}
+            {{ include.param.journal }}
         </p>
         </div>
         

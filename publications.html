@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<div class="home"> 
+        
+    {% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}    
+
+    <h1>Our publications</h1>
+
+    <hr>
+    
+    {% if sorted_pubs %}
+        <table class="table table-striped">
+        <tbody>
+        {% assign year = 00000 %}
+        {% assign prev_title = 'mooooooo' %}
+        {% for pub in sorted_pubs %}
+            {% if pub.internal %}
+            {% if pub.title != prev_title %}
+            {% assign prev_title = pub.title %}
+            {% if year != pub.year %}
+                {% assign year = pub.year %}
+                </tbody>
+                </table>
+                <h3>{{ year }}</h3>
+                <hr>
+                <table class="table table-striped">
+                <tbody>
+            {% endif %}
+            <tr><td>{% include publication_item.html param=pub %}</td></tr>
+            {% endif %}
+            {% endif %}
+        {% endfor %}
+        </tbody>
+        </table>
+    {% endif %}
+    
+
+    <h1>External publications</h1>
+    <hr>
+
+    {% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}
+    {% if sorted_pubs %}
+        <table class="table table-striped">
+        <tbody>
+        {% assign year = 00000 %}
+        {% for pub in sorted_pubs %}
+            {% unless pub.internal %}
+            {% if pub.title != prev_title %}
+            {% assign prev_title = pub.title %}
+            {% if year != pub.year %}
+                {% assign year = pub.year %}
+                </tbody>
+                </table>
+                <h3>{{ year }}</h3>
+                <hr>
+                <table class="table table-striped">
+                <tbody>
+            {% endif %}
+            <tr><td>{% include publication_item.html param=pub %}</td></tr>
+            {% endif %}
+            {% endunless %}
+        {% endfor %}
+        </tbody>
+        </table>
+    {% endif %}
+
+</div>
