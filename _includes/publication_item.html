@@ -3,8 +3,6 @@
     <div class="media">
         
         {% if include.param.internal %}
-        <div class="media-left media-middle">
-        <p>
         {% assign mrtrix_contributors = "" | split: "|" %}
         {% for paper_author in include.param.authors %}  
             {% for contributor in site.data.frontpage.contributors %}
@@ -19,16 +17,8 @@
                 {% endif %}
             {% endfor %}
         {% endfor %}
-    
-        {% for contributor in mrtrix_contributors %}
-            <a title="@{{ contributor.login }}" href="{{ contributor.html_url }}">
-                <img class="contrib-image img-circle" src="{{ contributor.avatar_url }}" alt="@{{ contributor.login }}">
-            </a>       
-        {% endfor %}
-        </p>
-        </div>
         {% endif %}
-
+        
         <div class="media-body">
             <a href="{{ include.param.url }}">
             <h4 class="media-heading publication-header">{{ include.param.title }}</h4>
@@ -42,6 +32,19 @@
         <p class="post-meta publication-content">
             {{ include.param.journal }}
         </p>
+    
+        {% if include.param.internal %}
+        <ul class="list-inline">
+        {% for contributor in mrtrix_contributors %}
+        <li class="publication-li">
+            <a title="@{{ contributor.login }}" href="{{ contributor.html_url }}">
+                <img class="contrib-image img-circle" src="{{ contributor.avatar_url }}" alt="@{{ contributor.login }}">
+            </a>       
+        </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+
         </div>
         
         {% if include.param.citations %}
