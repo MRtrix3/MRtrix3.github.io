@@ -139,6 +139,28 @@ Sample excerpt
 
 ## For content contributors : Writing posts
 
+All blog posts are stored in `_posts` and can be written using markdown using the [kramdown syntax](http://kramdown.gettalong.org/syntax.html). However, posts follow strict rules regarding subdirectory location and naming convention. Additionally, there is some addtional metadata that needs to be incorporated at the start of your post. Hence, to make this a bit easier for bloggers, I've provided a companion script `newpost.py` at the top directory of the site that will correctly initialise a new post. e.g.
+
+```
+./newpost.py --title 'My awesome title' --author 'jdtournier' --categories 'featuer1 feature2'
+```
+
+* `title`: Title of blog post
+* `author`: The github handle corresponding to the author
+* `categories`: (Optional) A single string listing tags associated with post
+
+Once run, a new markdown document will be created in the `_posts` directory. From there, open up the new document and add your markdown content. By default, there's sample content included that showcases a few of the markdown features such as highlighted code snippets and math blocks using LaTeX syntax.
+
+Once you're happy with your new post, simply commit it to the repository and it should be added to the list of visible blog posts on the website.
+
+## Problems / Suggestions ?
+
+If you encounter any issues with the site or want to suggest any new website features please create a new GitHub issue. 
+
+
+
+
+
 
 
 
