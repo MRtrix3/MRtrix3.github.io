@@ -20,7 +20,7 @@ In this case, we have a list of dictionaries with key values `name,icon,link`. N
 
 ### Adding author information: _data/authors.yml
 
-Please add an entry to this file to link between your name and github account (along with other metadata). Sample entry
+Please add an entry in this file to link between your name and github account (along with other metadata). Sample entry
 
 ```
 - name: Joe Smoe
