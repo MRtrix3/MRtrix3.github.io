@@ -112,10 +112,10 @@ There are some assumptions that the script makes in order to sucessfully parse t
 
 1. All reference are wedged between a `REFERENCES` block ending with a semi-colon. Each reference is denoted by '+'
 2. The reference block must be immediately before the `ARGUMENTS` block
-2. Ordering of reference information is author, title and then journal details (journal name, year etc.)
-3. For journal details, the year must come immediately after the journal title (e.g. `NeuroImage, 2012`)
-4. Any additional information such as the option/setting that is specific to the reference is stated prior to listing the author and begins with the character '*'
-5. *Note* As we want to differentiate between internal and external publications, you can denote the former by including the inline comment `// Internal` at the end of the author listing.
+3. Ordering of reference information is author, title and then journal details (journal name, year etc.)
+4. For journal details, the year must come immediately after the journal title (e.g. `NeuroImage, 2012`)
+5. Any additional information such as the option/setting that is specific to the reference is stated prior to listing the author and begins with the character '*'
+6. *Note* As we want to differentiate between internal and external publications, you can denote the former by including the inline comment `// Internal` at the end of the author listing.
 
 Sample excerpt
 
