@@ -4,7 +4,7 @@ This is the repository that holds the content for the MRtrix website (http://www
 
 ## For content contributors : Static data
 
-Most of the static information (e.g. frontpage material) can be located in the `_data` directory. In particular, most of the files within are stored as [YAML](http://www.yaml.org/) (.yml) files which, quoting the yaml page, "is a human friendly data serialization standard for all programming languages." For example, looking at `_data/social-media.yml`
+Most of the static information (e.g. frontpage material) is located in the `_data` directory. In particular, most of the files within are stored as [YAML](http://www.yaml.org/) (.yml) files which, quoting the yaml page, "is a human friendly data serialization standard for all programming languages." For example, looking at `_data/social-media.yml`
 
 ```
 - name: Google+
@@ -102,7 +102,39 @@ logo: images/affiliations/logo.jpg
 
 ### For content contributors : Publication data (_data/publications.yml)
 
-The list of publication data
+The list of publication data that is fetched from the mrtrix source. In particular, in `_data_scripts/` there is a Python script `mrtrix_publications_crawler.py` that will parse the mrtrix command files looking for references and then output a yml formatted list of publications. e.g.
+
+```
+./mrtrix_publications_crawler.py --commands_dir ~/mrtrix/cmd --output_path ../_data/publications.yml
+```
+
+There are some assumptions that the script makes in order to sucessfully parse the command source
+
+1. All reference are wedged between a `REFERENCES` block ending with a semi-colon. Each reference is denoted by '+'
+2. The reference block must be immediately before the `ARGUMENTS` block
+2. Ordering of reference information is author, title and then journal details (journal name, year etc.)
+3. For journal details, the year must come immediately after the journal title (e.g. `NeuroImage, 2012`)
+4. Any additional information such as the option/setting that is specific to the reference is stated prior to listing the author and begins with the character '*'
+5. *Note* As we want to differentiate between internal and external publications, you can denote the former by including the inline comment `// Internal` at the end of the author listing.
+
+Sample excerpt
+
+```
+  REFERENCES
+    + "Smith, R. E.; Tournier, J.-D.; Calamante, F. & Connelly, A. " // Internal
+      "Anatomically-constrained tractography:"
+      "Improved diffusion MRI streamlines tractography through effective use of anatomical information. "
+      "NeuroImage, 2012, 62, 1924-1938";
+
+    + "* If using option --sample"
+      "External, A. E.; External, B.; External C"
+      "On sample data: A new beginning"
+      "Nature, 2015, 62, 1924-1938";
+
+  ARGUMENTS
+    + Argument ("5tt_in",  "the input 5TT segmented anatomical image").type_image_in()
+    + Argument ("mask_out", "the output mask image")                  .type_image_out();
+```
 
 
 ## For content contributors : Writing posts
