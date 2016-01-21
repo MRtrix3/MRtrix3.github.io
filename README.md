@@ -33,11 +33,11 @@ Please add an entry to this file to link between your name and github account (a
 * `nickname`: The name that will appear underneath your image in a blog post. For layout reasons, try to keep this to a single name.
 * `github`: Your github handle. *You will need set this in order to post a blog entry*
 * `twitter`: (Optional) Your twitter handle. This meta data will appear underneath your image in a blog post.
-* `website`: (Optional) A link to your academic webiste (or other). This meta data will appear underneath your image in a blog post.
+* `website`: (Optional) A link to your academic website (or other). This meta data will appear underneath your image in a blog post.
 
 ### Frontpage: _data/frontpage/banner.yml
 
-Content that appears on banner on front-page.
+Content that appears in banner on front-page.
 
 * `description`: A slogan that appears inside banner. Try to keep this short. There's a separate about section (see about.yml) that can elaborate on the product description.
 * `buttons`: List of buttons to embed inside banner
@@ -47,7 +47,7 @@ Content that appears on banner on front-page.
 An about section that appears just below the frontpage banner.
 
 * `title`: Header of section
-* `description`: The actual text. Note that yaml allows you specify separate the string over multiple lines. e.g.
+* `description`: The actual text. Note that yaml allows you to separate the string over multiple lines. e.g.
 
 ```
 description: | # The vertial dash allows you to use an indented multi-line string
@@ -58,7 +58,7 @@ description: | # The vertial dash allows you to use an indented multi-line strin
 
 ### Frontpage: _data/frontpage/features.yml
 
-The collection of features that are displayed in a image carousel
+The collection of features that are displayed in an image carousel
 
 * `title`: Name of feature
 * `description`: A brief description. Again, you can separate this over multiple lines as shown in the About section. *Note* Try to keep this to about one sentence. Otherwise, the text may flow over the image.
@@ -68,8 +68,8 @@ The collection of features that are displayed in a image carousel
 image: /images/frontpage/feature.jpeg
 ```
 
-*Note* For consistency, please store the feature images in `images/frontpage`.
-*Note* Additionally, the image dimensions should also be consistent. I think something like 750x400 would work well, but feel free to specify something larger, just as long as all images have the same size.
+* *Note* For consistency, please store the feature images in `images/frontpage`.
+* *Note* Additionally, the image dimensions should also be consistent. I think something like 750x400 would work well, but feel free to specify something larger, just as long as all images have the same size.
 
 
 ### Frontpage: _data/frontpage/contributors.json
@@ -82,7 +82,7 @@ https://api.github.com/repos/MRtrix3/mrtrix3/contributors
 
 GitHub places restrictions on the number of fetch requests, so it's much safer (and faster) to simply store this request statically.
 
-*Note* In the future, if the size of the contributor list grows we will need to update this file.
+* *Note* In the future, if the size of the contributor list grows we will need to update this file.
 
 ### Frontpage: _data/frontpage/affiliations.yml
 
@@ -96,8 +96,8 @@ Specifies the list of affiliated institutions that will appear at the bottom of 
 logo: images/affiliations/logo.jpg
 ```
 
-*Note* For consistency, please store the affiliation images in `images/affiliations`.
-*Note* While the affiliation image dimensions *don't* need to be consistent, please ensure that they're somewhat sizeable as the layout/size of the rendered image can alter depending on whether viewing the site on a desktop or mobile device. In general, I think a width/height of at least 300px should be fine.
+* *Note* For consistency, please store the affiliation images in `images/affiliations`.
+* *Note* While the affiliation image dimensions *don't* need to be consistent, please ensure that they're somewhat sizeable as the layout/size of the rendered image can alter depending on whether viewing the site on a desktop or mobile device. In general, I think a width/height of at least 300px should be fine.
 
 
 ### For content contributors : Publication data (_data/publications.yml)
