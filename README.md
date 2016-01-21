@@ -6,8 +6,7 @@ This is the repository that holds the content for the MRtrix website (http://www
 
 Most of the static information (e.g. frontpage material) can be located in the `_data` directory. In particular, most of the files within are stored as [YAML](http://www.yaml.org/) (.yml) files which, quoting the yaml page, "is a human friendly data serialization standard for all programming languages." For example, looking at `_data/social-media.yml`
 
-<pre>
-<code>
+```
 - name: Google+
   icon: fa fa-google-plus-square
   link: https://plus.google.com/communities/111072048088633408015
@@ -15,8 +14,7 @@ Most of the static information (e.g. frontpage material) can be located in the `
 - name: GitHub
   icon: fa fa-github-square
   link: https://github.com/MRtrix3/mrtrix3
-<code>
-</pre>
+```
 
 In this case, we have a list of dictionaries with key values `name,icon,link`. Note, how `-` denotes the start of a new list element. Also, keep in mind that *indentation matters*, so be wary of this as you make changes.
 
