@@ -4,7 +4,8 @@
         
         {% if include.param.internal %}
         {% assign mrtrix_contributors = "" | split: "|" %}
-        {% for paper_author in include.param.authors %}  
+        {% assign paper_author_list = include.param.authors | split:/[;&]+/ %}
+        {% for paper_author in paper_author_list %}  
             {% for contributor in site.data.frontpage.contributors %}
                 {% assign author = site.data.authors | where: "github", contributor.login | first %}
                 {% if author %}
