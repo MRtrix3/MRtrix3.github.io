@@ -1,11 +1,24 @@
-- name: Affiliation 1
-  logo: images/affiliations/logo.jpg
+- name: Florey
+  logo: images/affiliations/florey.png
   link: #
 
-- name: Affiliation 2
-  logo: images/affiliations/logo.jpg
+- name: University of Melbourne
+  logo: images/affiliations/unimelb.png
   link: #
 
-- name: Affiliation 3
-  logo: images/affiliations/logo.jpg
+- name: King's College London
+  logo: images/affiliations/kcl.png
   link: #
+
+- name: University of Antwerp
+  logo: images/affiliations/uni_antwerp.jpeg
+  link: #
+
+- name: VisionLab
+  logo: images/affiliations/visionlab.png
+  link: #
+
+- name: University of Leuven
+  logo: images/affiliations/kuleuven.png
+  link: #
+

@@ -1,40 +1,48 @@
-- title: Feature 1
+- title: MRView
   description: |
-    This is a multi-line string.
-    "special" metacharacters may
-    appear here. The extent of this string is
-    indicated by indentation.
+    A modern, full-featured viewer to display images and results efficiently
+    and intuitively. 
   image: /images/frontpage/feature.jpeg
 
-- title: Feature 2
+- title: Constrained spherical deconvolution (CSD)
   description: |
-    This is a multi-line string.
-    "special" metacharacters may
-    appear here. The extent of this string is
-    indicated by indentation.
+    The current standard for fibre orientation estimation.  MRtrix3 also
+    include the new multi-tissue CSD algorithm.
   image: /images/frontpage/feature.jpeg
 
-- title: Feature 3
+- title: Probabilistic tractography
   description: |
-    This is a multi-line string.
-    "special" metacharacters may
-    appear here. The extent of this string is
-    indicated by indentation.
+    Robust and high-performance probabilistic tracking algorithm, including
+    recent additions such as Anatomically Constrained Tractography (ACT).
   image: /images/frontpage/feature.jpeg
 
-- title: Feature 4
+- title: SIFT for meaningful connectivities
   description: |
-    This is a multi-line string.
-    "special" metacharacters may
-    appear here. The extent of this string is
-    indicated by indentation.
+    Designed to ensure streamline counts provide good estimates of white matter
+    connectivity.
   image: /images/frontpage/feature.jpeg
 
-- title: Feature 5
+- title: Image registration for diffusion MRI
   description: |
-    This is a multi-line string.
-    "special" metacharacters may
-    appear here. The extent of this string is
-    indicated by indentation.
+    Designed explicitly for inter-subject alignment of fibre orientation distributions
+    as provided by CSD and variants.
+  image: /images/frontpage/feature.jpeg
+
+- title: Fixel-based analysis
+  description: |
+    Next-generation analysis technique for group analysis of diffusion MRI
+    data, operating at the voxel level in a fibre orientation specific manner.
+  image: /images/frontpage/feature.jpeg
+
+- title: Command-line driven for flexibility
+  description: |
+    Most applications are command-line driven to allow easy scripting and fully
+    exploit the expressive power of the command-line interpreter.
+  image: /images/frontpage/feature.jpeg
+
+- title: Efficient & cross-platform
+  description: |
+    Written in modern C++11 with extensive use of multi-threading for maximum
+    performance on today's multi-core systems. 
   image: /images/frontpage/feature.jpeg
 
