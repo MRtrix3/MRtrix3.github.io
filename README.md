@@ -39,6 +39,7 @@ Please add an entry in this file to link between your name and github account (a
 
 Content that appears in banner on front-page.
 
+* `description`: A slogan that appears inside banner. Try to keep this short. There's a separate about section (see about.yml) that can elaborate on the product description.
 * `buttons`: List of buttons to embed inside banner
 
 ### Frontpage: _data/frontpage/about.yml

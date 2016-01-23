@@ -3,6 +3,7 @@
 	<div class="jumbotron vertical-center banner-background">
 	<div class="container text-center wrapper banner-wrapper">
 	  <h1 class="banner-title">{{ site.data.frontpage.banner.title }}</h1>
+	  <p>{{ site.data.frontpage.banner.description }}</p>
 	  <p>
          {% for button in site.data.frontpage.banner.buttons %}
          <a class="btn btn-primary btn-lg" href="{{ button.link }}" role="button">
