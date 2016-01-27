@@ -95,6 +95,12 @@
    authors: "Smith, S. M. & Nichols, T. E."
    internal: False
 
+-  title: "Multi-tissue constrained spherical deconvolution for improved analysis of multi-shell diffusion MRI data"
+   journal: "NeuroImage, 2014, 103, 411-426;"
+   year: 2014
+   authors: "Jeurissen, B; Tournier, J-D; Dhollander, T; Connelly, A & Sijbers, J."
+   internal: True
+
 -  title: "Time to move on: an FOD-based DEC map to replace DTI's trademark DEC FA"
    journal: "Proc Intl Soc Mag Reson Med, 2015, 23, 1027."
    year: 2015
@@ -197,10 +203,10 @@
    authors: "Smith, R. E.; Tournier, J.-D.; Calamante, F. & Connelly, A."
    internal: True
 
--  title: "Connectivity-based fixel enhancement: Whole-brain statistical analysis of diffusion MRI measures in the presence of crossing fibres \n"
+-  title: "Connelly, A; Connectivity-based fixel enhancement: Whole-brain statistical analysis of diffusion MRI measures in the presence of crossing fibres \n"
    journal: "NeuroImage, 2015, 15(117):40-55\n"
    year: 2015
-   authors: "Raffelt, D. et al. \n"
+   authors: "Raffelt, D.; Smith, RE.; Ridgway, GR.; Tournier, JD.; Vaughan, DN.; Rose, S.; Henderson, R.;"
    internal: True
 
 -  title: "Adjusting the effect of nonstationarity in cluster-based and TFCE inference \n"
