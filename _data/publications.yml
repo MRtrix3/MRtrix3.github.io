@@ -203,10 +203,10 @@
    authors: "Smith, R. E.; Tournier, J.-D.; Calamante, F. & Connelly, A."
    internal: True
 
--  title: "Connelly, A; Connectivity-based fixel enhancement: Whole-brain statistical analysis of diffusion MRI measures in the presence of crossing fibres \n"
+-  title: "Connectivity-based fixel enhancement: Whole-brain statistical analysis of diffusion MRI measures in the presence of crossing fibres \n"
    journal: "NeuroImage, 2015, 15(117):40-55\n"
    year: 2015
-   authors: "Raffelt, D.; Smith, RE.; Ridgway, GR.; Tournier, JD.; Vaughan, DN.; Rose, S.; Henderson, R.;"
+   authors: "Raffelt, D.; Smith, RE.; Ridgway, GR.; Tournier, JD.; Vaughan, DN.; Rose, S.; Henderson, R.; Connelly, A."
    internal: True
 
 -  title: "Adjusting the effect of nonstationarity in cluster-based and TFCE inference \n"
