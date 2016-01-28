@@ -14,13 +14,19 @@
   description: |
     Robust and high-performance probabilistic tracking algorithm, including
     recent additions such as Anatomically Constrained Tractography (ACT).
-  image: /images/frontpage/feature.jpeg
+  image: /images/frontpage/ACT.jpg
 
 - title: SIFT for meaningful connectivities
   description: |
     Designed to ensure streamline counts provide good estimates of white matter
     connectivity.
-  image: /images/frontpage/feature.jpeg
+  image: /images/frontpage/SIFT.jpg
+  
+- title: Structural Connectome
+  description: |
+    Use state-of-the-art reconstruction tools to construct structural connectomes, and
+    visualize them directly in MRtrix.
+  image: /images/frontpage/Connectome.jpg
 
 - title: Image registration for diffusion MRI
   description: |
@@ -43,6 +49,7 @@
 - title: Efficient & cross-platform
   description: |
     Written in modern C++11 with extensive use of multi-threading for maximum
-    performance on today's multi-core systems. 
+    performance on today's multi-core systems. Runs natively on Linux, MacOSX
+    and Windows.
   image: /images/frontpage/feature.jpeg
 
