@@ -35,3 +35,30 @@
 .about {
     margin-bottom: 20px;
 }
+
+.carousel-caption {
+    color: black;
+    margin-top: 20px;
+    height: 150px;
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    text-shadow: none !important;
+}
+
+.carousel-control {
+    background-image: none !important;
+}
+
+.carousel-indicators {
+    visibility: hidden;
+    color: black;
+}
+
+.carousel-indicators li {
+    border-color: black !important;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+    top: 20px !important;
+}
