@@ -7,8 +7,8 @@
 - title: Constrained spherical deconvolution (CSD)
   description: |
     The current standard for fibre orientation estimation.  MRtrix3 also
-    include the new multi-tissue CSD algorithm.
-  image: /images/frontpage/feature.jpeg
+    includes the new multi-shell multi-tissue CSD.
+  image: /images/frontpage/msmtcsd.jpg
 
 - title: Probabilistic tractography
   description: |
