@@ -37,8 +37,8 @@
 - title: Fixel-based analysis
   description: |
     Next-generation analysis technique for group analysis of diffusion MRI
-    data, operating at the voxel level in a fibre orientation specific manner.
-  image: /images/frontpage/feature.jpeg
+    data, enabling statistical inference at the level of individual fibre populations within a voxel (fixel).
+  image: /images/frontpage/fixel-based-analysis.jpg
 
 - title: Command-line driven for flexibility
   description: |
