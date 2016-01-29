@@ -46,10 +46,8 @@
     exploit the expressive power of the command-line interpreter.
   image: /images/frontpage/feature.jpeg
 
-- title: Efficient & cross-platform
+- title: Cross-platform
   description: |
-    Written in modern C++11 with extensive use of multi-threading for maximum
-    performance on today's multi-core systems. Runs natively on Linux, MacOSX
-    and Windows.
-  image: /images/frontpage/feature.jpeg
+    Runs natively on Linux, MacOSX and Windows.
+  image: /images/frontpage/Cross-platform.jpg
 
