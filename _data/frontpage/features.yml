@@ -12,9 +12,9 @@
 
 - title: Probabilistic tractography
   description: |
-    Robust and high-performance probabilistic tracking algorithm, including
+    Several robust and high-performance tracking algorithms, including
     recent additions such as Anatomically Constrained Tractography (ACT).
-  image: /images/frontpage/ACT.jpg
+  image: /images/frontpage/tractography.jpg
 
 - title: SIFT for meaningful connectivities
   description: |
