@@ -10,7 +10,7 @@
     includes the new multi-shell multi-tissue CSD.
   image: /images/frontpage/msmtcsd.jpg
 
-- title: Probabilistic tractography
+- title: Tractography framework
   description: |
     Several robust and high-performance tracking algorithms, including
     recent additions such as Anatomically Constrained Tractography (ACT).
