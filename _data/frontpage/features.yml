@@ -6,15 +6,33 @@
 
 - title: Constrained spherical deconvolution (CSD)
   description: |
-    The current standard for fibre orientation estimation.  MRtrix3 also
-    includes the new multi-shell multi-tissue CSD.
-  image: /images/frontpage/msmtcsd.jpg
+    The current standard for estimating the Fibre Orientation Distribution (FOD).
+    CSD inherently handles crossing fibres and dispersion.
+  image: /images/frontpage/ssst-csd.jpg
 
-- title: Tractography framework
+- title: Multi-Shell Multi-Tissue CSD (MSMT-CSD)
   description: |
-    Several robust and high-performance tracking algorithms, including
-    recent additions such as Anatomically Constrained Tractography (ACT).
+    Provided with multi-shell data, MSMT-CSD resolves partial volume between tissue types.
+    The resulting WM FOD is not distorted by other tissues.
+  image: /images/frontpage/msmt-csd.jpg
+
+- title: FOD-based DEC maps and panchromatic sharpening
+  description: |
+    Robust FOD-based colours, solving issues of DTI-based DEC FA.
+    Pansharpening for the best of both worlds: FOD-based DEC and anatomy-based spatial features.
+  image: /images/frontpage/foddec-pansharp.jpg
+
+- title: Robust FOD-based tractography
+  description: |
+    State-of-the-art high-performance tracking algorithms, including probabilistic
+    2nd order integration over FODs, generating millions of tracks in minutes.
   image: /images/frontpage/tractography.jpg
+  
+- title: Anatomically Constrained Tractography (ACT)
+  description: |
+    Effective use of anatomical information, built right into the tracking framework;
+    an essential basis for biologically meaningful connectomics.
+  image: /images/frontpage/ACT.jpg
 
 - title: SIFT for meaningful connectivities
   description: |
@@ -22,7 +40,7 @@
     connectivity.
   image: /images/frontpage/SIFT.jpg
   
-- title: Structural Connectome
+- title: Structural Connectomics
   description: |
     Use state-of-the-art reconstruction tools to construct structural connectomes, and
     visualize them directly in MRtrix.
