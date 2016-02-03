@@ -22,7 +22,7 @@
     2nd order integration over FODs, generating millions of tracks in minutes.
   image: /images/frontpage/tractography.jpg
   
-- title: Anatomically Constrained Tractrography (ACT)
+- title: Anatomically Constrained Tractography (ACT)
   description: |
     Effective use of anatomical information, built right into the tracking framework;
     an essential basis for biologically meaningful connectomics.
