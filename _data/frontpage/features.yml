@@ -6,9 +6,15 @@
 
 - title: Constrained spherical deconvolution (CSD)
   description: |
-    The current standard for fibre orientation estimation.  MRtrix3 also
-    includes the new multi-shell multi-tissue CSD.
-  image: /images/frontpage/msmtcsd.jpg
+    The current standard for estimating the Fibre Orientation Distribution (FOD).
+    CSD inherently handles crossing fibres and dispersion.
+  image: /images/frontpage/ssst-csd.jpg
+
+- title: Multi-Shell Multi-Tissue CSD (MSMT-CSD)
+  description: |
+    Provided with multi-shell data, MSMT-CSD resolves partial volume between tissue types.
+    The resulting WM FOD is not distorted by other tissues.
+  image: /images/frontpage/msmt-csd.jpg
 
 - title: Tractography framework
   description: |
@@ -22,7 +28,7 @@
     connectivity.
   image: /images/frontpage/SIFT.jpg
   
-- title: Structural Connectome
+- title: Structural Connectomics
   description: |
     Use state-of-the-art reconstruction tools to construct structural connectomes, and
     visualize them directly in MRtrix.
