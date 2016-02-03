@@ -16,11 +16,17 @@
     The resulting WM FOD is not distorted by other tissues.
   image: /images/frontpage/msmt-csd.jpg
 
-- title: Tractography framework
+- title: Robust FOD-based tractography
   description: |
-    Several robust and high-performance tracking algorithms, including
-    recent additions such as Anatomically Constrained Tractography (ACT).
+    State-of-the-art high-performance tracking algorithms, including probabilistic
+    2nd order integration over FODs, generating millions of tracks in minutes.
   image: /images/frontpage/tractography.jpg
+  
+- title: Anatomically Constrained Tractrography (ACT)
+  description: |
+    Effective use of anatomical information, built right into the tracking framework;
+    an essential basis for biologically meaningful connectomics.
+  image: /images/frontpage/ACT.jpg
 
 - title: SIFT for meaningful connectivities
   description: |
