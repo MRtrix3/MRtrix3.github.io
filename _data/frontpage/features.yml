@@ -68,7 +68,7 @@
   description: |
     Most applications are command-line driven to allow easy scripting and fully
     exploit the expressive power of the command-line interpreter.
-  image: /images/frontpage/feature.jpeg
+  image: /images/frontpage/cmdline.jpg
 
 - title: Cross-platform
   description: |
