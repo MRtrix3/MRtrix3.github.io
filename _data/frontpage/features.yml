@@ -16,6 +16,12 @@
     The resulting WM FOD is not distorted by other tissues.
   image: /images/frontpage/msmt-csd.jpg
 
+- title: FOD-based DEC maps and panchromatic sharpening
+  description: |
+    Robust FOD-based colours, solving issues of DTI-based DEC FA.
+    Pansharpening for the best of both worlds: FOD-based DEC and anatomy-based spatial features.
+  image: /images/frontpage/foddec-pansharp.jpg
+
 - title: Robust FOD-based tractography
   description: |
     State-of-the-art high-performance tracking algorithms, including probabilistic
