@@ -46,6 +46,12 @@
     connectivity.
   image: /images/frontpage/SIFT.jpg
   
+- title: Track Weighted Imaging framework
+  description: |
+    Several mechanisms to map distributions of tracks to image grids, including
+    Track Density Imaging (TDI) and Track Orientation Density Imaging (TODI).
+  image: /images/frontpage/trackmap.jpg
+  
 - title: Structural Connectomics
   description: |
     Use state-of-the-art reconstruction tools to construct structural connectomes, and
