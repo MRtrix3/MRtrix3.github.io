@@ -53,12 +53,6 @@
    authors: "Smith, R. E.; Tournier, J.-D.; Calamante, F. & Connelly, A."
    internal: True
 
--  title: "SIFT2: Enabling dense quantitative assessment of brain white matter connectivity using streamlines tractography"
-   journal: "NeuroImage, 2015, 119, 338-351;"
-   year: 2015
-   authors: "Smith, R. E.; Tournier, J.-D.; Calamante, F. & Connelly, A."
-   internal: True
-
 -  title: "SIFT: Spherical-deconvolution informed filtering of tractograms"
    journal: "NeuroImage, 2013, 67, 298-312 (Appendix 2)"
    year: 2013
@@ -75,12 +69,6 @@
    journal: "Magnetic Resonance in Medicine, 2012, 67, 844-855"
    year: 2012
    authors: "Raffelt, D.; Tournier, J.-D.; Crozier, S.; Connelly, A. & Salvado, O."
-   internal: True
-
--  title: "Apparent Fibre Density: a novel measure for the analysis of diffusion-weighted magnetic resonance images"
-   journal: "NeuroImage, 2012, 15;59(4), 3976-94.;"
-   year: 2012
-   authors: "Raffelt, D.; Tournier, J.-D.; Rose, S.; Ridgway, G.R.; Henderson, R.; Crozier, S.; Salvado, O.; Connelly, A.;"
    internal: True
 
 -  title: "Beyond Fractional Anisotropy: Extraction of bundle-specific structural metrics from crossing fibre models"
@@ -111,12 +99,6 @@
    journal: "Proc Intl Soc Mag Reson Med, 2015, 23, 566.;"
    year: 2015
    authors: "Dhollander T, Raffelt D, Smith RE, Connelly A."
-   internal: True
-
--  title: "MRtrix: Diffusion tractography in crossing fiber regions"
-   journal: "Int. J. Imaging Syst. Technol., 2012, 22, 53-66;"
-   year: 2012
-   authors: "Tournier, J.-D.; Calamante, F. & Connelly, A."
    internal: True
 
 -  title: "Anatomically-constrained tractography: Improved diffusion MRI streamlines tractography through effective use of anatomical information"
