@@ -5,6 +5,18 @@
    authors: "Christiaens, D.; Reisert, M.; Dhollander, T.; Sunaert, S.; Suetens, P. & Maes, F."
    internal: True
 
+-  title: "Direct estimation of the fiber orientation density function from diffusion-weighted MRI data using spherical deconvolution"
+   journal: "NeuroImage, 2004, 23, 1176-1185;"
+   year: 2004
+   authors: "Tournier, J.-D.; Calamante, F.; Gadian, D.G. & Connelly, A."
+   internal: True
+
+-  title: "Robust determination of the fibre orientation distribution in diffusion MRI: non-negativity constrained super-resolved spherical deconvolution."
+   journal: "NeuroImage, 2007, 35, 1459-1472;"
+   year: 2007
+   authors: "Tournier, J.-D.; Calamante, F. & Connelly, A."
+   internal: True
+
 -  title: "Three-dimensional tracking of axonal projections in the brain by magnetic resonance imaging"
    journal: "Annals of Neurology, 1999, 45, 265-269"
    year: 1999
