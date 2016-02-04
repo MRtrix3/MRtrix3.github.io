@@ -17,6 +17,12 @@
    authors: "Tournier, J.-D.; Calamante, F. & Connelly, A."
    internal: True
 
+-  title: "Weighted linear least squares estimation of diffusion MRI parameters: strengths, limitations, and pitfalls."
+   journal: "NeuroImage, 2013, 81, 335-346;"
+   year: 2007
+   authors: "Veraart, J.; Sijbers, J.; Sunaert, S.; Leemans, A. & Jeurissen, B."
+   internal: True
+
 -  title: "Three-dimensional tracking of axonal projections in the brain by magnetic resonance imaging"
    journal: "Annals of Neurology, 1999, 45, 265-269"
    year: 1999
