@@ -16,6 +16,10 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+html {
+  overflow-y: scroll;
+}
+
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
@@ -27,6 +31,7 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
 }
+
 
 
 
