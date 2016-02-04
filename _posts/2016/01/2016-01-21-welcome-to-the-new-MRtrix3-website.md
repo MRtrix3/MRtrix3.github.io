@@ -20,7 +20,7 @@ activities:
   follow up on bug reports
 - the [code](https://github.com/MRtrix3/mrtrix3) and its version history
 - the [developer
-  documentation](http://mrtrix3.github.io/developer-documentation/) for those
+  documentation](/developer-documentation/) for those
 wanting to extend MRtrix3 or write their own applications
 - other news, demonstrations, screenshots, etc., which we will hopefully build up
   over time.
