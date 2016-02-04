@@ -4,12 +4,6 @@
     and intuitively. 
   image: /images/frontpage/mrview.jpg
 
-- title: Seamless interaction with main image formats
-  description: |
-    All MRtrix programs work directly with DICOM (read only), NIfTI, Analyze
-    and MRtrix' native image format.
-  image: /images/frontpage/filetypes.jpg
-
 - title: Constrained spherical deconvolution (CSD)
   description: |
     The current standard for estimating the Fibre Orientation Distribution (FOD).
@@ -46,12 +40,6 @@
     connectivity.
   image: /images/frontpage/SIFT.jpg
   
-- title: Track Weighted Imaging framework
-  description: |
-    Several mechanisms to map distributions of tracks to image grids, including
-    Track Density Imaging (TDI) and Track Orientation Density Imaging (TODI).
-  image: /images/frontpage/trackmap.jpg
-  
 - title: Structural Connectomics
   description: |
     Use state-of-the-art reconstruction tools to construct structural connectomes, and
@@ -75,15 +63,27 @@
     Full-brain track reconstruction that matches the apparent fibre density (AFD) in multi-shell DWI data,
     based on the new multi-tissue spherical convolution paradigm.
   image: /images/frontpage/global-tractography.jpg
+  
+- title: Track Weighted Imaging framework
+  description: |
+    Several mechanisms to map distributions of tracks to image grids, including
+    Track Density Imaging (TDI) and Track Orientation Density Imaging (TODI).
+  image: /images/frontpage/trackmap.jpg
+  
+- title: Seamless interaction with main image formats
+  description: |
+    All MRtrix programs work directly with DICOM (read only), NIfTI, Analyze
+    and MRtrix' native image format.
+  image: /images/frontpage/filetypes.jpg
+  
+- title: Cross-platform
+  description: |
+    Runs natively on Linux, MacOSX and Windows.
+  image: /images/frontpage/Cross-platform.jpg  
 
 - title: Command-line driven for flexibility
   description: |
     Most applications are command-line driven to allow easy scripting and fully
     exploit the expressive power of the command-line interpreter.
   image: /images/frontpage/cmdline.jpg
-
-- title: Cross-platform
-  description: |
-    Runs natively on Linux, MacOSX and Windows.
-  image: /images/frontpage/Cross-platform.jpg
 
