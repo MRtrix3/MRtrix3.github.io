@@ -1,24 +1,24 @@
 - name: Florey
   logo: images/affiliations/florey.png
-  link: #
+  link: http://www.florey.edu.au/
 
 - name: University of Melbourne
   logo: images/affiliations/unimelb.png
-  link: #
+  link: http://www.unimelb.edu.au/
 
 - name: King's College London
   logo: images/affiliations/kcl.png
-  link: #
+  link: http://www.kcl.ac.uk/
 
 - name: University of Antwerp
   logo: images/affiliations/uni_antwerp.jpeg
-  link: #
+  link: https://www.uantwerpen.be/en/
 
 - name: VisionLab
   logo: images/affiliations/visionlab.png
-  link: #
+  link: http://visielab.uantwerpen.be/
 
 - name: University of Leuven
   logo: images/affiliations/kuleuven.png
-  link: #
+  link: https://www.kuleuven.be/english
 
