@@ -4,6 +4,12 @@
     and intuitively. 
   image: /images/frontpage/mrview.jpg
 
+- title: Seamless interaction with main image formats
+  description: |
+    All MRtrix programs work directly with DICOM (read only), NIfTI, Analyze
+    and MRtrix' native image format.
+  image: /images/frontpage/filetypes.jpg
+
 - title: Constrained spherical deconvolution (CSD)
   description: |
     The current standard for estimating the Fibre Orientation Distribution (FOD).
