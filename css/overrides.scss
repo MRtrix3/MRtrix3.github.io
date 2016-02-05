@@ -2,6 +2,18 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+
+html {
+    font-size: 100% !important;
+    -ms-text-size-adjust: 100% !important;
+    -webkit-text-size-adjust: 100% !important; 
+}
+
+@viewport{
+    zoom: 1.0;
+    width: content-width;
+}
+
 @font-face {
   font-family: "Sarabun";
   font-style: normal;
