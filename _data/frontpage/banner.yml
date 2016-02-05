@@ -3,4 +3,4 @@ description: Advanced tools for the analysis of diffusion MRI data
 buttons:
     - title: Download
       icon: fa fa-download
-      link: https://github.com/MRtrix3/mrtrix3/wiki#supported-platforms--installation
+      link: /download

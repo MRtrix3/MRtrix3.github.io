@@ -1,0 +1,11 @@
+- name: Linux
+  icon: fa fa-linux
+  link: "https://github.com/MRtrix3/mrtrix3/wiki/Installing%20on%20Linux"
+
+- name: Windows
+  icon: fa fa-windows
+  link: "https://github.com/MRtrix3/mrtrix3/wiki/Installing%20on%20Windows"
+
+- name: MacOS X
+  icon: fa fa-apple
+  link: "https://github.com/MRtrix3/mrtrix3/wiki/Installing%20on%20MacOSX"

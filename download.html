@@ -4,20 +4,20 @@ layout: default
 
 <div class="home">
 
-    {% assign sorted_pubs = site.data.publications | sort: "year" | reverse %}
-
-    <h1>Download mrtrix</h1>
+    <h1>Download</h1>
 
     <hr>
 
-    <p> <span style="line-height: 25.6px;">For installation instructions, please refer to the corresponding platform&#39;s instructions:</span></p>
-    <ul style="box-sizing: border-box; padding: 0px 0px 0px 2em; margin-top: 0px; margin-bottom: 16px; color: rgb(51, 51, 51);">
-        <li style="box-sizing: border-box;">
-            <a href="https://github.com/MRtrix3/mrtrix3/wiki/Installing%20on%20Linux" style="box-sizing: border-box; color: rgb(64, 120, 192); text-decoration: none; background-color: transparent;">GNU/Linux</a></li>
-        <li style="box-sizing: border-box;">
-            <a href="https://github.com/MRtrix3/mrtrix3/wiki/Installing%20on%20Windows" style="box-sizing: border-box; color: rgb(64, 120, 192); text-decoration: none; background-color: transparent;">MS Windows</a></li>
-        <li style="box-sizing: border-box;">
-            <a href="https://github.com/MRtrix3/mrtrix3/wiki/Installing%20on%20MacOSX" style="box-sizing: border-box; color: rgb(64, 120, 192); text-decoration: none; background-color: transparent;">MacOS X</a></li>
-    </ul>
-
+    <p>To download and install MRtrix please refer to the corresponding platform-specific instructions:</p>
+    
+    <div class="list-group text-center">
+        <ul>
+            {% for button in site.data.download %}
+                <a class="list-group-item list-group-item-info" href="{{ button.link }}" role="button">
+                    <i class="{{ button.icon }}"></i>
+                    {{ button.name }}
+                </a>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
