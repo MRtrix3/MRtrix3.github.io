@@ -2,7 +2,7 @@
 layout: post
 title: MRtrix3 has a new forum!
 author: jdtournier
-date: 2016-02-05 14:44:00 -0600
+date: 2016-02-05 01:44:00 -0600
 categories: 
 ---
 
