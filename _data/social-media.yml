@@ -1,7 +1,7 @@
-- name: Google+
-  icon: fa fa-google-plus-square
-  link: https://plus.google.com/communities/111072048088633408015
+- name: MRtrix forum
+  icon: fa fa-commenting
+  link: http://community.mrtrix.org/
 
 - name: GitHub
-  icon: fa fa-github-square
+  icon: fa fa-github-alt
   link: https://github.com/MRtrix3/mrtrix3
