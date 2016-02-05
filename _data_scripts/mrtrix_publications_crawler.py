@@ -50,6 +50,8 @@ def crawl_commands(commands_dir, output_path):
     
     output_file = open(output_path,'w')
     
+    processed_titles = []    
+
     for command_file in os.listdir(commands_dir):
         command_path = os.path.join (commands_dir, command_file)
         if os.path.isfile(command_path):
@@ -64,10 +66,10 @@ def crawl_commands(commands_dir, output_path):
                     for reference in reference_comments:
                         trimmed_ref = reference.replace('"', '')
                         if trimmed_ref.strip() != "":
-                           output_file.write(convert_reference_data_to_yaml(trimmed_ref))
+                           output_file.write(convert_reference_data_to_yaml(trimmed_ref, processed_titles))
     output_file.close()
 
-def convert_reference_data_to_yaml(reference_data):
+def convert_reference_data_to_yaml(reference_data, processed_titles):
     
     yaml_data = ''
     
@@ -78,10 +80,21 @@ def convert_reference_data_to_yaml(reference_data):
 
     print lines
     
-    if len(lines) == 3:
+    line_len = len(lines)    
+
+    if line_len >= 3:
         authors = lines[0].replace('// Internal', '').strip().replace("/\n", '')
-        title = lines[1].strip().replace('.', '').replace('\n', '')
-        journal = lines[2].strip().replace('Neuroimage', 'NeuroImage')
+        title = ''
+        for line in lines[1:line_len-1]:
+            title = title + re.sub('^\s+', '', line)
+        title = title.strip().replace('.', '').replace('\n', '').replace('\t', '')
+        
+        if title in processed_titles:
+            return ''
+        else:            
+            processed_titles.append(title)         
+
+        journal = lines[line_len-1].strip().replace('Neuroimage', 'NeuroImage')
         year = re.search(r'\d{4}', journal).group(0)
         internal = '// Internal' in reference_data        
         yaml_data = '''
@@ -90,8 +103,23 @@ def convert_reference_data_to_yaml(reference_data):
    year: {}
    authors: "{}"
    internal: {}
-'''.format(title, journal, year, authors, internal)
+   url: "{}"
+'''.format(title, journal, year, authors, internal, find_publication_link(title, authors))
     return yaml_data
+
+def find_publication_link(title, authors):
+    url = ''
+    scholar_cmd = './scholar.py -c 1 --phrase "' + title + ' ' + authors + '"'
+    
+    try:
+        process = subprocess.Popen(scholar_cmd, shell=True, stdout=subprocess.PIPE)
+        pub_data = process.stdout.read().decode ('utf-8', 'ignore')
+        url = re.search(r'URL\s*([^\n]*)\n', pub_data).group(1)
+    except Exception:
+        print 'Unable to find publication link for: {}'.format(title)
+
+    return url
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])
