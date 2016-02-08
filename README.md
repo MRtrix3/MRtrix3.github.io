@@ -138,7 +138,7 @@ Sample excerpt
 
 ### For content contributors : Publication data (_data/manual_publication_links.yml)
 
-Additionally, in the event that the `mrtrix_publications_crawler` script is unable to locate the corresponding hyperlink for a give publication, or the fetched link is not found to be the most relevant, a user is able to override this manually via `manual_publication_links.yml`. In particular, one specify:
+Additionally, in the event that the `mrtrix_publications_crawler` script is unable to locate the corresponding hyperlink for a give publication, or the fetched link is not found to be the most relevant, a user is able to override this manually via `manual_publication_links.yml`. In particular, one specifies:
 
 * `title`: The title of the publication. Note, that this must exactly match the corresponding title listed in `publications.yml`
 * `url`: The manually-specified link for the publication
