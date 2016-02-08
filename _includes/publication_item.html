@@ -21,9 +21,9 @@
         {% endif %}
         
         <div class="media-body">
-            {%if include.param.url == blank %}<a href="{{ include.param.url }}">{% endif %}
+            {%if include.param.url != '' %}<a href="{{ include.param.url }}">{% endif %}
             <h4 class="media-heading publication-header">{{ include.param.title }}</h4>
-            {%if include.param.url == blank %}</a>{% endif %}
+            {%if include.param.url != '' %}</a>{% endif %}
 
         <p class="publication-content"> 
             {% if include.param.authors %}
