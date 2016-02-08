@@ -150,7 +150,7 @@ e.g.
    url: "http://www.sciencedirect.com/science/article/pii/S1053811915007168"
 ```
 
-So just to be clear, when generating the html list of publications, the static site generation will always prioritise a manually-specified link, regardless of whether or not a link exists in `publications.yml`. *So you do not, and in fact should not, make any manual edits in publications.yml`.*
+So just to be clear, when generating the html list of publications, the static site generation will always prioritise a manually-specified link, regardless of whether or not a link exists in `publications.yml`. *So you do not, and in fact should not, make any manual edits in `publications.yml`.*
 
 
 ## For content contributors : Writing posts
