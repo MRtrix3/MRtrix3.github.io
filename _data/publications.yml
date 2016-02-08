@@ -4,126 +4,126 @@
    year: 2015
    authors: "Christiaens, D.; Reisert, M.; Dhollander, T.; Sunaert, S.; Suetens, P. & Maes, F."
    internal: True
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811915007168"
 
 -  title: "Three-dimensional tracking of axonal projections in the brain by magnetic resonance imaging"
    journal: "Annals of Neurology, 1999, 45, 265-269"
    year: 1999
    authors: "Mori, S.; Crain, B. J.; Chacko, V. P. & van Zijl, P. C. M."
    internal: False
-   url: ""
+   url: "http://onlinelibrary.wiley.com/doi/10.1002/1531-8249(199902)45:2%3C265::AID-ANA21%3E3.0.CO;2-3/full"
 
 -  title: "MRtrix: Diffusion tractography in crossing fiber regions"
    journal: "Int. J. Imaging Syst. Technol., 2012, 22, 53-66"
    year: 2012
    authors: "Tournier, J.-D.; Calamante, F. & Connelly, A."
    internal: True
-   url: ""
+   url: "http://onlinelibrary.wiley.com/doi/10.1002/ima.22005/full"
 
 -  title: "Improved probabilistic streamlines tractography by 2nd order integration over fibre orientation distributions"
    journal: "Proceedings of the International Society for Magnetic Resonance in Medicine, 2010, 1670"
    year: 2010
    authors: "Tournier, J.-D.; Calamante, F. & Connelly, A."
    internal: True
-   url: ""
+   url: "http://cds.ismrm.org/protected/10MProceedings/files/1670_4298.pdf"
 
 -  title: "Probabilistic fibre tracking: Differentiation of connections from chance events"
    journal: "NeuroImage, 2008, 42, 1329-1339"
    year: 2008
    authors: "Morris, D. M.; Embleton, K. V. & Parker, G. J."
    internal: False
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811908007301"
 
 -  title: "In vivo fiber tractography using DT-MRI data"
    journal: "Magnetic Resonance in Medicine, 2000, 44, 625-632"
    year: 2000
    authors: "Basser, P. J.; Pajevic, S.; Pierpaoli, C.; Duda, J. & Aldroubi, A."
    internal: False
-   url: ""
+   url: "http://onlinelibrary.wiley.com/doi/10.1002/1522-2594(200010)44:4%3C625::AID-MRM17%3E3.0.CO;2-O/full"
 
 -  title: "Tractography Gone Wild: Probabilistic Fibre Tracking Using the Wild Bootstrap With Diffusion Tensor MRI"
    journal: "IEEE Transactions on Medical Imaging, 2008, 27, 1268-1274"
    year: 2008
    authors: "Jones, D."
    internal: False
-   url: ""
+   url: "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4573264"
 
 -  title: "Anatomically-constrained tractography: Improved diffusion MRI streamlines tractography through effective use of anatomical information"
    journal: "NeuroImage, 2012, 62, 1924-1938"
    year: 2012
    authors: "Smith, R. E.; Tournier, J.-D.; Calamante, F. & Connelly, A."
    internal: True
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811912005824"
 
 -  title: "SIFT2: Enabling dense quantitative assessment of brain white matter connectivity using streamlines tractography"
    journal: "NeuroImage, 2015, 119, 338-351;"
    year: 2015
    authors: "Smith, R. E.; Tournier, J.-D.; Calamante, F. & Connelly, A."
    internal: True
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811915005972"
 
 -  title: "SIFT: Spherical-deconvolution informed filtering of tractograms"
    journal: "NeuroImage, 2013, 67, 298-312 (Appendix 2)"
    year: 2013
    authors: "Smith, R. E.; Tournier, J.-D.; Calamante, F. & Connelly, A."
    internal: True
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811912011615"
 
 -  title: "Apparent Fibre Density: a novel measure for the analysis of diffusion-weighted magnetic resonance images"
    journal: "NeuroImage, 2012, 15;59(4), 3976-94.;"
    year: 2012
    authors: "Raffelt, D.; Tournier, J.-D.; Rose, S.; Ridgway, G.R.; Henderson, R.; Crozier, S.; Salvado, O.; Connelly, A."
    internal: True
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811911012092"
 
 -  title: "Weighted linear least squares estimation of diffusion MRI parameters: strengths, limitations, and pitfalls"
    journal: "NeuroImage, 2013, 81, 335-346;"
    year: 2013
    authors: "Veraart, J.; Sijbers, J.; Sunaert, S.; Leemans, A. & Jeurissen, B."
    internal: True
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811913005223"
 
 -  title: "Reorientation of fiber orientation distributions using apodized point spread functions"
    journal: "Magnetic Resonance in Medicine, 2012, 67, 844-855"
    year: 2012
    authors: "Raffelt, D.; Tournier, J.-D.; Crozier, S.; Connelly, A. & Salvado, O."
    internal: True
-   url: ""
+   url: "http://onlinelibrary.wiley.com/doi/10.1002/mrm.23058/full"
 
 -  title: "Beyond Fractional Anisotropy: Extraction of bundle-specific structural metrics from crossing fibre models"
    journal: "NeuroImage, 2014 (in press);"
    year: 2014
    authors: "Riffert, T. W.; Schreiber, J.; Anwander, A. & Knosche, T. R."
    internal: False
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811914004923"
 
 -  title: "Robust determination of the fibre orientation distribution in diffusion MRI: Non-negativity constrained super-resolved spherical deconvolution"
    journal: "NeuroImage, 2007, 35, 1459-1472"
    year: 2007
    authors: "Tournier, J.-D.; Calamante, F. & Connelly, A."
    internal: True
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811907001243"
 
 -  title: "Direct estimation of the fiber orientation density function from diffusion-weighted MRI data using spherical deconvolution"
    journal: "NeuroImage, 2004, 23, 1176-1185;"
    year: 2004
    authors: "Tournier, J.-D.; Calamante, F., Gadian, D.G. & Connelly, A."
    internal: True
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811904004100"
 
 -  title: "Threshold-free cluster enhancement: Addressing problems of smoothing, threshold dependence and localisation in cluster inference"
    journal: "NeuroImage, 2009, 44, 83-98"
    year: 2009
    authors: "Smith, S. M. & Nichols, T. E."
    internal: False
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811908002978"
 
 -  title: "Multi-tissue constrained spherical deconvolution for improved analysis of multi-shell diffusion MRI data"
    journal: "NeuroImage, 2014, 103, 411-426;"
    year: 2014
    authors: "Jeurissen, B; Tournier, J-D; Dhollander, T; Connelly, A & Sijbers, J."
    internal: True
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811914006442"
 
 -  title: "Time to move on: an FOD-based DEC map to replace DTI's trademark DEC FA"
    journal: "Proc Intl Soc Mag Reson Med, 2015, 23, 1027."
@@ -144,35 +144,35 @@
    year: 1999
    authors: "Jones, D.; Horsfield, M. & Simmons, A."
    internal: False
-   url: ""
+   url: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.462.9303&rep=rep1&type=pdf"
 
 -  title: "Minimal gradient encoding for robust estimation of diffusion anisotropy"
    journal: "Magnetic Resonance Imaging, 2000, 18: 671-679;"
    year: 2000
    authors: "Papadakis, N. G.; Murrills, C. D.; Hall, L. D.; Huang, C. L.-H. & Adrian Carpenter, T."
    internal: False
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S0730725X0000151X"
 
 -  title: "Issues with threshold masking in voxel-based morphometry of atrophied brains"
    journal: "NeuroImage, 2009, 44, 99-111;"
    year: 2009
    authors: "Ridgway, G. R.; Omar, R.; Ourselin, S.; Hill, D. L.; Warren, J. D. & Fox, N. C."
    internal: False
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811908009786"
 
 -  title: "Track-density imaging (TDI): Super-resolution white matter imaging using whole-brain track-density mapping"
    journal: "NeuroImage, 2010, 53, 1233-1243"
    year: 2010
    authors: "Calamante, F.; Tournier, J.-D.; Jackson, G. D. & Connelly, A."
    internal: True
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811910009766"
 
 -  title: "The average pathlength map: A diffusion MRI tractography-derived index for studying brain pathology"
    journal: "NeuroImage, 2011, 55, 133-141"
    year: 2011
    authors: "Pannek, K.; Mathias, J. L.; Bigler, E. D.; Brown, G.; Taylor, J. D. & Rose, S. E."
    internal: False
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811910015922"
 
 -  title: "A novel paradigm for automated segmentation of very large whole-brain probabilistic tractography data sets"
    journal: "In proc. ISMRM, 2011, 19, 673"
@@ -186,32 +186,32 @@
    year: 2012
    authors: "Pannek, K., Raffelt, D., Salvado, O., Rose, S."
    internal: True
-   url: ""
+   url: "http://cds.ismrm.org/protected/12MProceedings/files/1912.pdf"
 
 -  title: "Track Orientation Density Imaging (TODI) and Track Orientation Distribution (TOD) based tractography"
    journal: "NeuroImage, 2014, 94, 312-336"
    year: 2014
    authors: "Dhollander, T., Emsell, L., Van Hecke, W., Maes, F., Sunaert, S., Suetens, P."
    internal: True
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811913012676"
 
 -  title: "A generalised framework for super-resolution track-weighted imaging"
    journal: "NeuroImage, 2012, 59, 2494-2503"
    year: 2012
    authors: "Calamante, F.; Tournier, J.-D.; Smith, R. E. & Connelly, A."
    internal: True
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811911010329"
 
 -  title: "Connectivity-based fixel enhancement: Whole-brain statistical analysis of diffusion MRI measures in the presence of crossing fibres \n"
    journal: "NeuroImage, 2015, 15(117):40-55\n"
    year: 2015
    authors: "Raffelt, D.; Smith, RE.; Ridgway, GR.; Tournier, JD.; Vaughan, DN.; Rose, S.; Henderson, R.; Connelly, A."
    internal: True
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811915004218"
 
 -  title: "Adjusting the effect of nonstationarity in cluster-based and TFCE inference \n"
    journal: "NeuroImage, 2011, 54(3), 2006-19\n ;"
    year: 2011
    authors: "Salimi-Khorshidi, G. Smith, S.M. Nichols, T.E. \n"
    internal: False
-   url: ""
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811910012917"
