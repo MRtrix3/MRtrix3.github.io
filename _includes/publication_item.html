@@ -20,10 +20,16 @@
         {% endfor %}
         {% endif %}
         
+        {% assign manual_link_dict = site.data.manual_publication_links | where: "title", include.param.title | first %}
+        {% assign publication_link = include.param.url %}
+        {% if manual_link_dict %}
+            {% assign publication_link = manual_link_dict.url %}
+        {% endif %}
+
         <div class="media-body">
-            {%if include.param.url != '' %}<a href="{{ include.param.url }}">{% endif %}
+            {%if publication_link != '' %}<a href="{{ publication_link | base_url: '' }}">{% endif %}
             <h4 class="media-heading publication-header">{{ include.param.title }}</h4>
-            {%if include.param.url != '' %}</a>{% endif %}
+            {%if publication_link != '' %}</a>{% endif %}
 
         <p class="publication-content"> 
             {% if include.param.authors %}

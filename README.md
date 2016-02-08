@@ -136,6 +136,22 @@ Sample excerpt
     + Argument ("mask_out", "the output mask image")                  .type_image_out();
 ```
 
+### For content contributors : Publication data (_data/manual_publication_links.yml)
+
+Additionally, in the event that the `mrtrix_publications_crawler` script is unable to locate the corresponding hyperlink for a give publication, or the fetched link is not found to be the most relevant, a user is able to override this manually via `manual_publication_links.yml`. In particular, one specify:
+
+* `title`: The title of the publication. Note, that this must exactly match the corresponding title listed in `publications.yml`
+* `url`: The manually-specified link for the publication
+
+e.g.
+
+```
+-  title: "Global tractography of multi-shell diffusion-weighted imaging data using a multi-tissue model"
+   url: "http://www.sciencedirect.com/science/article/pii/S1053811915007168"
+```
+
+So just to be clear, when generating the html list of publications, the static site generation will always prioritise a manually-specified link, regardless of whether or not a link exists in `publications.yml`. *So you do not, and in fact should not, make any manual edits in publications.yml`.*
+
 
 ## For content contributors : Writing posts
 
