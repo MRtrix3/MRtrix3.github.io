@@ -150,7 +150,7 @@ document), and made available through [readthedocs](http://mrtrix.readthedocs.or
 
 # Minor updates
 
-At time of writing, the merge of the `updated_syntax` branch will push 744 code
+The merge of the `updated_syntax` branch pushed a total of 761 code
 updates to the main code repository branch. Below is a summary of the little
 updates that have happened along the way, that are tangible for the end user.
 We will try to group these in a semi-sensible manner...
