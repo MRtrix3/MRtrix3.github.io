@@ -19,7 +19,7 @@ modifications](#major-updates) that have occurred within the code, as well as
 and are now available to users.
 
 While we firmly believe these updates will prove advantageous for users in the
-long, some of these changes will affect the outcome and/or usage of some of the
+long run, some of these changes will affect the outcome and/or usage of some of the
 commands. This is the case notably for `dwi2response`, `dwi2tensor`, and
 `tckgen` (see [below for details](#minor-updates)). For users who wish to
 prevent this upgrade (for example to ensure the same version of the software is
