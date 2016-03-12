@@ -1,11 +1,11 @@
 - name: Linux
   icon: fa fa-linux
-  link: "https://github.com/MRtrix3/mrtrix3/wiki/Installing%20on%20Linux"
+  link: "http://mrtrix.readthedocs.org/en/latest/installation/linux_install.html"
 
 - name: Windows
   icon: fa fa-windows
-  link: "https://github.com/MRtrix3/mrtrix3/wiki/Installing%20on%20Windows"
+  link: "http://mrtrix.readthedocs.org/en/latest/installation/windows_install.html"
 
 - name: MacOS X
   icon: fa fa-apple
-  link: "https://github.com/MRtrix3/mrtrix3/wiki/Installing%20on%20MacOSX"
+  link: "http://mrtrix.readthedocs.org/en/latest/installation/mac_install.html"
