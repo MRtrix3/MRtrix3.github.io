@@ -18,6 +18,15 @@ modifications](#major-updates) that have occurred within the code, as well as
 [minor updates](#minor-updates) that have been added within this code branch
 and are now available to users.
 
+While we firmly believe these updates will prove advantageous for users in the
+long, some of these changes will affect the outcome and/or usage of some of the
+commands. This is the case notably for `dwi2response`, `dwi2tensor`, and
+`tckgen` (see [below for details](#minor-updates)). For users who wish to
+prevent this upgrade (for example to ensure the same version of the software is
+used for their study), it may be preferably to checkout the last version of
+master before this upgrade (see [here for
+instructions](#preventing-the-upgrade)). 
+
 If there are any issues encountered with the changes listed below, or indeed
 any aspect of MRtrix3, please report it. You can either use the [GitHub issue
 tracking page](https://github.com/MRtrix3/mrtrix3/issues) for issues that you
@@ -85,6 +94,21 @@ following steps:
   ~~~
   export PATH=/home/user/mrtrix3/release/bin:/home/user/mrtrix3/scripts:$PATH
   ~~~
+
+----
+
+# Preventing the upgrade
+
+Some users may wish to prevent this upgrade to ensure their studies are
+unaffected by the changes entailed. In this case, it may be better to lock the
+code to the last version before this upgrade: `0.3.13`. This can be done with
+the following instructions:
+
+~~~ bash
+$ git fetch
+$ git checkout 0.3.13
+$ ./build
+~~~
  
 
 ----
