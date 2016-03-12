@@ -133,6 +133,10 @@ observed (a factor of 3 speedup in some instances), it has also made redundant
 a large fraction of the custom classes and algorithms that were written as part
 of MRtrix3's own mathematics library component.
 
+  A side-effect of this change is that MRtrix3 is no longer constrained to use
+the GNU Public License due to a dependence on GSL. Instead, MRtrix3 is now
+distributed under the [Mozilla Public License](http://mozilla.org/MPL/2.0/).
+
 - *Automated testing*: We now automatically compile and test various components
   of MRtrix3 in a fully automated fashion using
 [TravisCI](https://travis-ci.org/). This means that any proposed changes to the
