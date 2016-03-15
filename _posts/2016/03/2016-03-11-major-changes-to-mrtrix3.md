@@ -3,7 +3,6 @@ layout: post
 title: Major changes to MRtrix3
 author: jdtournier
 date: 2016-03-11 12:46:00 -0000
-discourse_id: 110
 ---
 
 We have just pushed a major update for MRtrix3, constituting over a year's work
