@@ -6,9 +6,11 @@
 
 - title: Documentation
   link: http://mrtrix.readthedocs.org/
+  new_window: true
 
 - title: Community
   link: http://community.mrtrix.org/
+  new_window: true
 
 - title: Development
   submenu:
