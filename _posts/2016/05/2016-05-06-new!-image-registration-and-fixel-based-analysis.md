@@ -22,14 +22,13 @@ We have also made significant changes to the `mrtransform` command. This can now
 #Population template script
 The recent update also includes a python script called `population_template` for building unbiased study-specific templates using an iterative averaging approach. The script can be used on either scalar 3D or FOD images. Using the `-rigid` option will ensure the initial linear alignment is rigid, which is suited for intra-subject registration of longitudinal data.  While not a requirement, we recommend users use the `-mask_dir` option to supply brain masks for the input subject images, as this will reduce computation time substantially. 
 
-![Population template](images/frontpage/registration.jpg)
+
 
 ##Fixel-based analysis. 
 This update also includes a number of commands to perform a fixel-based analysis. What's a fixel? It's just a fancy word for a specific _fi_bre population in a vo_xel_ (aka a fibre bundle element). Unlike traditional voxel-based analysis group studies, a fixel-based analysis permits statistically significant differences to be assigned to a specific fibre in white matter, even in regions containing crossing fibres. For more information on fixel-based analysis and group statistics on fixel images see our paper on [Connectivity-based fixel enhancement](http://www.ncbi.nlm.nih.gov/pubmed/26004503) and keep a look out for our future paper on fixel-based analysis (under review). 
 
 See the MRtrix documentation page for a tutorial on [DWI preprocessing](http://mrtrix.readthedocs.io/en/latest/workflows/DWI_preprocessing_for_quantitative_analysis.html) and [fixel-based analysis](http://mrtrix.readthedocs.io/en/latest/workflows/fixel_based_analysis.html). 
 
-![Population template](images/frontpage/fixel-based-analysis.jpg)
 
 ## New commands in this update
 - `mrregister`: performs rigid, linear and non-linear registration of images
