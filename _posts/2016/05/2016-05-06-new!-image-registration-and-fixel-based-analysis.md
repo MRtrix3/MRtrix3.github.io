@@ -8,7 +8,7 @@ categories:
 
 
 
-####We are proud to announce that MRtrix now includes commands for image registration and fixel-based analysis!
+We are proud to announce that MRtrix now includes commands for image registration and fixel-based analysis!
 
 ---
 
