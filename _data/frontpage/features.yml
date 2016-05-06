@@ -46,7 +46,7 @@
     visualize them directly in MRtrix.
   image: /images/frontpage/Connectome.jpg
 
-- title: Image registration for diffusion MRI (coming soon!)
+- title: Image registration for diffusion MRI
   description: |
     Designed explicitly for inter-subject alignment of fibre orientation distributions
     as provided by CSD and variants.
