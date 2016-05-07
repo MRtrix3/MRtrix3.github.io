@@ -56,7 +56,7 @@ ___
 
 - [`fixellog`](http://userdocs.mrtrix.org/en/latest/getting_started/commands_list.html#fixellog): A simple command to take the natural log of fixel values. Will likely be incorporated into `fixelcalc` in the future
 
-- [`mraverage_header`](http://userdocs.mrtrix.org/en/latest/getting_started/commands_list.html#mraverage_header): Estimates the orientation of the average image grid. Used to obtain an unbiased image grid for alignment of subjects to a template. 
+- [`mraverageheader`](http://userdocs.mrtrix.org/en/latest/getting_started/commands_list.html#mraverageheader): Estimates the orientation of the average image grid. Used to obtain an unbiased image grid for alignment of subjects to a template. 
 
 - [`mrcheckerboardmask`](http://userdocs.mrtrix.org/en/latest/getting_started/commands_list.html#mrcheckerboardmask): Used to inspect image alignment after registration.
 
