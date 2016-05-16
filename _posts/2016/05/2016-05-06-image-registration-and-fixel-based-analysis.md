@@ -3,7 +3,8 @@ layout: post
 title: Image registration and fixel-based analysis
 author: draffelt
 date: 2016-05-05 16:16:00 -0600
-categories: 
+categories:
+discourse_id: 207
 ---
 
 
