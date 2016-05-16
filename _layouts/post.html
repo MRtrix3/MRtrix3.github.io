@@ -26,9 +26,8 @@ layout: default
     </p>
   </div>
 
-
   {% if page.discourse_id %}
-
+  <div class="col-md-1">
   <div id='discourse-comments'></div>
 
   <script type="text/javascript">
@@ -41,6 +40,7 @@ layout: default
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
   })();
   </script>
+  </div>
   {% endif %}
 
 </article>
