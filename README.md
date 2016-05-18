@@ -153,7 +153,7 @@ e.g.
 So just to be clear, when generating the html list of publications, the static site generation will always prioritise a manually-specified link, regardless of whether or not a link exists in `publications.yml`. *So you do not, and in fact should not, make any manual edits in `publications.yml`.*
 
 
-## For content contributors : Writing posts
+## For content contributors : Writing new posts
 
 All blog posts are stored in `_posts` and can be written using markdown using the [kramdown syntax](http://kramdown.gettalong.org/syntax.html). However, posts follow strict rules regarding subdirectory location and naming convention. Additionally, there is some addtional metadata that needs to be incorporated at the start of your post. Hence, to make this a bit easier for bloggers, I've provided a companion script `newpost.py` at the top directory of the site that will correctly initialise a new post. e.g.
 
@@ -168,6 +168,17 @@ All blog posts are stored in `_posts` and can be written using markdown using th
 Once run, a new markdown document will be created in the `_posts` directory. From there, open up the new document and add your markdown content. By default, there's sample content included that showcases a few of the markdown features such as highlighted code snippets and math blocks using LaTeX syntax.
 
 Once you're happy with your new post, simply commit it to the repository and it should be added to the list of visible blog posts on the website.
+
+## For content contributors : Writing posts using content from community forum
+
+Alternatively, to coordinate anncouncements between the blog and [MRtrix community forum](http://community.mrtrix.org/), there is an additional companion script `gen_blog.py` at the top directory of the site that will similarly generate a new post, but additionally pre-fill the content from the *latest* forum announcement post. A few things to keep in mind:
+
+* Currently, the forum post must be in the announcements category to successfully be fetched
+* If the corresponding blog post already exists, the script will not regenerate the post
+* By default, the script only generates a blog post for the single most recent forum post, however there is the additional `--all` option if you want to fetch and generate all latest (currently top 9) posts.
+* **Important** The `author` entry is pre-filled with the author's Discourse handle, however remember this needs to correspond to your github handle, so **make sure to change this if they don't coincide**
+* The `discourse_id` will also be prefilled to coincide with the Discourse forum post. This will ensure that the corresponding inline forum comments will appear at the bottom of the blog post.
+
 
 ## Problems / Suggestions ?
 
