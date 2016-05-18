@@ -6,7 +6,7 @@
 # Authors: J-D Tournier and Rami Tabbara
 # 
 
-import sys, getopt, json, requests, os
+import sys, getopt, json, requests, os, yaml
 
 def usage():
     print ('''
@@ -36,6 +36,8 @@ def main(argv):
     r = requests.get (site + '/c/9/l/latest.json')
     p = json.loads (r.text)
 
+    author_list = yaml.load(file(os.path.join('_data', 'authors.yml'), 'r'))
+
     for x in (p['topic_list']['topics']): 
         if x['pinned']:
             continue
@@ -44,7 +46,21 @@ def main(argv):
         t = json.loads (r.text)
         post = t['post_stream']['posts'][0]
         discourse_id = x['id']
+        discourse_author = post['username']
+        github_handle = ''
+        author_found = False
+
+        for author in author_list:
+            # Match Discourse handle to GitHub handle (if it exists)
+            print author['discourse']
+            if 'discourse' in author and author['discourse'] == discourse_author:
+                author_found = True
+                github_handle = author['github']
         
+        # Couldn't find GitHub handle, so skip this post
+        if not author_found:
+            continue
+
         date = post['created_at'].replace('T', ' ').split('.')[0]
         date_simplified = date.split()[0]
         date_tokens = date_simplified.split('-')
@@ -76,7 +92,7 @@ categories:
 discourse_id: {}
 ---
 {}
-            """.format(t['title'], post['username'], date, str(discourse_id), post['cooked']))
+            """.format(t['title'], github_handle, date, str(discourse_id), post['cooked']))
 
             if fetch_only_first:
                 return
