@@ -3,35 +3,43 @@
   github: jdtournier
   twitter: jdtournier
   website: https://kclpure.kcl.ac.uk/portal/jacques-donald.tournier.html
+  discourse: jdtournier
 
 - name: David Raffelt
   nickname: Dave
   github: draffelt
   twitter: davidraffelt
+  discourse: Dave
 
 - name: Robert Smith
   nickname: Rob
   github: Lestropie
+  discourse: rsmith
 
 - name: Thijs Dhollander
   nickname: Thijs
   github: thijsdhollander
   twitter: ThijsDhollander
   website: https://www.researchgate.net/profile/Thijs_Dhollander
+  discourse: Thijs
 
 - name: Ben Jeurissen
   nickname: Ben
   github: bjeurissen
+  discourse: bjeurissen
 
 - name: Maximilian Pietsch
   nickname: Max
   twitter: pietsch_max
   github: maxpietsch
+  discourse: maxpietsch 
 
 - name: Daan Christiaens
   nickname: Daan
   github: dchristiaens
+  discourse: dchristiaens
 
 - name: Chun-Hung Yeh
   nickname: Jimmy
   github: chunhungyeh
+  discourse: chunhungyeh
