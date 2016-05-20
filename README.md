@@ -173,10 +173,10 @@ Once you're happy with your new post, simply commit it to the repository and it 
 
 Alternatively, to coordinate anncouncements between the blog and [MRtrix community forum](http://community.mrtrix.org/), there is an additional companion script `gen_blog.py` at the top directory of the site that will similarly generate a new post, but additionally pre-fill the content from the *latest* forum announcement post. A few things to keep in mind:
 
+* **There is job scheduled daily on our forum server that automatically runs this script**. So in general there shouldn't be a need for a user to manually generate blog entries
 * Currently, the forum post must be in the announcements category to successfully be fetched
 * If the corresponding blog post already exists, the script will not regenerate the post
-* By default, the script only generates a blog post for the single most recent forum post, however there is the additional `--all` option if you want to fetch and generate all latest (currently top 9) posts.
-* **Important** The `author` entry is pre-filled with the author's Discourse handle, however remember this needs to correspond to your github handle, so **make sure to change this if they don't coincide**
+* By default, the script only generates a blog post for the single most recent forum post, however there is the additional `--all` option if you want to fetch and generate all latest posts.
 * The `discourse_id` will also be prefilled to coincide with the Discourse forum post. This will ensure that the corresponding inline forum comments will appear at the bottom of the blog post.
 
 
