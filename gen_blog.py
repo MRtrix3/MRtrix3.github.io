@@ -41,7 +41,7 @@ def main(argv):
     for x in (p['topic_list']['topics']): 
         if x['pinned']:
             continue
-
+        
         r = requests.get (site + '/t/' + str(x['id']) + '.json')
         t = json.loads (r.text)
         post = t['post_stream']['posts'][0]
@@ -69,20 +69,19 @@ def main(argv):
         year_path = os.path.join('_posts', year)
         month_path = os.path.join(year_path, month)
         filepath = os.path.join(month_path, date_simplified + '-' + t['slug'] + '.md')
-
+        
         if not os.path.exists(year_path):
             os.makedirs(year_path)     
 
         if not os.path.exists(month_path):
             os.makedirs(month_path) 
 
-        # Blog post already exists so skip generation
-        if os.path.exists(filepath):
-            continue
-
         print ('generating "' + filepath + '"...')
+
+        post_content = post['cooked']
+
         with open (filepath, 'w') as f:
-            f.write ("""---
+            blog_post = u"""---
 layout: post
 title: {}
 author: {}
@@ -91,7 +90,9 @@ categories:
 discourse_id: {}
 ---
 {}
-            """.format(t['title'], github_handle, date, str(discourse_id), post['cooked']))
+            """.format(t['title'], github_handle, date, str(discourse_id), post_content)
+
+            f.write (blog_post.encode('utf-8'))
 
             if fetch_only_first:
                 sys.exit(0)
