@@ -52,7 +52,6 @@ def main(argv):
 
         for author in author_list:
             # Match Discourse handle to GitHub handle (if it exists)
-            print author['discourse']
             if 'discourse' in author and author['discourse'] == discourse_author:
                 author_found = True
                 github_handle = author['github']
@@ -95,7 +94,7 @@ discourse_id: {}
             """.format(t['title'], github_handle, date, str(discourse_id), post['cooked']))
 
             if fetch_only_first:
-                return
+                sys.exit(0)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
