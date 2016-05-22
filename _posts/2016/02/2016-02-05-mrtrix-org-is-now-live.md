@@ -23,4 +23,6 @@ discourse_id: 40
 </ul>
 
 <p>If you have any feedback, suggestions, bits of news (e.g. MRtrix3 in the press), nice screenshots, etc., get in touch!</p>
+
+<p>Cheers,<br>Donald</p>
             
