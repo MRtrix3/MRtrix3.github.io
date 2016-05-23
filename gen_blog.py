@@ -6,7 +6,7 @@
 # Authors: J-D Tournier and Rami Tabbara
 # 
 
-import sys, getopt, json, requests, os, yaml
+import sys, getopt, json, requests, os, yaml, re
 
 def usage():
     print ('''
@@ -42,7 +42,7 @@ def main(argv):
         if x['pinned']:
             continue
         
-        r = requests.get (site + '/t/' + str(x['id']) + '.json')
+        r = requests.get (site + '/t/' + str(x['id']) + '.json?include_raw=1')
         t = json.loads (r.text)
         post = t['post_stream']['posts'][0]
         discourse_id = x['id']
@@ -78,7 +78,10 @@ def main(argv):
 
         print ('generating "' + filepath + '"...')
 
-        post_content = post['cooked']
+        post_content = post['raw']
+        
+        # Fix-up local image links (if they exist)
+        post_content = re.sub(r"!\[(.*)\]\((.*)\)",r"![\1](http://community.mrtrix.org\2)", post_content)
 
         with open (filepath, 'w') as f:
             blog_post = u"""---
