@@ -7,7 +7,7 @@
 
         <!-- Discourse -->
         {% if author.discourse %}
-        <a class="post-social-media-link" title="author.discourse" href="{{ author.discourse | prepend: 'http://community.mrtrix.org/users/' }}">
+        <a class="post-social-media-link" title="{{ author.discourse }}" href="{{ author.discourse | prepend: 'http://community.mrtrix.org/users/' }}">
         <span class="post-social-media-icons text-center">
             <i class="fa fa-comment"></i>
         </span>
