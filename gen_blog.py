@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #
 # Pull the latest MRtrix community announcements and blog posts 
-# andpackage them as blog posts to be pushed onto the website.
+# and package them as blog posts to be pushed onto the website.
 #
 # Authors: J-D Tournier and Rami Tabbara
 # 
@@ -51,16 +51,22 @@ def main(argv):
             post = t['post_stream']['posts'][0]
             discourse_id = x['id']
             discourse_author = post['username']
-            github_handle = ''
+            author_handle = ''
             author_found = False
 
             for author in author_list:
                 # Match Discourse handle to GitHub handle (if it exists)
                 if 'discourse' in author and author['discourse'] == discourse_author:
                     author_found = True
-                    github_handle = author['github']
+                    # Try to use GitHub handle if it exists
+                    if 'github' in author:
+                        author_handle = author['github']
+                    # Otherwise use Discourse handle instead
+                    else:
+                        author_handle = discourse_author
+                    break
         
-            # Couldn't find GitHub handle, so skip this post
+            # Couldn't find the author in the list so skip this post
             if not author_found:
                 continue
 
@@ -97,7 +103,7 @@ categories:
 discourse_id: {}
 ---
 {}
-            """.format(t['title'], github_handle, date, str(discourse_id), post_content)
+            """.format(t['title'], author_handle, date, str(discourse_id), post_content)
 
                 f.write (blog_post.encode('utf-8'))
 
