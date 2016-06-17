@@ -1,8 +1,16 @@
 <post-header>
+
     {% assign author = site.data.authors | where: "github", include.param.author | first %}
-    {% assign contributor = site.data.frontpage.contributors | where: "login", include.param.author | first %}  
+    {% if author %}
+        {% assign contributor = site.data.frontpage.contributors | where: "login", include.param.author | first %}
+        {% assign img_link = contributor.avatar_url %}
+    {% else %}
+        {% assign author = site.data.authors | where: "discourse", include.param.author | first %}
+        {% assign img_link = include.param.author | prepend: 'http://community.mrtrix.org/user_avatar/community.mrtrix.org/' | append: '/120/9_1.png' %}
+    {% endif %}
+
     <div class="text-center col-md-2">
-        <img class="post-image img-circle" src="{{ contributor.avatar_url }}" alt="@{{ contributor.login }}">
+        <img class="post-image img-circle" src="{{ img_link }}" alt="@{{ include.param.author }}">
         <p class="post-name post-meta">{{ author.nickname }}</p>
 
         <!-- Discourse -->
