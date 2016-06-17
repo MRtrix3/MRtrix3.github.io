@@ -15,11 +15,16 @@ layout: frontpage
     <hr>
     
     <div class="post-snippet">
-    <h1>Latest post</h2>
+    <h1>Latest posts</h2>
     <hr>
 
     {% for post in site.posts limit:1 %}
         {% include post_snippet.html param=post %}  
+    {% endfor %}
+
+
+    {% for post in site.posts limit:2, offset:1 %}
+        {% include post_micro_snippet.html param=post %}  
     {% endfor %} 
     </div> 
     
