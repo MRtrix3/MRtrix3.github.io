@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Heuristic scaling of connectome edge strengths
-author: Lestropie
+title: 'Heuristic scaling of connectome edge strengths'
+author: 'Lestropie'
 date: 2016-05-25 02:07:57
 categories:
 discourse_id: 253

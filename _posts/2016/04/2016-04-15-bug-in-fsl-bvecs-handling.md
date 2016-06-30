@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bug in FSL bvecs handling
-author: jdtournier
+title: 'Bug in FSL bvecs handling'
+author: 'jdtournier'
 date: 2016-04-15 16:28:57
 categories:
 discourse_id: 165

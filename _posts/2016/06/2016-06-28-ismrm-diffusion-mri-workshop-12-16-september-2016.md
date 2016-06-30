@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ISMRM Diffusion MRI Workshop: 12-16 September, 2016
-author: jdtournier
+title: 'ISMRM Diffusion MRI Workshop: 12-16 September, 2016'
+author: 'jdtournier'
 date: 2016-06-28 09:07:46
 categories:
 discourse_id: 324

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: MRtrix3 version incremented to 0.3.15
-author: Lestropie
+title: 'MRtrix3 version incremented to 0.3.15'
+author: 'Lestropie'
 date: 2016-06-16 00:43:50
 categories:
 discourse_id: 300

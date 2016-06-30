@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Image registration and fixel-based analysis now available in MRtrix!
-author: draffelt
+title: 'Image registration and fixel-based analysis now available in MRtrix!'
+author: 'draffelt'
 date: 2016-05-06 08:06:41
 categories:
 discourse_id: 207

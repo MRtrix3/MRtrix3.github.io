@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Major update to MRtrix3
-author: jdtournier
+title: 'Major update to MRtrix3'
+author: 'jdtournier'
 date: 2016-03-12 12:09:20
 categories:
 discourse_id: 110

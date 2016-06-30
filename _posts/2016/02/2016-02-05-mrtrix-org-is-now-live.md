@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Mrtrix.org is now live!
-author: jdtournier
+title: 'Mrtrix.org is now live!'
+author: 'jdtournier'
 date: 2016-02-05 14:39:03
 categories:
 discourse_id: 40
