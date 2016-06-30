@@ -96,8 +96,8 @@ def main(argv):
             with open (filepath, 'w') as f:
                 blog_post = u"""---
 layout: post
-title: {}
-author: {}
+title: '{}'
+author: '{}'
 date: {}
 categories:
 discourse_id: {}
