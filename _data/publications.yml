@@ -1,3 +1,9 @@
+-  title: "Unsupervised 3-tissue response function estimation from single-shell or multi-shell diffusion MR data without a co-registered T1 image"
+   journal: "ISMRM Workshop on Breaking the Barriers of Diffusion MRI, 2016, 5."
+   year: 2016
+   authors: "Dhollander T, Raffelt D, Connelly A."
+   internal: True
+   url: ""
 
 -  title: "Global tractography of multi-shell diffusion-weighted imaging data using a multi-tissue model"
    journal: "NeuroImage, 2015, 123, 89-101;"
