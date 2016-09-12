@@ -9,6 +9,12 @@
     The current standard for estimating the Fibre Orientation Distribution (FOD).
     CSD inherently handles crossing fibres and dispersion.
   image: /images/frontpage/ssst-csd.jpg
+  
+- title: Fixel-based analysis (FBA)
+  description: |
+    Next-generation analysis technique for group analysis of diffusion MRI
+    data, enabling statistical inference at the level of individual fibre populations within a voxel (fixel).
+  image: /images/frontpage/fixel-based-analysis.jpg
 
 - title: Multi-Shell Multi-Tissue CSD (MSMT-CSD)
   description: |
@@ -51,12 +57,6 @@
     Designed explicitly for inter-subject alignment of fibre orientation distributions
     as provided by CSD and variants.
   image: /images/frontpage/registration.jpg
-
-- title: Fixel-based analysis
-  description: |
-    Next-generation analysis technique for group analysis of diffusion MRI
-    data, enabling statistical inference at the level of individual fibre populations within a voxel (fixel).
-  image: /images/frontpage/fixel-based-analysis.jpg
 
 - title: Global Tractography
   description: |
