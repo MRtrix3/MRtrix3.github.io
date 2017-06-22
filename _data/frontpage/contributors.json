@@ -230,5 +230,25 @@
   "following": 0,
   "created_at": "2014-03-05T10:02:36Z",
   "updated_at": "2016-07-08T19:29:32Z"
-}
+},
+{
+    "login": "alan-connelly",
+    "id": 29624303,
+    "avatar_url": "https://avatars3.githubusercontent.com/u/29624303?v=3",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alan-connelly",
+    "html_url": "https://github.com/alan-connelly",
+    "followers_url": "https://api.github.com/users/alan-connelly/followers",
+    "following_url": "https://api.github.com/users/alan-connelly/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alan-connelly/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alan-connelly/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alan-connelly/subscriptions",
+    "organizations_url": "https://api.github.com/users/alan-connelly/orgs",
+    "repos_url": "https://api.github.com/users/alan-connelly/repos",
+    "events_url": "https://api.github.com/users/alan-connelly/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alan-connelly/received_events",
+    "type": "User",
+    "site_admin": false,
+    "contributions": 0
+  }
 ]
