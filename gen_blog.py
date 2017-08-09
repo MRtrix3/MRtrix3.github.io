@@ -43,8 +43,6 @@ def main(argv):
         author_list = yaml.load(file(os.path.join('_data', 'authors.yml'), 'r'))
 
         for x in (p['topic_list']['topics']): 
-            if x['pinned']:
-                continue
         
             r = requests.get (site + '/t/' + str(x['id']) + '.json?include_raw=1')
             t = json.loads (r.text)
