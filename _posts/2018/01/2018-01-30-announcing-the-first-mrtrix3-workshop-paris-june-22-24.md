@@ -6,7 +6,7 @@ date: 2018-01-30 23:14:56
 categories:
 discourse_id: 1438
 ---
-![workshop2018|690x287](http://community.mrtrix.org/uploads/default/original/2X/4/48694c5a817089ceca44a54d30a40d6fa99a0c5e.png)
+![workshop2018](http://community.mrtrix.org/uploads/default/original/2X/4/48694c5a817089ceca44a54d30a40d6fa99a0c5e.png)
 
 We are very excited to announce that the first official _MRtrix3_ workshop will be held this year in Paris, France (June 22-24), immediately after the main ISMRM meeting. 
 
