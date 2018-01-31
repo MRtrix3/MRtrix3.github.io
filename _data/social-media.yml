@@ -1,3 +1,7 @@
+- name: Twitter
+  icon: fa fa-twitter
+  link: https://twitter.com/mrtrix3
+  
 - name: MRtrix forum
   icon: fa fa-commenting
   link: http://community.mrtrix.org/
