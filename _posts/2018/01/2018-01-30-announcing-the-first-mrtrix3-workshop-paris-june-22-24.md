@@ -51,13 +51,13 @@ This course is aimed at both new and existing users of _MRtrix3_, covering basic
 #### Registration
 
 The registration fee (in AU$) is:
-- AU$ 750 for MSc/MD/PhD students _(approx. €490 / US$ 600)_ 
+- AU$ 750 for MSc/MD/PhD students _(approx. €490 / US$ 600)_. Students must send a letter confirming student status signed by their supervisor to workshop@mrtrix.org within a week of registration.
 - AU$ 900 for other academic attendees _(approx. €590 / US$ 730)_
 - AU$ 1,500 for commercial attendees _(approx.  €980 / US$ 1210)_
 
 Registration includes all sessions, coffee/tea breaks and lunch for each day. Accommodation is _not_ included. All course materials, including lecture slides, tutorial instructions, and example data sets will be made available after the course.
 
-The registration page will be open from **Tuesday 13 February** at **10pm (CET)**, and will close once the maximum of 80 participants has been reached. A further announcement will be made nearer the time with further details. 
+[The registration page can be found here](https://events.ticketbooth.com.au/event/mrtrix3-workshop-paris/). It will be open from **Tuesday 13 February** at **10pm (CET)**, and will close once the maximum of 80 participants has been reached. A further announcement will be made nearer the time with further details. 
 
 ---
 
