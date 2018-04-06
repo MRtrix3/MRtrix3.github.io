@@ -57,7 +57,7 @@ The registration fee (in AU$) is:
 
 Registration includes all sessions, coffee/tea breaks and lunch for each day. Accommodation is _not_ included. All course materials, including lecture slides, tutorial instructions, and example data sets will be made available after the course.
 
-[The registration page can be found here](https://events.ticketbooth.com.au/event/mrtrix3-workshop-paris/). It will be open from **Tuesday 13 February** at **10pm (CET)**, and will close once the maximum of 80 participants has been reached. A further announcement will be made nearer the time with further details. 
+[The registration page can be found here](https://events.ticketbooth.com.au/event/mrtrix3-workshop-paris/). It will be open from **Tuesday 13 February** at **10pm (CET)**, and will **close on Sunday 1 April, midnight CET**, or once the maximum of 80 participants has been reached. A further announcement will be made nearer the time with further details. 
 
 ---
 
