@@ -57,8 +57,7 @@ The _MRtrix3_ team
   - _lunch_
 
 --- 
-
-> [![qmenta_logo_whole|690x119,30%](upload://rrDjn09k4JAlih950HxRDIm6saL.jpg)](http://community.mrtrix.orghttps://www.qmenta.com/)
+> [![qmenta_logo_whole|232x40](upload://2oCPYoeJ5E3PTfheCDuIXWvC5up.png)](http://community.mrtrix.orghttps://www.qmenta.com/)
 >
 > The QMENTA platform provides a unified solution for neuroimaging data management, processing, and visualization. Our straightforward Software Development Kit (SDK) allows researchers to plug-in, share, and run their own tools & workflows on a secure cloud infrastructure. 
 >
