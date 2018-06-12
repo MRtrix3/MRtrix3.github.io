@@ -103,17 +103,37 @@ For details of the methods covered, please refer to the articles linked to in th
 
 |  | Fri 22 June | Sat 23 June | Sun 24 June |
 | :---: | --- | --- | --- |
-| 9:00&nbsp;&#8209;&nbsp;10:00 | Introduction to diffusion MRI | Quantitative metrics in dMRI | Group-level fixel-based analysis |
-| 10:15&nbsp;&#8209;&nbsp;11:15 | Introduction to _MRtrix3_ & mrview | Apparent fibre density & required preprocessing | Connectivity-based fixel enhancement |
-| 11:30&nbsp;&#8209;&nbsp;12:30 | Handling dMRI data | Registration in diffusion MRI | Visualisation of fixel-based analysis |
+| 9:00&nbsp;&#8209;&nbsp;10:00 | Introduction to MRtrix3 & mrview | Quantitative tractography | Group-level fixel-based analysis |
+| 10:15&nbsp;&#8209;&nbsp;11:15 | Basics of diffusion MRI data | Connectomics | Statistics for FBA |
+| 11:30&nbsp;&#8209;&nbsp;12:30 | dMRI preprocessing | Practical example of pipeline for group connectomics | Visualisation of FBA results |
 |  | _lunch_ | _lunch_ | _lunch_ |
-| 14:00&nbsp;&#8209;&nbsp;15:00 | dMRI preprocessing | Quantitative whole-brain tractography | | 
-| 15:15&nbsp;&#8209;&nbsp;16:15 | Voxel-level modelling | Generating the connectome | |
-| 16:30&nbsp;&#8209;&nbsp;17:30 | Tractography | Group-level connectomics | | 
+| 14:00&nbsp;&#8209;&nbsp;15:00 | Voxel-level modelling | dMRI Registration | | 
+| 15:15&nbsp;&#8209;&nbsp;16:15 | Tractography  | Apparent fibre density | |
+| 16:30&nbsp;&#8209;&nbsp;17:30 | Visualisation and introduction to group data handling| Q&A on AFD, QMenta presentation | | 
+
+---
+#### Sponsored event
+
+We are proud to announce that [QMenta](https://www.qmenta.com/) are supporting our workshop, and will **sponsor our Saturday Night social event**! This should be a great opportunity to get to know each other, and for you to 'pick our brains' in a more informal, relaxed setting. See below for more information about [QMenta](https://www.qmenta.com/).
 
 ---
 
 #### Contact
 
 If you have any queries related to this workshop, please [contact us](http://community.mrtrix.org/new-message?groupname=workshop&title=workshop%20inquiry) via the @workshop group on the _MRtrix3_ community forum.
+
+
+See you all very soon,
+The _MRtrix3_ team
+
+
+---
+
+#### Sponsors:
+
+[![qmenta_logo_whole|690x119,30%](upload://rrDjn09k4JAlih950HxRDIm6saL.jpg)](http://community.mrtrix.orghttps://www.qmenta.com/)
+>
+> The QMENTA platform provides a unified solution for neuroimaging data management, processing, and visualization. Our straightforward Software Development Kit (SDK) allows researchers to plug-in, share, and run their own tools & workflows on a secure cloud infrastructure. 
+>
+>Running tools on QMENTA provides virtually infinite computational resources that can adapt to any project and remove the need of maintaining a local cluster, largely reducing the overall cost. Incorporating your neuroimaging tools on the QMENTA platform enables translation of your research work into a product ready to be used in hospitals or clinical trials via a very simple user interface and in a compliant environment that QMENTA platform provides (HIPAA, GDPR, FDA 21 CFR Part 11 & 820, Annex 11 and IEC 62304).
             
