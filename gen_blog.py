@@ -89,7 +89,7 @@ def main(argv):
             post_content = post['raw']
 
             # Fix-up local image links (if they exist)
-            post_content = re.sub(r"!\[(.*)\]\((.*)\)",r"![\1](http://community.mrtrix.org\2)", post_content)
+            post_content = re.sub(r"!\[(.*)\]\((/uploads/.*)\)",r"![\1](http://community.mrtrix.org\2)", post_content)
 
             with open (filepath, 'w') as f:
                 blog_post = u"""---
