@@ -48,25 +48,15 @@ def main(argv):
             t = json.loads (r.text)
             post = t['post_stream']['posts'][0]
             discourse_id = x['id']
-            discourse_author = post['username']
-            author_handle = ''
-            author_found = False
+            author_handle = post['username']
 
             for author in author_list:
                 # Match Discourse handle to GitHub handle (if it exists)
-                if 'discourse' in author and author['discourse'] == discourse_author:
-                    author_found = True
+                if 'discourse' in author and author['discourse'] == author_handle:
                     # Try to use GitHub handle if it exists
                     if 'github' in author:
                         author_handle = author['github']
-                    # Otherwise use Discourse handle instead
-                    else:
-                        author_handle = discourse_author
-                    break
 
-            # Couldn't find the author in the list so skip this post
-            if not author_found:
-                continue
 
             date = post['created_at'].replace('T', ' ').split('.')[0]
             date_simplified = date.split()[0]
