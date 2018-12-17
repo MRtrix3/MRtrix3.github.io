@@ -4,6 +4,9 @@
 - title: Blog
   link: /blog/
 
+- title: Gallery
+  link: /videos.html
+
 - title: Documentation
   link: http://userdocs.mrtrix.org/
   new_window: true
