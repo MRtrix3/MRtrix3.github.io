@@ -3,6 +3,8 @@
 # Pull the latest MRtrix community announcements and blog posts
 # and package them as blog posts to be pushed onto the website.
 #
+# Also updates the list of contributors from Github
+#
 # Authors: J-D Tournier and Rami Tabbara
 #
 
@@ -19,6 +21,25 @@ OPTIONS:
 
 
 def main(argv):
+
+    # update contributors:
+    site = 'https://api.github.com/'
+    r = requests.get (site + 'repos/MRtrix3/mrtrix3/contributors')
+    p = json.loads (r.text)
+    try:
+      with open('_data/frontpage/additional_contributors.txt') as extra_fd:
+        for line in extra_fd:
+          line = line.strip()
+          if line:
+            r = requests.get (site + 'users/' + line)
+            p.append (json.loads (r.text))
+    except:
+      pass
+
+    with open ('_data/frontpage/contributors.json', 'w') as fd:
+      fd.write (json.dumps(p, indent=2, sort_keys=True))
+
+
 
     fetch_only_first = True
 
