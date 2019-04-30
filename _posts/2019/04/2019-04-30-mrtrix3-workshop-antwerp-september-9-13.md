@@ -6,7 +6,7 @@ date: 2019-04-30 07:09:15
 categories:
 discourse_id: 2489
 ---
-![banner_mrtrix|690x208](upload://e6DJFqBqyEYlKWvWDclLgnbXUHU.jpeg) 
+![banner_mrtrix](upload://e6DJFqBqyEYlKWvWDclLgnbXUHU.jpeg) 
 We are excited to announce that the [registration](https://www.uantwerpen.be/en/conferences/mrtrix3-workshop/) for the second _MRtrix3_ workshop is now open! This year's workshop will be held in Antwerp, Belgium:
 
 - **date & time:**  9am Monday 9 till 2pm Friday 13 September 2019
