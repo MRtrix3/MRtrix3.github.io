@@ -3,6 +3,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"></meta>
 
+  <!-- Twitter cards -->
+  <meta name="twitter:site"    content="@{{ site.twitter_username }}">
+  <meta name="twitter:creator" content="@{{ page.author }}">
+  <meta name="twitter:title"   content="{{ page.title }}">
+
+  {% if page.summary %}
+  <meta name="twitter:description" content="{{ page.summary }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
+
+  {% if page.image %}
+  <meta name="twitter:card"  content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+  {% else %}
+  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:image" content="{{ site.title_image }}">
+  {% endif %}
+  <!-- end of Twitter cards -->
+
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"></meta>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -18,3 +38,5 @@
   <link rel="stylesheet" href="{{ "/css/publications.css" | prepend: site.baseurl }}">
   <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/MRtrix3/mrtrix3/master/icons/desktop/48x48/mrtrix.png">
 </head>
+
+
