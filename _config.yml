@@ -11,7 +11,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.mrtrix.org" # the base hostname & protocol for your site
 permalink: pretty
 author: "The MRtrix3 Team"
-title_image: "images/404/brain.png"
+title_image: "/images/404/brain.png"
 description: Advanced tools for the analysis of diffusion MRI data
 
 # Build settings
