@@ -70,10 +70,12 @@ def main(argv):
             post = t['post_stream']['posts'][0]
             discourse_id = x['id']
             author_handle = post['username']
+            author_name = author_handle
 
             for author in author_list:
                 # Match Discourse handle to GitHub handle (if it exists)
                 if 'discourse' in author and author['discourse'] == author_handle:
+                    author_name = author['name']
                     # Try to use GitHub handle if it exists
                     if 'github' in author:
                         author_handle = author['github']
@@ -114,7 +116,7 @@ discourse_id: {}
 summary: {}
 ---
 {}
-            """.format(t['title'], author_handle, date, str(discourse_id), 'posted on ' + date_summary, post_content)
+            """.format(t['title'], author_handle, date, str(discourse_id), 'posted by ' + author_name + ' on ' + date_summary, post_content)
 
                 f.write (blog_post.encode('utf-8'))
 

@@ -5,7 +5,7 @@ author: 'jdtournier'
 date: 2018-05-11 14:02:33
 categories:
 discourse_id: 1624
-summary: posted on May 11, 2018
+summary: posted by J-Donald Tournier on May 11, 2018
 ---
 We are pleased to announce the immediate release of our third release candidate, tagged as `3.0_RC3`, which brings a large number of improvements and bug fixes. We recommend users upgrade as soon as practical, using the [usual procedure](http://mrtrix.readthedocs.io/en/3.0_rc3/installation/linux_install.html#keeping-mrtrix3-up-to-date), with an additional call to `configure`:
 ```ShellSession

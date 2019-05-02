@@ -5,7 +5,7 @@ author: 'jdtournier'
 date: 2016-04-15 16:28:57
 categories:
 discourse_id: 165
-summary: posted on Apr 15, 2016
+summary: posted by J-Donald Tournier on Apr 15, 2016
 ---
 _We have recently identified a bug in our import & export of FSL-style bvecs files. This caused a flip of the x component for some (but not all) images, leading to grossly incorrect fibre orientations and tractography.  While most users will be unaffected, the gradient reorientation performed by the recently added `dwipreproc` script will be subtly incorrect - but only if [EDDY](http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/EDDY) version 5.0.9 is installed, and only if subject motion is non-negligible (note that `dwipreproc` was made available on 12 March 2016).  This bug has now been rectified on GitHub; users are urged to update now to avoid problems later._ 
 

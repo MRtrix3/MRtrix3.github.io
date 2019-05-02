@@ -5,7 +5,7 @@ author: 'jdtournier'
 date: 2019-02-13 14:48:50
 categories:
 discourse_id: 2267
-summary: posted on Feb 13, 2019
+summary: posted by J-Donald Tournier on Feb 13, 2019
 ---
 Hi everyone,
 

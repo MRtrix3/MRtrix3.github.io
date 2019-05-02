@@ -5,7 +5,7 @@ author: 'jdtournier'
 date: 2017-04-23 22:29:21
 categories:
 discourse_id: 851
-summary: posted on Apr 23, 2017
+summary: posted by J-Donald Tournier on Apr 23, 2017
 ---
 _MRtrix3_ is finally about to come out of beta status and hit full release!  This is the first release candidate for our forthcoming version 3.0 of _MRtrix3_, the result of many months of work, with many new features and improvements (see below). Hopefully the proper full release will follow shortly after a few weeks of community testing. You are all encouraged to upgrade and try it out - and if you do come across any issues, don't hesitate to let us know, either on the [community forum](http://community.mrtrix.org), or via the [GitHub issue tracker](https://github.com/MRtrix3/mrtrix3/issues): we'll get them fixed straight away.
 

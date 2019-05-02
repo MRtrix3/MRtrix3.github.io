@@ -5,7 +5,7 @@ author: 'Lestropie'
 date: 2016-08-10 01:59:19
 categories:
 discourse_id: 380
-summary: posted on Aug 10, 2016
+summary: posted by Robert Smith on Aug 10, 2016
 ---
 Hello *MRtrix*ers,
 
