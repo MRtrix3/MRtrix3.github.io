@@ -5,7 +5,7 @@ author: 'jdtournier'
 date: 2017-11-14 14:04:49
 categories:
 discourse_id: 1311
-description: posted on 2017-11-14 14:04:49
+summary: posted on Nov 14, 2017
 ---
 Hi everyone, 
 

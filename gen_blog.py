@@ -8,7 +8,7 @@
 # Authors: J-D Tournier and Rami Tabbara
 #
 
-import sys, getopt, json, requests, os, yaml, re
+import sys, getopt, json, requests, os, yaml, re, calendar
 
 def usage():
     print ('''
@@ -84,6 +84,7 @@ def main(argv):
             date_tokens = date_simplified.split('-')
             year = date_tokens[0]
             month = date_tokens[1]
+            date_summary = calendar.month_abbr[int(month)] + ' ' + date_tokens[2] + ', ' + year
 
             year_path = os.path.join('_posts', year)
             month_path = os.path.join(year_path, month)
@@ -110,10 +111,10 @@ author: '{}'
 date: {}
 categories:
 discourse_id: {}
-description: {}
+summary: {}
 ---
 {}
-            """.format(t['title'], author_handle, date, str(discourse_id), 'posted on ' + date, post_content)
+            """.format(t['title'], author_handle, date, str(discourse_id), 'posted on ' + date_summary, post_content)
 
                 f.write (blog_post.encode('utf-8'))
 

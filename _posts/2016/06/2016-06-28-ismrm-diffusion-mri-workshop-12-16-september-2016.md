@@ -5,7 +5,7 @@ author: 'jdtournier'
 date: 2016-06-28 09:07:46
 categories:
 discourse_id: 324
-description: posted on 2016-06-28 09:07:46
+summary: posted on Jun 28, 2016
 ---
 The next [ISMRM Diffusion MRI Workshop](http://www.ismrm.org/workshops/Diffusion16)  _"Breaking Barriers in Diffusion MRI"_ is coming up! This will be held in Lisbon, Portugal, on September 12-16. It's a great forum to meet and share ideas with each other and leaders in the field. We hope to see many of you there!
 

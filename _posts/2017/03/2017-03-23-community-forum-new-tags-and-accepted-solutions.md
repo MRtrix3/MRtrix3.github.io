@@ -5,7 +5,7 @@ author: 'rtabbara'
 date: 2017-03-23 03:39:15
 categories:
 discourse_id: 793
-description: posted on 2017-03-23 03:39:15
+summary: posted on Mar 23, 2017
 ---
 Hello MRtrixers,
 

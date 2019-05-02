@@ -5,7 +5,7 @@ author: 'draffelt'
 date: 2016-05-06 08:06:41
 categories:
 discourse_id: 207
-description: posted on 2016-05-06 08:06:41
+summary: posted on May 06, 2016
 ---
 #### We are proud to announce that MRtrix now includes commands for image registration and fixel-based analysis!
 

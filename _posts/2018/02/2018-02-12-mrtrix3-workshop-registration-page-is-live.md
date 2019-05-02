@@ -5,7 +5,7 @@ author: 'jdtournier'
 date: 2018-02-12 23:52:41
 categories:
 discourse_id: 1473
-description: posted on 2018-02-12 23:52:41
+summary: posted on Feb 12, 2018
 ---
 Just a quick note that the registration site for the MRtrix3 workshop is now live at this address: 
 [https://events.ticketbooth.com.au/event/mrtrix3-workshop-paris](https://events.ticketbooth.com.au/event/mrtrix3-workshop-paris)

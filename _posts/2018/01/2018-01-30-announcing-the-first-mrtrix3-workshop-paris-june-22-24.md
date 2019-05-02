@@ -5,7 +5,7 @@ author: 'jdtournier'
 date: 2018-01-30 23:14:56
 categories:
 discourse_id: 1438
-description: posted on 2018-01-30 23:14:56
+summary: posted on Jan 30, 2018
 ---
 ![workshop2018](http://community.mrtrix.org/uploads/default/original/2X/4/48694c5a817089ceca44a54d30a40d6fa99a0c5e.png)
 

@@ -5,7 +5,7 @@ author: 'Lestropie'
 date: 2016-06-16 00:43:50
 categories:
 discourse_id: 300
-description: posted on 2016-06-16 00:43:50
+summary: posted on Jun 16, 2016
 ---
 Hi *MRtrix*ers,
 

@@ -5,7 +5,7 @@ author: 'jdtournier'
 date: 2018-06-21 15:39:58
 categories:
 discourse_id: 1721
-description: posted on 2018-06-21 15:39:58
+summary: posted on Jun 21, 2018
 ---
 Hi all, 
 
