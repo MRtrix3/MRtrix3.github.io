@@ -10,6 +10,7 @@ title: MRtrix3
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.mrtrix.org" # the base hostname & protocol for your site
 permalink: pretty
+author: "The MRtrix3 Team"
 
 # Build settings
 markdown: kramdown
