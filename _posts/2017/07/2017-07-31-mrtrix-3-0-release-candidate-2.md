@@ -5,6 +5,7 @@ author: 'thijsdhollander'
 date: 2017-07-31 05:50:46
 categories:
 discourse_id: 1065
+description: posted on 2017-07-31 05:50:46
 ---
 The last few months of work have resulted in another batch of updated features. The most important changes motivating this second release candidate relate to the bias field correction and intensity normalisation process previously performed by the `mtbin` command, which affects the fixel-based analysis pipeline in particular.  Users who are in the process of performing a fixel-based analysis on their data should pay special attention to the changes this update brings to the bias field and intensity normalisation and other steps (and documentation) of the fixel-based analysis pipeline (see below for details). 
 

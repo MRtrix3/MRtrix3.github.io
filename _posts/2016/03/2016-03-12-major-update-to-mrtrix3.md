@@ -5,6 +5,7 @@ author: 'jdtournier'
 date: 2016-03-12 12:09:20
 categories:
 discourse_id: 110
+description: posted on 2016-03-12 12:09:20
 ---
 We have just pushed a major update for MRtrix3, constituting over a year's work from the developers in preparation for the official software release. Most of these changes will in fact be transparent to users: invoking commands, processing data etc. are more-or-less unaffected by the changes. The only major changes from a user's point of view relate to installation of the software. See [below for details](#changes-to-the-installation-process).
 

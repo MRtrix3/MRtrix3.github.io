@@ -5,6 +5,7 @@ author: 'martahedl'
 date: 2018-09-26 15:31:23
 categories:
 discourse_id: 1942
+description: posted on 2018-09-26 15:31:23
 ---
 Hi to all MRtrix3 users! 
 

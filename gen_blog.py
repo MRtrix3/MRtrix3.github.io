@@ -110,9 +110,10 @@ author: '{}'
 date: {}
 categories:
 discourse_id: {}
+description: {}
 ---
 {}
-            """.format(t['title'], author_handle, date, str(discourse_id), post_content)
+            """.format(t['title'], author_handle, date, str(discourse_id), 'posted on ' + date, post_content)
 
                 f.write (blog_post.encode('utf-8'))
 

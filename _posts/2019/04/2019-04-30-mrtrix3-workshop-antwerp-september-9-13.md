@@ -5,6 +5,7 @@ author: 'bjeurissen'
 date: 2019-04-30 07:09:15
 categories:
 discourse_id: 2489
+description: posted on 2019-04-30 07:09:15
 ---
 ![banner_mrtrix|690x203](http://community.mrtrix.org/uploads/default/optimized/2X/9/9e12cbc56c8e87eb48674da21e899b50eca74609_2_1380x406.jpeg) 
 We are excited to announce that the [registration](https://www.uantwerpen.be/en/conferences/mrtrix3-workshop/) for the second _MRtrix3_ workshop is now open! This year's workshop will be held in Antwerp, Belgium:

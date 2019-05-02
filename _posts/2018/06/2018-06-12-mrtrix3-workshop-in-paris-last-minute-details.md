@@ -5,6 +5,7 @@ author: 'jdtournier'
 date: 2018-06-12 09:11:10
 categories:
 discourse_id: 1697
+description: posted on 2018-06-12 09:11:10
 ---
 **To all users registered for the upcoming MRtrix3 workshop in Paris:**
 
