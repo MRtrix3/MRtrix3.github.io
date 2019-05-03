@@ -21,4 +21,6 @@ In the meantime, the current plan is:
 We hope to see many of you there! Watch this space for further announcements. All the best,
 
 The  *MRtrix3*  team.
+
+Edit: The [registration page](https://www.uantwerpen.be/en/conferences/mrtrix3-workshop/) is now open.
             
