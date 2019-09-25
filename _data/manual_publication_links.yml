@@ -1,11 +1,6 @@
--  title: "Unsupervised 3-tissue response function estimation from single-shell or multi-shell diffusion MR data without a co-registered T1 image"
-   url: "http://www.researchgate.net/publication/307863133_Unsupervised_3-tissue_response_function_estimation_from_single-shell_or_multi-shell_diffusion_MR_data_without_a_co-registered_T1_image"
-
--  title: "Global tractography of multi-shell diffusion-weighted imaging data using a multi-tissue model"
-   url: "http://www.sciencedirect.com/science/article/pii/S1053811915007168"
-
--  title: "Time to move on: an FOD-based DEC map to replace DTI's trademark DEC FA"
-   url: "http://www.researchgate.net/publication/276412466_Time_to_move_on_an_FOD-based_DEC_map_to_replace_DTI's_trademark_DEC_FA"
-   
--  title: "Panchromatic sharpening of FOD-based DEC maps by structural T1 information"
-   url: "http://www.researchgate.net/publication/276412176_Panchromatic_sharpening_of_FOD-based_DEC_maps_by_structural_T1_information"
+-  title: "MRtrix3: A fast, flexible and open software framework for medical image processing and visualisation"
+   journal: "NeuroImage, 2019, 202, 116-37"
+   year: 2019
+   authors: "Tournier, J.-D.; Smith, R.E.; Raffelt, D.; Tabbara, R.; Dhollander, T.; Pietsch, M.; Christiaens, D.; Jeurissen, B.; Yeh, C.-H.; Connelly, A."
+   internal: True
+   url: "https://www.sciencedirect.com/science/article/pii/S1053811919307281"

@@ -4,4 +4,9 @@ description: | # This allows you to use an indented multi-line string
     MRtrix3 provides a set of tools to perform various types of diffusion MRI analyses, from various forms of tractography through to next-generation group-level analyses. 
     It is designed with consistency, performance, and stability in mind, and is freely available under an open-source license.
     It is developed and maintained by a team of experts in the field, fostering an active community of users from diverse backgrounds. 
+citation: >
+    Details of the MRtrix3 software can be found in the following publication:
+    MRtrix3: A fast, flexible and open software framework for medical image processing and visualisation.
+    J-Donald Tournier, Robert Smith, David Raffelt, Rami Tabbara, Thijs Dhollander, Maximilian Pietsch, Daan Christiaens, Ben Jeurissen, Chun-Hung Yeh, Alan Connelly.
+    Neuroimage, 2019, 202, 116-37
 
