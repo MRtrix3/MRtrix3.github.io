@@ -17,5 +17,5 @@ description: Advanced tools for the analysis of diffusion MRI data
 # Build settings
 markdown: kramdown
 
-plugins:
+plugins_dir:
   - jekyll-redirect-from
