@@ -20,5 +20,5 @@ We look forward to seeing the applications of our technologies in the attendees'
 From the *MRtrix3* team
 
 
-![mrtrix3-workshop|661x500](https://community.mrtrix.org/uploads/default/optimized/2X/9/9038436ba12c32a05eb7a50f4c5f7448ce9c3e32_2_1322x1000.jpeg)
+![mrtrix3-workshop](https://community.mrtrix.org/uploads/default/optimized/2X/9/9038436ba12c32a05eb7a50f4c5f7448ce9c3e32_2_1322x1000.jpeg)
             
