@@ -1,5 +1,5 @@
 - title: Workshop
-  link: /workshop.html
+  link: /workshop
   
 - title: Download
   link: /download/ 
@@ -8,7 +8,7 @@
   link: /blog/
 
 - title: Videos
-  link: /videos.html
+  link: /videos
 
 - title: Documentation
   link: http://userdocs.mrtrix.org/
