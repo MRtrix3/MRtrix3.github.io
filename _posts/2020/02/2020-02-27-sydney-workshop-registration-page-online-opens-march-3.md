@@ -7,7 +7,7 @@ categories:
 discourse_id: 3344
 summary: posted by Robert Smith on Feb 27, 2020
 ---
-![banner_mrtrix_Sydney_vertical_small|690x203](https://community.mrtrix.org/uploads/default/original/2X/7/7e508d492fccedd00df2d1f252a9e3a7d911fe40.png) 
+![banner_mrtrix_Sydney_vertical_small](https://community.mrtrix.org/uploads/default/original/2X/7/7e508d492fccedd00df2d1f252a9e3a7d911fe40.png) 
 
 G'day folks,
 
