@@ -17,17 +17,17 @@ computing resources and expertise.
 GNU/Linux
 =========
 
-- [through Anaconda](/download/linux-anaconda)
+- [through Anaconda]({{ site.baseurl }}/download/linux-anaconda)
 
 
 macOS
 =====
 
-- [through Anaconda](/download/macos-anaconda)
-- [standalone package](/download/macos-standalone)
+- [through Anaconda]({{ site.baseurl }}/download/macos-anaconda)
+- [standalone package]({{ site.baseurl }}/download/macos-standalone)
 
 
 Microsoft Windows
 =================
 
-- [through MSYS2](/download/windows-msys2)
+- [through MSYS2]({{ site.baseurl }}/download/windows-msys2)
