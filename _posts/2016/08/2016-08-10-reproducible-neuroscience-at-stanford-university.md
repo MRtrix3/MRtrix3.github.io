@@ -4,7 +4,6 @@ title: 'Reproducible Neuroscience at Stanford University'
 author: 'Lestropie'
 date: 2016-08-10 01:59:19
 categories:
-discourse_id: 380
 summary: posted by Robert Smith on Aug 10, 2016
 ---
 Hello *MRtrix*ers,
@@ -39,4 +38,9 @@ I'd encourage any readers who deal with management of cohort data to take a look
 
 Happy tracking!
 Rob
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/380)*
+
             

@@ -4,7 +4,6 @@ title: 'Mrtrix.org is now live!'
 author: 'jdtournier'
 date: 2016-02-05 14:39:03
 categories:
-discourse_id: 40
 summary: posted by J-Donald Tournier on Feb 05, 2016
 ---
 MRtrix3 now has a new [website](http://www.mrtrix.org)! After some earlier struggles, we have switched to [GitHub Pages](https://pages.github.com/) for improved security and simpler content management. 
@@ -24,4 +23,9 @@ If you have any feedback, suggestions, bits of news (e.g. MRtrix3 in the press),
 
 Cheers,
 Donald
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/40)*
+
             

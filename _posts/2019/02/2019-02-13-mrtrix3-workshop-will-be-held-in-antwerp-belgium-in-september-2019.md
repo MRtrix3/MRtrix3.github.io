@@ -4,7 +4,6 @@ title: 'MRtrix3 workshop will be held in Antwerp, Belgium in September 2019!'
 author: 'jdtournier'
 date: 2019-02-13 14:48:50
 categories:
-discourse_id: 2267
 summary: posted by J-Donald Tournier on Feb 13, 2019
 ---
 Hi everyone,
@@ -23,4 +22,9 @@ We hope to see many of you there! Watch this space for further announcements. Al
 The  *MRtrix3*  team.
 
 Edit: The [registration page](https://www.uantwerpen.be/en/conferences/mrtrix3-workshop/) is now open.
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/2267)*
+
             

@@ -4,7 +4,6 @@ title: 'MRtrix3 workshop Registration deadline extended'
 author: 'jdtournier'
 date: 2018-04-06 10:44:54
 categories:
-discourse_id: 1572
 summary: posted by J-Donald Tournier on Apr 06, 2018
 ---
 Hi everyone, 
@@ -17,4 +16,9 @@ Book now to avoid disappointment!
 All the best,
 
 The _MRtrix3_ team
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/1572)*
+
             

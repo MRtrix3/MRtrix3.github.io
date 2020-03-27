@@ -4,10 +4,13 @@ title: 'Sydney workshop registration page online; opens March 3'
 author: 'Lestropie'
 date: 2020-02-27 10:18:52
 categories:
-discourse_id: 3344
 summary: posted by Robert Smith on Feb 27, 2020
 ---
 ![banner_mrtrix_Sydney_vertical_small](https://community.mrtrix.org/uploads/default/original/2X/7/7e508d492fccedd00df2d1f252a9e3a7d911fe40.png) 
+
+**EDIT (2 March 2020): Unfortunately, we have had to cancel this workshop. See [this post](https://community.mrtrix.org/t/mrtrix3-sydney-workshop-cancelled/3364) for details.**
+
+-----
 
 G'day folks,
 
@@ -41,4 +44,9 @@ We hope to have many of you signing up in the near future!
 All the best,
 
 The  *MRtrix3*  team
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/3344)*
+
             

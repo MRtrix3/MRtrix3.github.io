@@ -4,7 +4,6 @@ title: 'MRtrix tutorial available on OSF'
 author: 'martahedl'
 date: 2018-09-26 15:31:23
 categories:
-discourse_id: 1942
 summary: posted by martahedl on Sep 26, 2018
 ---
 Hi to all MRtrix3 users! 
@@ -23,4 +22,9 @@ If you want to find out more, just visit the OSF tutorial website: [https://osf.
 Thanks and enjoy,
 
 Marlene.
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/1942)*
+
             

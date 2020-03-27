@@ -4,7 +4,6 @@ title: 'MRtrix3 workshop will be held in Paris after ISMRM 2018!'
 author: 'jdtournier'
 date: 2017-11-14 14:04:49
 categories:
-discourse_id: 1311
 summary: posted by J-Donald Tournier on Nov 14, 2017
 ---
 Hi everyone, 
@@ -22,4 +21,9 @@ We hope to see many of you there! Watch this space for further announcements.
 All the best,
 
 The _MRtrix3_ team.
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/1311)*
+
             

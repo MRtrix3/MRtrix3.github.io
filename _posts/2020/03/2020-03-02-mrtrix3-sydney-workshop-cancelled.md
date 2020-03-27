@@ -4,7 +4,6 @@ title: 'MRtrix3 Sydney workshop CANCELLED'
 author: 'jdtournier'
 date: 2020-03-02 13:55:15
 categories:
-discourse_id: 3364
 summary: posted by J-Donald Tournier on Mar 02, 2020
 ---
 Dear *MRtrix3* users, 
@@ -17,4 +16,9 @@ Please be assured this decision was not taken lightly. We hope this will not com
 
 With best regards,
 The *MRtrix3* team.
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/3364)*
+
             

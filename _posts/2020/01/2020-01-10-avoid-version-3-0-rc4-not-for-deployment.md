@@ -4,7 +4,6 @@ title: 'Avoid version 3.0_RC4 -- not for deployment'
 author: 'jdtournier'
 date: 2020-01-10 08:00:02
 categories:
-discourse_id: 3175
 summary: posted by J-Donald Tournier on Jan 10, 2020
 ---
 Hi all, 
@@ -15,4 +14,9 @@ For further details on how this happened, see the [corresponding issue on GitHub
 
 My apologies once again, and all the best,
 Donald.
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/3175)*
+
             

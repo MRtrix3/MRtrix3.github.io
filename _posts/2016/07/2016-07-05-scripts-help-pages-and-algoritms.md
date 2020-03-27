@@ -4,7 +4,6 @@ title: 'Scripts: Help pages and algoritms'
 author: 'Lestropie'
 date: 2016-07-05 07:24:40
 categories:
-discourse_id: 335
 summary: posted by Robert Smith on Jul 05, 2016
 ---
 Hi all,
@@ -266,4 +265,9 @@ I hope somebody out there other than myself manages to have a bit of fun mucking
 
 Cheers
 Rob
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/335)*
+
             

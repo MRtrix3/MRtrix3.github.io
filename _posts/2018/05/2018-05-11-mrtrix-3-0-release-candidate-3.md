@@ -4,7 +4,6 @@ title: 'MRtrix 3.0 (release candidate 3)'
 author: 'jdtournier'
 date: 2018-05-11 14:02:33
 categories:
-discourse_id: 1624
 summary: posted by J-Donald Tournier on May 11, 2018
 ---
 We are pleased to announce the immediate release of our third release candidate, tagged as `3.0_RC3`, which brings a large number of improvements and bug fixes. We recommend users upgrade as soon as practical, using the [usual procedure](http://mrtrix.readthedocs.io/en/3.0_rc3/installation/linux_install.html#keeping-mrtrix3-up-to-date), with an additional call to `configure`:
@@ -25,4 +24,9 @@ Since uncovering this bug, we have spent some time investigating its likely impa
 However, fixing this bug also prompted us to revisit the fODF threshold used during tracking (the `-cutoff` option in `tckgen`). The primary impact of this bug consisted of an overestimation of the fODF amplitude, which in effect means that tractography was performed with a lower cutoff than specified. The optimal value for the cutoff is somewhat subjective and context-dependent: there are differences in output between regular single-shell CSD and its more recent multi-shell multi-tissue variant (respectively, the `csd` and `msmt_csd` algorithms in `dwi2fod`), and different requirements for anatomically-constrained tractography. Based on a [comprehensive comparison](https://github.com/MRtrix3/mrtrix3/pull/1228#issuecomment-381514370) of the output of `tckgen` under the various relevant conditions, we came to the conclusion that a reduction of the default cutoff value to 0.05 was warranted (from its previous value of 0.1). Note that while manually specified thresholds will not be affected by the change in the default value, the output produced will nonetheless differ somewhat due to the bug itself. 
 
 All the best from the _MRtrix3_ team!
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/1624)*
+
             
