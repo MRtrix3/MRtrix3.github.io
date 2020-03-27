@@ -61,7 +61,7 @@ def main(argv):
         r = requests.get (site + '/c/{}/l/latest.json'.format(category))
         p = json.loads (r.text)
 
-        author_list = yaml.load(file(os.path.join('_data', 'authors.yml'), 'r'))
+        author_list = yaml.load(file(os.path.join('_data', 'authors.yml'), 'r'), Loader=yaml.SafeLoader)
 
         for x in (p['topic_list']['topics']):
 
@@ -103,7 +103,13 @@ def main(argv):
             post_content = post['raw']
 
             # Fix-up local image links (if they exist)
-            post_content = re.sub(r"!\[(.*)\]\((/uploads/.*)\)",r"![\1](http://community.mrtrix.org\2)", post_content)
+            post_content = re.sub(r"!\[([^|\]]+)[^\]]*\]\((/uploads/.*)\)",r"![\1](https://community.mrtrix.org\2)", post_content)
+
+            post_content += '''
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/''' + str(discourse_id) + ')*\n'
 
             with open (filepath, 'w') as f:
                 blog_post = u"""---
@@ -112,11 +118,10 @@ title: '{}'
 author: '{}'
 date: {}
 categories:
-discourse_id: {}
 summary: {}
 ---
 {}
-            """.format(t['title'], author_handle, date, str(discourse_id), 'posted by ' + author_name + ' on ' + date_summary, post_content)
+            """.format(t['title'], author_handle, date, 'posted by ' + author_name + ' on ' + date_summary, post_content)
 
                 f.write (blog_post.encode('utf-8'))
 
