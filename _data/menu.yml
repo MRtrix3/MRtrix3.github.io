@@ -11,21 +11,26 @@
   link: /videos
 
 - title: Documentation
-  link: http://userdocs.mrtrix.org/
+  link: /documentation
   new_window: true
 
 - title: Community
-  link: http://community.mrtrix.org/
+  link: /community
   new_window: true
 
 - title: Development
   submenu:
     - title: GitHub
-      link: https://github.com/MRtrix3
+      link: /github
+      new_window: true
+
     - title: Issue tracker
-      link: https://github.com/MRtrix3/mrtrix3/issues
+      link: /issues
+      new_window: true
+
     - title: API Documentation
       link: /developer-documentation/
+      new_window: true
 
 - title: Publications
   link: /publications/
