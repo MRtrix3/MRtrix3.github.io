@@ -7,8 +7,8 @@ The standalone installer will fetch and install the binaries for the latest MRtr
 
 ---
 
-Instructions
-============
+Installing
+==========
 
 Open a terminal and copy-paste the following command into it:
 ```
@@ -18,23 +18,23 @@ The `install` script will download the binaries for the latest MRtrix3 release,
 unpack them to `/usr/local/mrtrix3`. In addition it will create the appropriate
 symbolic links in `/usr/local/bin` and `/Applications`.
 
-
 ---
 
-Uninstalling *MRtrix3*
-======================
+Uninstalling
+============
 
 Open a terminal and copy-paste the following command into it:
 ```
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/MRtrix3/macos-installer/master/uninstall)"
 ```
 
+---
 
-Upgrading *MRtrix3*
-===================
+Upgrading
+=========
 
-To update, simply run the install procedure again. The script should detect
-previous versions and remove them automatically before proceeding.
-
-
-
+To update, simply run the install procedure again:
+```
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/MRtrix3/macos-installer/master/install)"
+```
+The script should detect previous versions installed at the same location and remove them automatically before proceeding.
