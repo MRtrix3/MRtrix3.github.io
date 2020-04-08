@@ -22,9 +22,6 @@ Important notes - please read first
   particular scripts; though *MRtrix3* may still be installed natively on
   Windows for other tasks.
 
-- To run the GUI components of *MRtrix3* (`mrview` & `shview`), you will also
-  need an OpenGL 3.3 compliant graphics card and corresponding software driver
-
 ---
 
 
