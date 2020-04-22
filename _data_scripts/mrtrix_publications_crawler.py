@@ -94,7 +94,7 @@ def convert_reference_data_to_yaml(reference_data, processed_titles):
         else:            
             processed_titles.append(title)         
 
-        journal = lines[line_len-1].strip().replace('Neuroimage', 'NeuroImage')
+        journal = lines[line_len-1].strip().replace('Neuroimage', 'NeuroImage').rstrip(';')
         year = re.search(r'\d{4}', journal).group(0)
         internal = '// Internal' in reference_data        
         yaml_data = '''
