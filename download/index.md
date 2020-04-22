@@ -3,9 +3,7 @@ layout: "page"
 title: Download MRtrix3
 ---
 
-**Coming soon!
-
-These installers will hopefully be available shortly, bear with us!**
+**Coming soon! These installers will hopefully be available shortly, please bear with us!**
 
 Pre-compiled versions of *MRtrix3* are available for download for all major
 operating systems, and these are the quickest and simplest way of getting
