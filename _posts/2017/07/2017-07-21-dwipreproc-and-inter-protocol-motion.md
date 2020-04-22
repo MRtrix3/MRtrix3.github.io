@@ -4,7 +4,6 @@ title: 'Dwipreproc and inter-protocol motion'
 author: 'Lestropie'
 date: 2017-07-21 04:36:58
 categories:
-discourse_id: 1046
 summary: posted by Robert Smith on Jul 21, 2017
 ---
 Hi all,
@@ -44,4 +43,9 @@ If this correction cannot be applied to your data, unfortunately I do not have a
 
 Regards
 Rob
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/1046)*
+
             

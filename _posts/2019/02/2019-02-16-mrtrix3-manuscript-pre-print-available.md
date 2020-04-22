@@ -4,7 +4,6 @@ title: 'MRtrix3 manuscript pre-print available!'
 author: 'Lestropie'
 date: 2019-02-16 11:32:01
 categories:
-discourse_id: 2281
 summary: posted by Robert Smith on Feb 16, 2019
 ---
 Greetings all!
@@ -22,4 +21,9 @@ Best,
 The *MRtrix3* team 
 
 https://doi.org/10.1101/551739
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/2281)*
+
             

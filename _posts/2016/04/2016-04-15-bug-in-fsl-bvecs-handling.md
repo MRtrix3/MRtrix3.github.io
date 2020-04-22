@@ -4,7 +4,6 @@ title: 'Bug in FSL bvecs handling'
 author: 'jdtournier'
 date: 2016-04-15 16:28:57
 categories:
-discourse_id: 165
 summary: posted by J-Donald Tournier on Apr 15, 2016
 ---
 _We have recently identified a bug in our import & export of FSL-style bvecs files. This caused a flip of the x component for some (but not all) images, leading to grossly incorrect fibre orientations and tractography.  While most users will be unaffected, the gradient reorientation performed by the recently added `dwipreproc` script will be subtly incorrect - but only if [EDDY](http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/EDDY) version 5.0.9 is installed, and only if subject motion is non-negligible (note that `dwipreproc` was made available on 12 March 2016).  This bug has now been rectified on GitHub; users are urged to update now to avoid problems later._ 
@@ -42,4 +41,9 @@ In practice, we expect most users will be largely unaffected. However we are pro
 The first thing is to update *MRtrix3* to avoid the issue in future. The next thing is to check whether existing data could have been affected. If you use *MRtrix3* both for image conversion and tractography analysis, you only need to worry about this if you have used [`dwipreproc`](http://userdocs.mrtrix.org/en/latest/getting_started/scripts_list.html#dwipreproc) _and_ you have [FSL](http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL) 5.0.9 installed. In this case, you will need to decide whether to rerun the preprocessing, depending on the amount of motion present in your data; if in doubt, run the updated version of [`dwipreproc`](http://userdocs.mrtrix.org/en/latest/getting_started/scripts_list.html#dwipreproc) again. If you do use images and bvecs produced by *MRtrix3* with [FSL's diffusion toolbox](http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FDT), then you should check whether the directions and tractography results are correct within [FSL](http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSL). 
 
 You may also find that after this update, NIfTI / bvecs data that were generated previously by *MRtrix3* will not be interpreted correctly by the updated *MRtrix3* code: the *x* component may be flipped due to our correction to the interpretation of these directions. In this case, the *x* component of the bvecs file (i.e. the first row in the file) will need to be inverted manually.
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/165)*
+
             

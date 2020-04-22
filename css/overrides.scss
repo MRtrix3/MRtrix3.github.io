@@ -18,7 +18,7 @@ html {
   font-family: "Sarabun";
   font-style: normal;
   font-weight: normal;
-  src: url("/fonts/THSarabunNew001.woff");
+  src: url("{{ site.baseurl }}/fonts/THSarabunNew001.woff");
 }
 
 .btn-primary {

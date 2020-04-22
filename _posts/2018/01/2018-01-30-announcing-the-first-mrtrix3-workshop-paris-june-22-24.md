@@ -4,10 +4,9 @@ title: 'Announcing the first MRtrix3 workshop: Paris, June 22-24'
 author: 'jdtournier'
 date: 2018-01-30 23:14:56
 categories:
-discourse_id: 1438
 summary: posted by J-Donald Tournier on Jan 30, 2018
 ---
-![workshop2018](http://community.mrtrix.org/uploads/default/original/2X/4/48694c5a817089ceca44a54d30a40d6fa99a0c5e.png)
+![workshop2018](https://community.mrtrix.org/uploads/default/original/2X/4/48694c5a817089ceca44a54d30a40d6fa99a0c5e.png)
 
 We are very excited to announce that the first official _MRtrix3_ workshop will be held this year in Paris, France (June 22-24), immediately after the main ISMRM meeting. 
 
@@ -132,9 +131,14 @@ The _MRtrix3_ team
 
 #### Sponsors:
 
-[![qmenta_logo_whole](http://community.mrtrix.org/uploads/default/original/2X/7/75075d8e558259e9b34ab2d643fdac3f86222d8e.png)](https://www.qmenta.com/)
+[![qmenta_logo_whole](https://community.mrtrix.org/uploads/default/original/2X/7/75075d8e558259e9b34ab2d643fdac3f86222d8e.png)](https://www.qmenta.com/)
 >
 > The QMENTA platform provides a unified solution for neuroimaging data management, processing, and visualization. Our straightforward Software Development Kit (SDK) allows researchers to plug-in, share, and run their own tools & workflows on a secure cloud infrastructure. 
 >
 >Running tools on QMENTA provides virtually infinite computational resources that can adapt to any project and remove the need of maintaining a local cluster, largely reducing the overall cost. Incorporating your neuroimaging tools on the QMENTA platform enables translation of your research work into a product ready to be used in hospitals or clinical trials via a very simple user interface and in a compliant environment that QMENTA platform provides (HIPAA, GDPR, FDA 21 CFR Part 11 & 820, Annex 11 and IEC 62304).
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/1438)*
+
             

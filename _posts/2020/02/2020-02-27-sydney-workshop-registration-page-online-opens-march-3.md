@@ -4,10 +4,13 @@ title: 'Sydney workshop registration page online; opens March 3'
 author: 'Lestropie'
 date: 2020-02-27 10:18:52
 categories:
-discourse_id: 3344
 summary: posted by Robert Smith on Feb 27, 2020
 ---
 ![banner_mrtrix_Sydney_vertical_small](https://community.mrtrix.org/uploads/default/original/2X/7/7e508d492fccedd00df2d1f252a9e3a7d911fe40.png) 
+
+**EDIT (2 March 2020): Unfortunately, we have had to cancel this workshop. See [this post](https://community.mrtrix.org/t/mrtrix3-sydney-workshop-cancelled/3364) for details.**
+
+-----
 
 G'day folks,
 
@@ -26,7 +29,7 @@ The  *MRtrix3*  workshop in April in Sydney, Australia, being held immediately p
 
 -----
 
-![NIF|172x70](upload://fCMW2gl1ZAFsppwBS2jtC8xUMDG.png) ![CVLlogo20180222|224x60](upload://vJ2o5NCNmJW1jxptkTkk5QKU1HY.png) 
+![NIF](https://community.mrtrix.org/uploads/default/original/2X/c/c360008ffe37773c545714ed28cc36498742c417.png) ![CVLlogo20180222](https://community.mrtrix.org/uploads/default/original/2X/d/de5abb1f9b1bae209305de5ad7b4af8c7b49a18a.png) 
 
 The Australian National Imaging Facility ([NIF](https://protect-au.mimecast.com/s/gmbSCVAGLrsxLGQlkSGeTz0?domain=anif.org.au)) is a partner to the Characterisation Data enhanced Virtual Laboratory (CDeVL) project, leading the training activities for FAIR principles of data sharing (Findable, Accessible, Interoperable, Reusable). As part of their mandate to support Australian researchers open access to research infrastructure, NIF has provided a financial contribution to the execution of the  *MRtrix3*  workshop, enabling a *reduction of the workshop registration fees* relative to our [preliminary announcement](https://community.mrtrix.org/t/mrtrix3-workshop-to-be-held-in-sydney-australia-in-april-2020/3223/2).
 
@@ -41,4 +44,9 @@ We hope to have many of you signing up in the near future!
 All the best,
 
 The  *MRtrix3*  team
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/3344)*
+
             

@@ -4,7 +4,6 @@ title: 'OHBM attendees: request for presenter'
 author: 'jdtournier'
 date: 2018-05-04 16:03:26
 categories:
-discourse_id: 1611
 summary: posted by J-Donald Tournier on May 04, 2018
 ---
 Hello everyone, 
@@ -19,4 +18,9 @@ Thanks for your support!
 All the best,
 
 Donald.
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/1611)*
+
             

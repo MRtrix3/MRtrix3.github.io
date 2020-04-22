@@ -4,7 +4,6 @@ title: 'MRtrix3 workshop: Antwerp, September 9-13'
 author: 'bjeurissen'
 date: 2019-04-30 07:09:15
 categories:
-discourse_id: 2489
 summary: posted by Ben Jeurissen on Apr 30, 2019
 ---
 ![banner_mrtrix|690x203](http://community.mrtrix.org/uploads/default/original/2X/9/9e12cbc56c8e87eb48674da21e899b50eca74609.jpeg) 
@@ -26,4 +25,9 @@ We hope to see many of you there!
 All the best, 
 
 The  *MRtrix3*  team.
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/2489)*
+
             

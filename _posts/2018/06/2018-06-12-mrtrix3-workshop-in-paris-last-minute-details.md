@@ -4,7 +4,6 @@ title: 'MRtrix3 workshop in Paris: last minute details'
 author: 'jdtournier'
 date: 2018-06-12 09:11:10
 categories:
-discourse_id: 1697
 summary: posted by J-Donald Tournier on Jun 12, 2018
 ---
 **To all users registered for the upcoming MRtrix3 workshop in Paris:**
@@ -58,9 +57,14 @@ The _MRtrix3_ team
   - _lunch_
 
 --- 
-> [![qmenta_logo_whole](http://community.mrtrix.org/uploads/default/original/2X/7/75075d8e558259e9b34ab2d643fdac3f86222d8e.png)](https://www.qmenta.com/)
+> [![qmenta_logo_whole](https://community.mrtrix.org/uploads/default/original/2X/7/75075d8e558259e9b34ab2d643fdac3f86222d8e.png)](https://www.qmenta.com/)
 >
 > The QMENTA platform provides a unified solution for neuroimaging data management, processing, and visualization. Our straightforward Software Development Kit (SDK) allows researchers to plug-in, share, and run their own tools & workflows on a secure cloud infrastructure. 
 >
 >Running tools on QMENTA provides virtually infinite computational resources that can adapt to any project and remove the need of maintaining a local cluster, largely reducing the overall cost. Incorporating your neuroimaging tools on the QMENTA platform enables translation of your research work into a product ready to be used in hospitals or clinical trials via a very simple user interface and in a compliant environment that QMENTA platform provides (HIPAA, GDPR, FDA 21 CFR Part 11 & 820, Annex 11 and IEC 62304).
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/1697)*
+
             

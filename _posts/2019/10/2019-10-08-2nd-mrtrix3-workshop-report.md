@@ -4,7 +4,6 @@ title: '2nd MRtrix3 Workshop Report'
 author: 'bjeurissen'
 date: 2019-10-08 10:01:04
 categories:
-discourse_id: 3052
 summary: posted by Ben Jeurissen on Oct 08, 2019
 ---
 Hi all!
@@ -21,4 +20,9 @@ From the *MRtrix3* team
 
 
 ![mrtrix3-workshop](https://community.mrtrix.org/uploads/default/optimized/2X/9/9038436ba12c32a05eb7a50f4c5f7448ce9c3e32_2_1322x1000.jpeg)
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/3052)*
+
             

@@ -4,7 +4,6 @@ title: 'MRtrix 3.0 (release candidate 2)'
 author: 'thijsdhollander'
 date: 2017-07-31 05:50:46
 categories:
-discourse_id: 1065
 summary: posted by Thijs Dhollander on Jul 31, 2017
 ---
 The last few months of work have resulted in another batch of updated features. The most important changes motivating this second release candidate relate to the bias field correction and intensity normalisation process previously performed by the `mtbin` command, which affects the fixel-based analysis pipeline in particular.  Users who are in the process of performing a fixel-based analysis on their data should pay special attention to the changes this update brings to the bias field and intensity normalisation and other steps (and documentation) of the fixel-based analysis pipeline (see below for details). 
@@ -29,4 +28,9 @@ This release candidate introduces a number of bug fixes and enhancements, but al
 - fix of the `-shell` option for `dwi2fod msmt_csd` (thanks to @isAarya for reporting!) 
 
 As always, you can update your install by performing a `git pull` followed by `./build` at the command line (while in your MRtrix installation folder).
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/1065)*
+
             

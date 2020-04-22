@@ -4,7 +4,6 @@ title: 'Image registration and fixel-based analysis now available in MRtrix!'
 author: 'draffelt'
 date: 2016-05-06 08:06:41
 categories:
-discourse_id: 207
 summary: posted by David Raffelt on May 06, 2016
 ---
 #### We are proud to announce that MRtrix now includes commands for image registration and fixel-based analysis!
@@ -28,7 +27,7 @@ We have also made significant changes to the [`mrtransform`](http://userdocs.mrt
 
 The recent update also includes a python script called [`population_template`](http://userdocs.mrtrix.org/en/latest/getting_started/scripts_list.html#population-template) for building an unbiased study-specific template using an iterative averaging approach. The script can be used on either scalar 3D or FOD images. Using the `-rigid` option will ensure the initial linear alignment is rigid, which is suited for intra-subject registration of longitudinal data.  While not a requirement, we recommend users use the `-mask_dir` option to supply brain masks for the input subject images, as this will reduce computation time substantially. 
 
-![Population template](http://community.mrtrix.org/uploads/default/original/1X/1a371b815a4c94571816ffe7f74a98f8aa14ff44.jpg)
+![Population template](https://community.mrtrix.org/uploads/default/original/1X/1a371b815a4c94571816ffe7f74a98f8aa14ff44.jpg)
 
 ---
 
@@ -40,7 +39,7 @@ For more information on fixel-based analysis and group statistics on fixel image
 
 Step by step instructions for [DWI preprocessing](http://mrtrix.readthedocs.io/en/latest/workflows/DWI_preprocessing_for_quantitative_analysis.html) and [fixel-based analysis](http://mrtrix.readthedocs.io/en/latest/workflows/fixel_based_analysis.html) can be found in the MRtrix documentation. 
 
-![Population template](http://community.mrtrix.org/uploads/default/original/1X/d3c453f2c16e4dbc363d1db33c670756df3c9262.jpg)
+![Population template](https://community.mrtrix.org/uploads/default/original/1X/d3c453f2c16e4dbc363d1db33c670756df3c9262.jpg)
 
 ___
 
@@ -71,4 +70,9 @@ ___
 
 Cheers,
 Dave
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/207)*
+
             

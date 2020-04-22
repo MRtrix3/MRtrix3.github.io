@@ -6,7 +6,7 @@
 	  <p>{{ site.data.frontpage.banner.description }}</p>
 	  <p>
          {% for button in site.data.frontpage.banner.buttons %}
-         <a class="btn btn-primary btn-lg" href="{{ button.link }}" role="button">
+         <a class="btn btn-primary btn-lg" href="{{ site.baseurl }}{{ button.link }}" role="button">
             <i class="{{ button.icon }}"></i>
             {{ button.title }}
          </a>

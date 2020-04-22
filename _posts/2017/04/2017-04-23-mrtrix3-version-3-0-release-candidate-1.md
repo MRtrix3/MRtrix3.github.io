@@ -4,7 +4,6 @@ title: 'MRtrix3 version 3.0 (release candidate 1)'
 author: 'jdtournier'
 date: 2017-04-23 22:29:21
 categories:
-discourse_id: 851
 summary: posted by J-Donald Tournier on Apr 23, 2017
 ---
 _MRtrix3_ is finally about to come out of beta status and hit full release!  This is the first release candidate for our forthcoming version 3.0 of _MRtrix3_, the result of many months of work, with many new features and improvements (see below). Hopefully the proper full release will follow shortly after a few weeks of community testing. You are all encouraged to upgrade and try it out - and if you do come across any issues, don't hesitate to let us know, either on the [community forum](http://community.mrtrix.org), or via the [GitHub issue tracker](https://github.com/MRtrix3/mrtrix3/issues): we'll get them fixed straight away.
@@ -49,4 +48,9 @@ Now that these instructions assume there was nothing unusual about your previous
         ...
  
     Don't worry if the version is reported as something like `3.0_RC1-3-gc4349e3f`: this simply indicates that you are running a more recent version than `3.0_RC1` (in this example, 3 commits ahead, with latest git commit having SHA1 identifier `c4349e3f`).`
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/851)*
+
             

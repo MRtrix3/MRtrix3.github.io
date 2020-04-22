@@ -4,7 +4,6 @@ title: 'MRtrix3 version incremented to 0.3.15'
 author: 'Lestropie'
 date: 2016-06-16 00:43:50
 categories:
-discourse_id: 300
 summary: posted by Robert Smith on Jun 16, 2016
 ---
 Hi *MRtrix*ers,
@@ -238,4 +237,9 @@ Note that although the location of the example lookup tables has moved (now loca
   * The shared library file is now stored in the same directory as the command binaries, simplifying installation.
 
   * The terminal will now use text colouring by default, as is provided on other OS's, since the MSYS2 terminal supports them.
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/300)*
+
             

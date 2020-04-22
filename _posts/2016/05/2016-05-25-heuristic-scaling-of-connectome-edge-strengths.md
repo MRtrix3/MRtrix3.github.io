@@ -4,7 +4,6 @@ title: 'Heuristic scaling of connectome edge strengths'
 author: 'Lestropie'
 date: 2016-05-25 02:07:57
 categories:
-discourse_id: 253
 summary: posted by Robert Smith on May 25, 2016
 ---
 Hi all,
@@ -46,4 +45,9 @@ I would strongly urge anyone using this heuristic scaling mechanism, whether by 
 OK, that's all from me for now. We're trialling a modification to *MRtrix3* blogging, where blog posts are made via the [community forum](http://community.mrtrix.org/c/annoucements), and some time later are pulled into the [website](http://www.mrtrix.org/blog/) (thanks to @rtabbara). This means that blog posts can be commented on by the community, and will hopefully also result in more frequent blog posts. So let us know your thoughts.
 
 Rob
+
+---
+
+*[View comments on the community site](https://community.mrtrix.org/t/253)*
+
             
