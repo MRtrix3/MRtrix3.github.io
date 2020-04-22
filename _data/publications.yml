@@ -270,4 +270,102 @@
    year: 2017
    authors: "Raffelt, D.; Tournier, JD/; Smith, RE.; Vaughan, DN.; Jackson, G.; Ridgway, GR. Connelly, A."
    internal: True
-   url: "https://www.ncbi.nlm.nih.gov/pubmed/27639350"
+   url: "https://www.sciencedirect.com/science/article/pii/S1053811916304943"
+
+-  title: "Fast robust automated brain extraction"
+   journal: "Human Brain Mapping, 2002, 17, 143-155"
+   year: 2002
+   authors: "Smith, S. M."
+   internal: False
+   url: "https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.10062"
+
+-  title: "Segmentation of brain MR images through a hidden Markov random field model and the expectation-maximization algorithm"
+   journal: "IEEE Transactions on Medical Imaging, 2001, 20, 45-57"
+   year: 2001
+   authors: "Zhang, Y.; Brady, M. & Smith, S."
+   internal: False
+   url: "https://ieeexplore.ieee.org/document/906424"
+
+-  title: "A Bayesian model of shape and appearance for subcortical brain segmentation"
+   journal: "NeuroImage, 2011, 56, 907-922"
+   year: 2011
+   authors: "Patenaude, B.; Smith, S. M.; Kennedy, D. N. & Jenkinson, M."
+   internal: False
+   url: "https://www.sciencedirect.com/science/article/abs/pii/S1053811911002023"
+
+-  title: "Advances in functional and structural MR image analysis and implementation as FSL"
+   journal: "NeuroImage, 2004, 23, S208-S219"
+   year: 2004
+   authors: "Smith, S. M.; Jenkinson, M.; Woolrich, M. W.; Beckmann, C. F.; Behrens, T.E.; Johansen-Berg, H.; Bannister, P. R.; De Luca, M.; Drobnjak, I.; Flitney, D. E.; Niazy, R. K.; Saunders, J.; Vickers, J.; Zhang, Y.; De Stefano, N.; Brady, J. M. & Matthews, P. M."
+   internal: False
+   url: "https://www.sciencedirect.com/science/article/abs/pii/S1053811904003933"
+
+-  title: "Improved white matter response function estimation for 3-tissue constrained spherical deconvolution"
+   journal: "Proc Intl Soc Mag Reson Med, 2019, 555"
+   year: 2019
+   authors: "Dhollander, T.; Mito, R.; Raffelt, D. & Connelly, A."
+   internal: True
+   url: "https://www.researchgate.net/publication/331165168_Improved_white_matter_response_function_estimation_for_3-tissue_constrained_spherical_deconvolution"
+
+-  title: "Recursive calibration of the fiber response function for spherical deconvolution of diffusion MRI data"
+   journal: "NeuroImage, 2014, 86, 67-80"
+   year: 2014
+   authors: "Tax, C. M.; Jeurissen, B.; Vos, S. B.; Viergever, M. A. & Leemans, A."
+   internal: True
+   url: "https://www.sciencedirect.com/science/article/abs/pii/S1053811913008367"
+
+-  title: "Determination of the appropriate b-value and number of gradient directions for high-angular-resolution diffusion-weighted imaging"
+   journal: "NMR Biomedicine, 2013, 26, 1775-1786"
+   year: 2013
+   authors: "Tournier, J.-D.; Calamante, F. & Connelly, A."
+   internal: True
+   url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/nbm.3017"
+
+-  title: "An integrated approach to correction for off-resonance effects and subject movement in diffusion MR imaging"
+   journal: "NeuroImage, 2015, 125, 1063-1078"
+   year: 2015
+   authors: "Andersson, J. L. & Sotiropoulos, S. N."
+   internal: False
+   url: "https://www.sciencedirect.com/science/article/pii/S1053811915009209"
+
+-  title: "Jacobian weighting of distortion corrected EPI data"
+   journal: "Proceedings of the International Society for Magnetic Resonance in Medicine, 2010, 5063"
+   year: 2010
+   authors: "Skare, S. & Bammer, R."
+   internal: False
+   url: "https://pdfs.semanticscholar.org/7ed0/1244fd7c4ab273656d40b8b76fcbdc4bee7d.pdf"
+
+-  title: "How to correct susceptibility distortions in spin-echo echo-planar images: application to diffusion tensor imaging"
+   journal: "NeuroImage, 2003, 20, 870-888"
+   year: 2003
+   authors: "Andersson, J. L.; Skare, S. & Ashburner, J."
+   internal: False
+   url: "https://www.sciencedirect.com/science/article/abs/pii/S1053811903003367"
+
+-  title: "Incorporating outlier detection and replacement into a non-parametric framework for movement and distortion correction of diffusion MR images"
+   journal: "NeuroImage, 2016, 141, 556-572"
+   year: 2016
+   authors: "Andersson, J. L. R.; Graham, M. S.; Zsoldos, E. & Sotiropoulos, S. N."
+   internal: False
+   url: "https://www.sciencedirect.com/science/article/abs/pii/S1053811916303068"
+
+-  title: "Towards a comprehensive framework for movement and distortion correction of diffusion MR images: Within volume movement"
+   journal: "NeuroImage, 2017, 152, 450-466"
+   year: 2017
+   authors: "Andersson, J. L. R.; Graham, M. S.; Drobnjak, I.; Zhang, H.; Filippini, N. & Bastiani, M."
+   internal: False
+   url: "https://www.sciencedirect.com/science/article/pii/S1053811917301945"
+
+-  title: "Automated quality control for within and between studies diffusion MRI data using a non-parametric framework for movement and distortion correction"
+   journal: "NeuroImage, 2019, 184, 801-812"
+   year: 2019
+   authors: "Bastiani, M.; Cottaar, M.; Fitzgibbon, S.P.; Suri, S.; Alfaro-Almagro, F.; Sotiropoulos, S.N.; Jbabdi, S.; Andersson, J.L.R."
+   internal: False
+   url: "https://www.sciencedirect.com/science/article/pii/S1053811918319451"
+
+-  title: "Automated correction of improperly rotated diffusion gradient orientations in diffusion weighted MRI"
+   journal: "Medical Image Analysis, 2014, 18(7), 953-962"
+   year: 2014
+   authors: "Jeurissen, B.; Leemans, A.; Sijbers, J."
+   internal: True
+   url: "https://www.sciencedirect.com/science/article/abs/pii/S1361841514000930"
