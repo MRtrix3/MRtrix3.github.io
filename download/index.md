@@ -10,8 +10,8 @@ them below.
 
 If you need to compile and install *MRtrix3* from source, you'll find
 instructions for all major operating systems on our [documentation
-site](https://mrtrix.readthedocs.io/en/latest/installation/before_install.html).
-The process is also generally relative simple, but it does require more
+site](https://mrtrix.readthedocs.io/en/latest/installation/build_from_source.html).
+The process is also generally relatively simple, but it does require more
 computing resources and expertise.
 
 GNU/Linux
