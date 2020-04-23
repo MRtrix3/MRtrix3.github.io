@@ -23,7 +23,7 @@ GNU/Linux
 macOS
 =====
 
-- [standalone package]({{ site.baseurl }}/download/macos-standalone)
+- [application package installer (recommended)]({{ site.baseurl }}/download/macos-application)
 - [through Anaconda]({{ site.baseurl }}/download/macos-anaconda)
 
 Microsoft Windows

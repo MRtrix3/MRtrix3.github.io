@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: macOS pre-compiled stand-alone install
+title: macOS pre-compiled application package installer
 ---
 
 The standalone installer will fetch and install the binaries for the latest MRtrix3 release. It includes ``mrview`` and ``shview`` as macos application bundles, enabling tight system integration (e.g. exposing ``mrview`` as a proper macos application, enabling file icons for supported images and double clicking in Finder, ...).
