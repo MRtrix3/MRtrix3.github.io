@@ -8,7 +8,7 @@ summary: posted by J-Donald Tournier on Apr 23, 2020
 ---
 ![release](https://community.mrtrix.org/uploads/default/original/2X/7/72f721cb630e57b9cded13c39cd0870e649554a0.jpeg) 
 
-**We are pleased to announce the immediate full release of *MRtrix* 3.0.0** - our first production release! :partying_face:
+**We are pleased to announce the immediate full release of *MRtrix* 3.0.0** - our first production release! :tada:
 
 This is the culmination of many years of work, and brings a large number of improvements and bug fixes. In particular, we now provide pre-compiled packages to ease the installation process across all main platforms -- you'll find instructions for this on the [main website's downloads page](https://www.mrtrix.org/download/).
 
