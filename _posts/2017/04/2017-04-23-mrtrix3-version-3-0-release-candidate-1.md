@@ -15,7 +15,7 @@ While the bulk of the functionality will behave as before, there are a number of
 
 - the new [fixel storage format](http://community.mrtrix.org/t/mrtrix3-version-3-0-release-candidate-1/851/3).
 
-- changes to the [dwipreproc](http://mrtrix.readthedocs.io/en/latest/reference/scripts/dwipreproc.html) and [tckgen](http://mrtrix.readthedocs.io/en/latest/reference/commands/tckgen.html) command-line interface (see the relevant section in [this post](http://community.mrtrix.org/t/mrtrix3-version-3-0-release-candidate-1/851/5) for the rationale behind the `tckgen` changes). 
+- changes to the [dwipreproc](http://mrtrix.readthedocs.io/en/3.0_rc1/reference/scripts/dwipreproc.html) and [tckgen](http://mrtrix.readthedocs.io/en/latest/reference/commands/tckgen.html) command-line interface (see the relevant section in [this post](http://community.mrtrix.org/t/mrtrix3-version-3-0-release-candidate-1/851/5) for the rationale behind the `tckgen` changes). 
 
 - other [new features](http://community.mrtrix.org/t/mrtrix3-version-3-0-release-candidate-1/851/4): NIfTI-2 support, [JSON](http://www.json.org/) support, system signal handling, and many [other modifications & improvements](http://community.mrtrix.org/t/mrtrix3-version-3-0-release-candidate-1/851/5). 
 

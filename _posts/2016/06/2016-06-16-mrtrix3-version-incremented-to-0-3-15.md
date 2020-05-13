@@ -51,13 +51,13 @@ New command, responsible for _resampling a streamline to new vertices_. The prev
     * Ability to import a vector file (e.g. from `tcksample`) as the primary source of image contrast (ie. the TWI 'factor' for each streamline).
 
   * `tck2connectome`:
-    * Removed `mean_scalar` metric: this is replaced by being able to import a vector data file (e.g. from `tcksample`). If you have been using this functionality, you should read the new documentation FAQ entry [here](http://mrtrix.readthedocs.io/en/doctest/tutorials/FAQ.html).
+    * Removed `mean_scalar` metric: this is replaced by being able to import a vector data file (e.g. from `tcksample`). If you have been using this functionality, you should read the new documentation FAQ entry [here](http://mrtrix.readthedocs.io/en/0.3.15/tutorials/FAQ.html).
     * Changed handling of different mechanisms for scaling the contribution from each streamline. Individual scalings (e.g. inverse streamline length, inverse node volumes, factors from an external data file) are activated independently using separate command-line options (see the command help page for precise details).
 
   * `tckedit`:
     * Removed track upsampling / downsampling functionality. These were awkward to handle in the code, and the order of their application relative to other operations was ambiguous yet could potentially influence results. This functionality is now instead handled by the `tckresample` command.
 
-* ***Connectome tools***: Major change to how node information is managed. The concept of a '*connectome config file*' has *disappeared*; instead, *everything* is now based on *lookup tables*. The command `labelconfig` has be renamed to `labelconvert` (and its usage has changed; see the [help page](http://mrtrix.readthedocs.io/en/doctest/reference/commands_list.html#maskfilter) and [updated documentation](http://mrtrix.readthedocs.io/en/latest/tutorials/labelconvert.html)), and is best thought of as being responsible for *converting* a parcellation image from one lookup table to another. This means that a parcellation image will only ever be dependent on one text file, simplifying their subsequent use. It is also no longer necessary to specify the *format* of a text lookup table at the command-line: this will be detected automatically.
+* ***Connectome tools***: Major change to how node information is managed. The concept of a '*connectome config file*' has *disappeared*; instead, *everything* is now based on *lookup tables*. The command `labelconfig` has be renamed to `labelconvert` (and its usage has changed; see the [help page](https://mrtrix.readthedocs.io/en/0.3.15/reference/commands/labelconvert.html) and [updated documentation](https://mrtrix.readthedocs.io/en/0.3.15/tutorials/labelconvert.html)), and is best thought of as being responsible for *converting* a parcellation image from one lookup table to another. This means that a parcellation image will only ever be dependent on one text file, simplifying their subsequent use. It is also no longer necessary to specify the *format* of a text lookup table at the command-line: this will be detected automatically.
 Note that although the location of the example lookup tables has moved (now located in `src/connectome/tables`), and their contents may have changed, the node indices remain identical to those files provided previously.
 
 * *Registration*: Image registration in *MRtrix3*! Far too much to cover as part of this post; details are provided [here](http://community.mrtrix.org/t/image-registration-and-fixel-based-analysis-now-available-in-mrtrix/207). There's also been various ongoing updates to both the code and the `population_template` script, as we learn and optimise the behaviour of these capabilities.
@@ -127,7 +127,7 @@ Note that although the location of the example lookup tables has moved (now loca
 
   * Added tutorial on applying warps from other packages.
 
-  * [Instructions](http://mrtrix.readthedocs.io/en/doctest/workflows/multi_tissue_csd.html) for MSMT CSD.
+  * [Instructions](http://mrtrix.readthedocs.io/en/0.3.15/workflows/multi_tissue_csd.html) for MSMT CSD.
 
 * *Memory allocation*: Detect and report failed memory allocation; applications should give a more meaningful error message if your system does not contain enough RAM to run the command.
 

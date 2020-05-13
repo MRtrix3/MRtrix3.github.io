@@ -12,7 +12,7 @@ summary: posted by J-Donald Tournier on Apr 23, 2020
 
 This is the culmination of many years of work, and brings a large number of improvements and bug fixes. In particular, we now provide pre-compiled packages to ease the installation process across all main platforms -- you'll find instructions for this on the [main website's downloads page](https://www.mrtrix.org/download/).
 
-We recommend existing users upgrade as soon as practical. This can be done using the [newly-provided packages](https://www.mrtrix.org/download/), or using the [usual procedure for source installations](http://mrtrix.readthedocs.io/en/3.0/installation/build_from_source.html#keeping-mrtrix3-up-to-date), with an additional call to  `configure` (instructions here assuming that you have previously been using the default `git` branch "`master`"):
+We recommend existing users upgrade as soon as practical. This can be done using the [newly-provided packages](https://www.mrtrix.org/download/), or using the [usual procedure for source installations](https://mrtrix.readthedocs.io/en/3.0.0/installation/build_from_source.html#keeping-mrtrix3-up-to-date), with an additional call to  `configure` (instructions here assuming that you have previously been using the default `git` branch "`master`"):
 
 ```
 git pull
