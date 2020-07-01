@@ -22,6 +22,17 @@ Important notes - please read first
   particular scripts; though *MRtrix3* may still be installed natively on
   Windows for other tasks.
 
+- These instructions have changed for version `3.0.1`, and no longer make use
+  of a dedicated *MRtrix3* pacman package repository. If you had used our
+  previous recommendations and find that `pacman -Syu` warns that the `mrtrix3`
+  repo cannot be found, you can fix this by editing the `/etc/pacman.conf` file
+  to remove these lines:
+  ```
+  [mrtrix3]
+  SigLevel = Optional TrustAll
+  Server = https://www.mrtrix.org/msys2
+  ```
+
 ---
 
 
