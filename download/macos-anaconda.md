@@ -26,11 +26,11 @@ Upgrading *MRtrix3*
 Once installed, you can keep *MRtrix3* up to date using the regular Anaconda
 tools:
 ```
-conda update mrtrix3
+conda update -c mrtrix3 mrtrix3
 ```
-or to update all packages:
-```
-conda update --all
-```
+Note that it is necessary to specify the `mrtrix3` channel with the `-c
+mrtrix3` option when updating, otherwise the command will return indicating
+that the package is up to date, without giving any indication that it hasn't
+actually checked the `mrtrix3` channel.
 
 
