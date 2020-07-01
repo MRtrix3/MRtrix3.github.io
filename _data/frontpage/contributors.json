@@ -1,7 +1,7 @@
 [
   {
     "avatar_url": "https://avatars2.githubusercontent.com/u/5637955?v=4", 
-    "contributions": 3434, 
+    "contributions": 3478, 
     "events_url": "https://api.github.com/users/Lestropie/events{/privacy}", 
     "followers_url": "https://api.github.com/users/Lestropie/followers", 
     "following_url": "https://api.github.com/users/Lestropie/following{/other_user}", 
@@ -22,7 +22,7 @@
   }, 
   {
     "avatar_url": "https://avatars3.githubusercontent.com/u/3221000?v=4", 
-    "contributions": 3047, 
+    "contributions": 3092, 
     "events_url": "https://api.github.com/users/jdtournier/events{/privacy}", 
     "followers_url": "https://api.github.com/users/jdtournier/followers", 
     "following_url": "https://api.github.com/users/jdtournier/following{/other_user}", 
@@ -64,7 +64,7 @@
   }, 
   {
     "avatar_url": "https://avatars1.githubusercontent.com/u/10046944?v=4", 
-    "contributions": 920, 
+    "contributions": 929, 
     "events_url": "https://api.github.com/users/maxpietsch/events{/privacy}", 
     "followers_url": "https://api.github.com/users/maxpietsch/followers", 
     "following_url": "https://api.github.com/users/maxpietsch/following{/other_user}", 
@@ -106,7 +106,7 @@
   }, 
   {
     "avatar_url": "https://avatars1.githubusercontent.com/u/7466983?v=4", 
-    "contributions": 306, 
+    "contributions": 316, 
     "events_url": "https://api.github.com/users/dchristiaens/events{/privacy}", 
     "followers_url": "https://api.github.com/users/dchristiaens/followers", 
     "following_url": "https://api.github.com/users/dchristiaens/following{/other_user}", 
@@ -148,7 +148,7 @@
   }, 
   {
     "avatar_url": "https://avatars1.githubusercontent.com/u/5675416?v=4", 
-    "contributions": 102, 
+    "contributions": 107, 
     "events_url": "https://api.github.com/users/bjeurissen/events{/privacy}", 
     "followers_url": "https://api.github.com/users/bjeurissen/followers", 
     "following_url": "https://api.github.com/users/bjeurissen/following{/other_user}", 
@@ -231,6 +231,27 @@
     "url": "https://api.github.com/users/matteofrigo"
   }, 
   {
+    "avatar_url": "https://avatars1.githubusercontent.com/u/12027211?v=4", 
+    "contributions": 9, 
+    "events_url": "https://api.github.com/users/chunhungyeh/events{/privacy}", 
+    "followers_url": "https://api.github.com/users/chunhungyeh/followers", 
+    "following_url": "https://api.github.com/users/chunhungyeh/following{/other_user}", 
+    "gists_url": "https://api.github.com/users/chunhungyeh/gists{/gist_id}", 
+    "gravatar_id": "", 
+    "html_url": "https://github.com/chunhungyeh", 
+    "id": 12027211, 
+    "login": "chunhungyeh", 
+    "node_id": "MDQ6VXNlcjEyMDI3MjEx", 
+    "organizations_url": "https://api.github.com/users/chunhungyeh/orgs", 
+    "received_events_url": "https://api.github.com/users/chunhungyeh/received_events", 
+    "repos_url": "https://api.github.com/users/chunhungyeh/repos", 
+    "site_admin": false, 
+    "starred_url": "https://api.github.com/users/chunhungyeh/starred{/owner}{/repo}", 
+    "subscriptions_url": "https://api.github.com/users/chunhungyeh/subscriptions", 
+    "type": "User", 
+    "url": "https://api.github.com/users/chunhungyeh"
+  }, 
+  {
     "avatar_url": "https://avatars3.githubusercontent.com/u/5771004?v=4", 
     "contributions": 8, 
     "events_url": "https://api.github.com/users/sfrydman/events{/privacy}", 
@@ -250,27 +271,6 @@
     "subscriptions_url": "https://api.github.com/users/sfrydman/subscriptions", 
     "type": "User", 
     "url": "https://api.github.com/users/sfrydman"
-  }, 
-  {
-    "avatar_url": "https://avatars1.githubusercontent.com/u/12027211?v=4", 
-    "contributions": 8, 
-    "events_url": "https://api.github.com/users/chunhungyeh/events{/privacy}", 
-    "followers_url": "https://api.github.com/users/chunhungyeh/followers", 
-    "following_url": "https://api.github.com/users/chunhungyeh/following{/other_user}", 
-    "gists_url": "https://api.github.com/users/chunhungyeh/gists{/gist_id}", 
-    "gravatar_id": "", 
-    "html_url": "https://github.com/chunhungyeh", 
-    "id": 12027211, 
-    "login": "chunhungyeh", 
-    "node_id": "MDQ6VXNlcjEyMDI3MjEx", 
-    "organizations_url": "https://api.github.com/users/chunhungyeh/orgs", 
-    "received_events_url": "https://api.github.com/users/chunhungyeh/received_events", 
-    "repos_url": "https://api.github.com/users/chunhungyeh/repos", 
-    "site_admin": false, 
-    "starred_url": "https://api.github.com/users/chunhungyeh/starred{/owner}{/repo}", 
-    "subscriptions_url": "https://api.github.com/users/chunhungyeh/subscriptions", 
-    "type": "User", 
-    "url": "https://api.github.com/users/chunhungyeh"
   }, 
   {
     "avatar_url": "https://avatars0.githubusercontent.com/u/29856041?v=4", 
@@ -355,6 +355,27 @@
     "subscriptions_url": "https://api.github.com/users/maedoc/subscriptions", 
     "type": "User", 
     "url": "https://api.github.com/users/maedoc"
+  }, 
+  {
+    "avatar_url": "https://avatars3.githubusercontent.com/u/65320363?v=4", 
+    "contributions": 2, 
+    "events_url": "https://api.github.com/users/MRtrixBot/events{/privacy}", 
+    "followers_url": "https://api.github.com/users/MRtrixBot/followers", 
+    "following_url": "https://api.github.com/users/MRtrixBot/following{/other_user}", 
+    "gists_url": "https://api.github.com/users/MRtrixBot/gists{/gist_id}", 
+    "gravatar_id": "", 
+    "html_url": "https://github.com/MRtrixBot", 
+    "id": 65320363, 
+    "login": "MRtrixBot", 
+    "node_id": "MDQ6VXNlcjY1MzIwMzYz", 
+    "organizations_url": "https://api.github.com/users/MRtrixBot/orgs", 
+    "received_events_url": "https://api.github.com/users/MRtrixBot/received_events", 
+    "repos_url": "https://api.github.com/users/MRtrixBot/repos", 
+    "site_admin": false, 
+    "starred_url": "https://api.github.com/users/MRtrixBot/starred{/owner}{/repo}", 
+    "subscriptions_url": "https://api.github.com/users/MRtrixBot/subscriptions", 
+    "type": "User", 
+    "url": "https://api.github.com/users/MRtrixBot"
   }, 
   {
     "avatar_url": "https://avatars1.githubusercontent.com/u/1054870?v=4", 
@@ -595,6 +616,7 @@
     "site_admin": false, 
     "starred_url": "https://api.github.com/users/JRosnarho/starred{/owner}{/repo}", 
     "subscriptions_url": "https://api.github.com/users/JRosnarho/subscriptions", 
+    "twitter_username": null, 
     "type": "User", 
     "updated_at": "2020-04-24T13:56:41Z", 
     "url": "https://api.github.com/users/JRosnarho"
@@ -628,6 +650,7 @@
     "site_admin": false, 
     "starred_url": "https://api.github.com/users/gianlo/starred{/owner}{/repo}", 
     "subscriptions_url": "https://api.github.com/users/gianlo/subscriptions", 
+    "twitter_username": null, 
     "type": "User", 
     "updated_at": "2020-04-01T10:59:11Z", 
     "url": "https://api.github.com/users/gianlo"
@@ -635,7 +658,7 @@
   {
     "avatar_url": "https://avatars2.githubusercontent.com/u/16088468?v=4", 
     "bio": null, 
-    "blog": "https://kloewe.io", 
+    "blog": "https://kloewe.net", 
     "company": null, 
     "created_at": "2015-11-30T19:36:59Z", 
     "email": null, 
@@ -661,8 +684,9 @@
     "site_admin": false, 
     "starred_url": "https://api.github.com/users/kloewe/starred{/owner}{/repo}", 
     "subscriptions_url": "https://api.github.com/users/kloewe/subscriptions", 
+    "twitter_username": null, 
     "type": "User", 
-    "updated_at": "2019-08-15T20:30:46Z", 
+    "updated_at": "2020-05-25T19:05:29Z", 
     "url": "https://api.github.com/users/kloewe"
   }, 
   {
@@ -673,7 +697,7 @@
     "created_at": "2014-03-05T10:02:36Z", 
     "email": null, 
     "events_url": "https://api.github.com/users/jelleveraart/events{/privacy}", 
-    "followers": 3, 
+    "followers": 4, 
     "followers_url": "https://api.github.com/users/jelleveraart/followers", 
     "following": 0, 
     "following_url": "https://api.github.com/users/jelleveraart/following{/other_user}", 
@@ -694,6 +718,7 @@
     "site_admin": false, 
     "starred_url": "https://api.github.com/users/jelleveraart/starred{/owner}{/repo}", 
     "subscriptions_url": "https://api.github.com/users/jelleveraart/subscriptions", 
+    "twitter_username": null, 
     "type": "User", 
     "updated_at": "2020-01-30T21:27:22Z", 
     "url": "https://api.github.com/users/jelleveraart"
@@ -727,6 +752,7 @@
     "site_admin": false, 
     "starred_url": "https://api.github.com/users/alan-connelly/starred{/owner}{/repo}", 
     "subscriptions_url": "https://api.github.com/users/alan-connelly/subscriptions", 
+    "twitter_username": null, 
     "type": "User", 
     "updated_at": "2019-01-18T02:01:22Z", 
     "url": "https://api.github.com/users/alan-connelly"
