@@ -41,6 +41,27 @@ def main(argv):
 
 
 
+
+
+
+    site = 'https://community.mrtrix.org'
+
+
+    # update topic lists in wiki section:
+    # wiki is category 12:
+    r = requests.get (site + '/c/12/l/latest.json')
+    p = json.loads (r.text)
+    tags = set ([ tag for entry in p["topic_list"]["topics"] for tag in entry["tags"] ])
+    with open ('_data/wiki_tags.csv', 'w') as f:
+      f.write ('name\n')
+      for tag in sorted(tags):
+        f.write (tag + '\n')
+
+
+
+
+
+    # update blog posts
     fetch_only_first = True
 
     try:
@@ -52,7 +73,6 @@ def main(argv):
         if opt in ("-a", "--all"):
             fetch_only_first = False
 
-    site = 'http://community.mrtrix.org'
 
     # 9 = Announcements
     # 11 = Blog
@@ -126,7 +146,15 @@ summary: {}
                 f.write (blog_post.encode('utf-8'))
 
                 if fetch_only_first:
-                    sys.exit(0)
+                    break
+
+
+
+
+
+
+
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])
