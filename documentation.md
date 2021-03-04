@@ -20,6 +20,6 @@ There are several sources of information to help you get the most out of *MRtrix
   - a [course on *MRtrix3*](https://andysbrainbook.readthedocs.io/en/latest/MRtrix/MRtrix_Introduction.html)
   - a [video series on Youtube](https://www.youtube.com/playlist?list=PLIQIswOrUH68Zi9SVDAdcUExpq2i6A2eD).
 
-- We have collected some videos in our [youtube channel](/videos) that showcase key functionalities of *mrview*.
+- The [*MRtrix3* youtube channel](/videos), which showcases key functionalities of *mrview*.
 
 
