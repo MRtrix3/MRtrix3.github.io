@@ -4,3 +4,7 @@ buttons:
     - title: Download
       icon: fa fa-download
       link: /download
+
+    - title: Use MRtrix3
+      icon: fa fa-users
+      link: /documentation
