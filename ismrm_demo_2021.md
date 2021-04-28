@@ -14,4 +14,4 @@ To get the most out of the demonstration, you will need to:
 
 Feel free to browse through our [documentation](/documentation) to get started!
 
-☞ If you run into issues with the installation, please reach out to us on the [Community forum](https://community.mrtrix.org/) so we can get it sorted *before* the demonstration.
+☞ If you run into issues with the installation, please reach out to us on the [Community forum](https://community.mrtrix.org/) so we can get them sorted *before* the demonstration.
