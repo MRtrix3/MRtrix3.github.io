@@ -25,5 +25,9 @@
       link: /developer-documentation/
       new_window: true
 
+    - title: Writing external modules
+      link: /external-modules
+      new_window: true
+
 - title: Publications
   link: /publications/
