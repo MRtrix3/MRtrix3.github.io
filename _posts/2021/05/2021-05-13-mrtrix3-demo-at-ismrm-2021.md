@@ -10,7 +10,7 @@ Dear MRtrix users,
 
 We will be presenting a brief demonstration of *MRtrix3* at the [ISMRM meeting](https://www.ismrm.org/21m/) next week. If you're registered and interested in an overview of what the software does, please join in! 
 
-See the [MRtrix website for full details](https://www.mrtrix.org/2020/10/01/mrtrix-3-0-2-release/) -- and spread the word!
+See the [MRtrix website for full details](https://www.mrtrix.org/ismrm_demo_2021/) -- and spread the word!
 
 All the best from the *MRtrix3* team
 
