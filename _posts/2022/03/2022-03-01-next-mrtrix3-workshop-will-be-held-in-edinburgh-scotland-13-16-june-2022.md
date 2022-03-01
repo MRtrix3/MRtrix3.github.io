@@ -6,7 +6,7 @@ date: 2022-03-01 13:37:51
 categories:
 summary: posted by J-Donald Tournier on Mar 01, 2022
 ---
-![Banner|690x288](https://community.mrtrix.org/uploads/default/original/2X/d/da86ebe076f38fba80b13557507226246dd0d2d6.jpeg)
+![Banner](https://community.mrtrix.org/uploads/default/original/2X/d/da86ebe076f38fba80b13557507226246dd0d2d6.jpeg)
 
 Hi everyone,
 
