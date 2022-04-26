@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 #
 # Pull the latest MRtrix community announcements and blog posts
 # and package them as blog posts to be pushed onto the website.
@@ -81,7 +81,8 @@ def main(argv):
         r = requests.get (site + '/c/{}/l/latest.json'.format(category))
         p = json.loads (r.text)
 
-        author_list = yaml.load(file(os.path.join('_data', 'authors.yml'), 'r'), Loader=yaml.SafeLoader)
+        with open (os.path.join('_data', 'authors.yml'), 'r') as f:
+          author_list = yaml.load(f, Loader=yaml.SafeLoader)
 
         for x in (p['topic_list']['topics']):
 
@@ -131,7 +132,7 @@ def main(argv):
 
 *[View comments on the community site](https://community.mrtrix.org/t/''' + str(discourse_id) + ')*\n'
 
-            with open (filepath, 'w') as f:
+            with open (filepath, 'wb') as f:
                 blog_post = u"""---
 layout: post
 title: '{}'
