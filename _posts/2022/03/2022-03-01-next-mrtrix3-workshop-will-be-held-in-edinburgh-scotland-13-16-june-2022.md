@@ -43,6 +43,7 @@ The MRtrix3 team.
 || 2pm - 3pm || Voxel-level modelling (basics) |
 | *PM* | 3pm - 4pm || _Coffee break & practice time_ |
 || 4pm - 5pm || Fundamentals of tractography |
+| _Evening_ |  || _Welcome dinner_ |
 | | | | |
 | **Tuesday** ||| **Preparing the data** |
 | | 9am - 10am || Pre-processing |
