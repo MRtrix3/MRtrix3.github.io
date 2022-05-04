@@ -26,6 +26,54 @@ We hope to see many of you there! Watch this space for further announcements. Al
 
 The MRtrix3 team.
 
+
+
+---
+
+## Programme (provisional)
+
+| Day | Time || Session |
+| :-: | :-: | - | - |
+| **Monday** |||  **Introduction** |
+|| 9am - 10am || Introduction to MRtrix & mrview |
+| *AM* | 10am - 11am || _Coffee break & practice time_ |
+||  11am - 12pm || The Spherical Deconvolutionist’s Guide to Diffusion MRI |
+| _Lunch break_ ||||
+|||| **Basic signal analysis and tractography** |
+|| 2pm - 3pm || Voxel-level modelling (basics) |
+| *PM* | 3pm - 4pm || _Coffee break & practice time_ |
+|| 4pm - 5pm || Fundamentals of tractography |
+| | | | |
+| **Tuesday** ||| **Preparing the data** |
+| | 9am - 10am || Pre-processing |
+| *AM* | 10am - 11am || _Coffee break & practice time_ |
+| | 11am - 12pm || Motion and distortion correction using dwifslpreproc |
+| _Lunch break_ ||||
+|||| **Robust DWI modelling** |
+|| 9am - 10am || Voxel-level modelling (advanced) |
+| *PM* | 10am - 11am || _Coffee break & practice time_ |
+|| 11am - 12pm || Towards quantitative voxel-level modelling |
+|||||
+| **Wednesday** ||| **Quantitative connectomics** |
+|| 9am - 10am || Quantitative tractography |
+| *AM* | 10am - 11am || _Coffee break & practice time_ |
+|| 11am - 12pm || Connectome construction |
+| _Lunch break_ ||||
+|||| **Registration & transformations** |
+|| 2pm - 3pm || Image registration |
+| *PM* | 3pm - 4pm || _Coffee break & practice time_ |
+|| 4pm - 5pm || ODF-based registration |
+|||||
+| **Thursday**||| **Fixel-Based Analysis** |
+|| 9am - 10am || Overview of the FBA pipeline |
+| *AM* | 10am - 11am || _Coffee break & practice time_ |
+| | 11am - 12pm || Processing steps for FBA |
+| _Lunch break_ ||||
+|||| **Statistics in FBA** | 
+|| 2pm - 3pm || The General Linear Model & permutation testing |
+| *PM* | 3pm - 4pm || _Coffee break & practice time_ |
+|| 4pm - 5pm || Statistical inference using CFE |
+
 ---
 
 *[View comments on the community site](https://community.mrtrix.org/t/5579)*
