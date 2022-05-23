@@ -51,9 +51,9 @@ The MRtrix3 team.
 | | 11am - 12pm || Motion and distortion correction using dwifslpreproc |
 | _Lunch break_ ||||
 |||| **Robust DWI modelling** |
-|| 9am - 10am || Voxel-level modelling (advanced) |
-| *PM* | 10am - 11am || _Coffee break & practice time_ |
-|| 11am - 12pm || Towards quantitative voxel-level modelling |
+|| 2pm - 3pm || Voxel-level modelling (advanced) |
+| *PM* | 3pm - 4pm || _Coffee break & practice time_ |
+|| 4pm - 5pm || Towards quantitative voxel-level modelling |
 |||||
 | **Wednesday** ||| **Quantitative connectomics** |
 || 9am - 10am || Quantitative tractography |
