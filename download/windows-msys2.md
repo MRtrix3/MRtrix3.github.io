@@ -106,7 +106,7 @@ Install MRtrix3
   These commands perform the following steps:
   - figure out URL of most up to date package
   - print out the URL to check it is as expected (this should report something like `https://github.com/MRtrix3/mrtrix3/releases/download/3.0.3/mingw-w64-x86_64-mrtrix3-3.0.3-2-x86_64.pkg.tar.xz`)
-  - download the package:
+  - download the package
   - install the package using `pacman`
     
 
