@@ -99,7 +99,7 @@ Install MRtrix3
   ```
   pkg=$(curl -s https://api.github.com/repos/MRtrix3/mrtrix3/releases/latest | grep browser_download_url.*.tar.xz | awk '{print $2}' | tr '"' ' ' | sort -n | tail -n 1 )
   echo $pkg
-  curl -sL $pkg -O
+  curl -L $pkg -O
   pacman -U $(basename $pkg)
   ```
  
