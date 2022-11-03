@@ -97,7 +97,7 @@ Install MRtrix3
   into the terminal (use Shift-Insert to paste into the terminal):
   
   ```
-  pkg=$(curl -s https://api.github.com/repos/MRtrix3/mrtrix3/releases/latest | grep browser_download_url.*.tar.xz | awk '{print $2}' | tr '"' ' ' | tail -n 1 )
+  pkg=$(curl -s https://api.github.com/repos/MRtrix3/mrtrix3/releases/latest | grep browser_download_url.*.tar.xz | awk '{print $2}' | tr '"' ' ' | sort -n | tail -n 1 )
   echo $pkg
   curl -sL $pkg -O
   pacman -U $(basename $pkg)
