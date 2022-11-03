@@ -93,16 +93,27 @@ Install MRtrix3
 - **Start the ‘MinGW-w64 Win64 Shell’** from the start menu
 
 - **Download and install the latest MRtrix3 package**.  This can be
-  accomplished by copy/pasting the following (rather long) one-line command
+  accomplished by copy/pasting the following commands
   into the terminal (use Shift-Insert to paste into the terminal):
+  
   ```
-  tag=$(basename $(curl -Ls -o /dev/null -w %{url_effective} https://github.com/MRtrix3/mrtrix3/releases/latest)) && curl -sL https://github.com/MRtrix3/mrtrix3/releases/download/${tag}/mingw-w64-x86_64-mrtrix3-${tag}-1-x86_64.pkg.tar.xz -O && pacman -U mingw-w64-x86_64-mrtrix3-${tag}-1-x86_64.pkg.tar.xz
+  pkg=$(curl -s https://api.github.com/repos/MRtrix3/mrtrix3/releases/latest | grep browser_download_url.*.tar.xz | awk '{print $2}' | tr '"' ' ' | tail -n 1 )
+  echo $pkg
+  curl -sL $pkg -O
+  pacman -U $(basename $pkg)
   ```
+ 
+  These commands perform the following steps:
+  - figure out URL of most up to date package
+  - print out the URL to check it is as expected (this should report something like `https://github.com/MRtrix3/mrtrix3/releases/download/3.0.3/mingw-w64-x86_64-mrtrix3-3.0.3-2-x86_64.pkg.tar.xz`)
+  - download the package:
+  - install the package using `pacman`
+    
 
   If necessary, this can also be done by downloading the package directly from 
   the [latest release page](https://github.com/MRtrix3/mrtrix3/releases/latest)
   on the [MRtrix3 GitHub repository](https://github.com/MRtrix3/mrtrix3) (the
-  relevant file should be called `mingw-w64-x86_64-mrtrix3-X.Y.Z-1-x86_64.pkg.tar.xz`), and
+  relevant file should be called `mingw-w64-x86_64-mrtrix3-X.Y.Z-n-x86_64.pkg.tar.xz`), and
   installing it using the `pacman -U` command (see links above for instructions
   on how to use `pacman`).
 
