@@ -97,7 +97,7 @@ Install MRtrix3
   into the terminal (use Shift-Insert to paste into the terminal):
   
   ```
-  pkg=$(curl -s https://api.github.com/repos/MRtrix3/mrtrix3/releases/latest | grep browser_download_url.*.tar.xz | awk '{print $2}' | tr '"' ' ' | sort -n | tail -n 1 )
+  pkg=$(curl -s https://api.github.com/repos/MRtrix3/mrtrix3/releases/latest | grep browser_download_url.*.tar.zst | awk '{print $2}' | tr '"' ' ' | sort -n | tail -n 1 )
   echo $pkg
   curl -L $pkg -O
   pacman -U $(basename $pkg)
@@ -105,7 +105,7 @@ Install MRtrix3
  
   These commands perform the following steps:
   - figure out URL of most up to date package
-  - print out the URL to check it is as expected (this should report something like `https://github.com/MRtrix3/mrtrix3/releases/download/3.0.3/mingw-w64-x86_64-mrtrix3-3.0.3-2-x86_64.pkg.tar.xz`)
+  - print out the URL to check it is as expected (this should report something like `https://github.com/MRtrix3/mrtrix3/releases/download/3.0.3/mingw-w64-x86_64-mrtrix3-3.0.3-2-x86_64.pkg.tar.zst`)
   - download the package
   - install the package using `pacman`
     
