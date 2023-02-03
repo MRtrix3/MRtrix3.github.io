@@ -6,7 +6,7 @@ date: 2023-02-03 18:50:12
 categories:
 summary: posted by Daan Christiaens on Feb 03, 2023
 ---
-![Banner|690x287](https://community.mrtrix.org/uploads/default/original/2X/f/f1032c5e20cfc1c797c5c6000457bd605d7a53dc.jpeg)
+![Banner](https://community.mrtrix.org/uploads/default/original/2X/f/f1032c5e20cfc1c797c5c6000457bd605d7a53dc.jpeg)
 
 Hi everyone,
 
