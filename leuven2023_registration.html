@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+<div class="home"> 
+        
+<h1>MRtrix Workshop Registration</h1>
+
+<p>THIS IS FOR TESTING ONLY - WE DO  NOT ACCEPT REGISTRATIONS YET!</p>
+
+<p>Please fill out the form below to sign up for the MRtrix Workshop 2023 in Leuven, Belgium. After submitting the form, you will be redirected to the payment website. If you encounter any issues, please contact us at <a href="mailto:workshop@mrtrix.org">workshop@mrtrix.org</a></p>
+
+<form 
+  method="POST" 
+  action="https://script.google.com/macros/s/AKfycbwdpUXXfPFyBYUTJwXMpq3R7uU_XPIsjyIPTY2p97b68R1LiGy2Gy8xF3DosxuERZ3l8w/exec"
+  id="registration-form"
+>
+
+  <p>First name *: <input name="First Name" type="text" required></p>
+  <p>Last name *: <input name="Last Name" type="text" required></p>
+  <p>Email address *: <input name="Email" type="text" required></p>
+  <p>Affiliation *: <input name="Affiliation" type="text" required></p>
+
+  <p>Position *:<br>
+  <input name="Position" type="radio" value="Student" required><label>Student (B.Sc./M.Sc./Ph.D./M.D.)</label><br>
+  <input name="Position" type="radio" value="Post-doc" required><label>Post-doc</label><br>
+  <input name="Position" type="radio" value="Industry" required><label>Industry</label><br>
+  </p>
+  
+  <p>Dietary preferences :<input name="Dietary" type="text"></p>
+
+  <p><button type="submit">Register now!</button></p>
+</form>
+
+<div id="output-node"></div>
+
+<script type = "text/javascript">
+window.addEventListener("load", function() {
+  const form = document.getElementById('registration-form');
+  var outputDiv = document.getElementById("output-node");
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(response => response.json())
+    .then(function(res) {
+      if (res.result === 'success') {
+        alert("Success!");
+        var amount = 800;
+        if (data.get("Position") === "Student") { amount = 500; }
+        if (data.get("Position") === "Industry") { amount = 1200; }
+        var message = "Registration " + data.get("First Name") + " " + data.get("Last Name");
+        var link = encodeURI("http://www.kuleuven.be/sapredir/onlinebetaling?taal=en-US&ges_mededeling=400/0023/82805&amount=" + amount + "&omschrijving=" + message);
+        outputDiv.innerHTML = '<p>Your registration has been recorded successfully. Nice one!</p>' + 
+              '<p>Please proceed to the following page to pay the registration fee (&euro;' + amount + '): <a href="' + link + '">Payment Link.</a></p>';
+      }
+    })
+  });
+}); 
+</script>
+
+
+</div>
