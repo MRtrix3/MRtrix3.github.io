@@ -31,7 +31,7 @@ permalink: /workshop2023/registration
     <select id="rate" name="Position" required>
       <option value="Student">Student</option>
       <option value="Post-doc">Post-doc</option>
-      <option value="industry">Industry</option>
+      <option value="Industry">Industry</option>
     </select>
   </p>
   
@@ -69,7 +69,7 @@ window.addEventListener("load", function() {
         //alert("Success!");
         var amount = 800;
         if (data.get("Position") === "Student") { amount = 500; }
-        if (data.get("Position") === "Industry") { amount = 1200; }
+        if (data.get("Position") === "Industry") { amount = 1000; }
         var message = "Registration " + data.get("First Name") + " " + data.get("Last Name");
         var link = encodeURI("http://www.kuleuven.be/sapredir/onlinebetaling?taal=en-US&ges_mededeling=400/0023/82805&amount=" + amount + "&omschrijving=" + message);
         outputDiv.innerHTML = '<p>Your registration has been recorded successfully. Nice one!</p>' + 
