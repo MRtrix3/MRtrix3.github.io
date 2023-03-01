@@ -18,18 +18,33 @@ permalink: /workshop2023/registration
   id="registration-form"
 >
 
-  <p>First name *: <input name="First Name" type="text" required></p>
-  <p>Last name *: <input name="Last Name" type="text" required></p>
-  <p>Email address *: <input name="Email" type="text" required></p>
-  <p>Affiliation *: <input name="Affiliation" type="text" required></p>
+  <p><label for="fn">First name:</label> * <input id="fn" name="First Name" type="text" required></p>
+  <p><label for="ln">Last name:</label> * <input id="ln" name="Last Name" type="text" required></p>
+  <p><label for="email">Email address:</label> * <input id="email" name="Email" type="email" size=50 required></p>
+  <p><label for="aff">Affiliation:</label> * <input id="aff" name="Affiliation" type="text" size=50 required></p>
+  <p><label for="address">Address:</label> * <input id="address" name="Address" type="text" size=50 required></p>
+  <p><label for="city">City:</label> * <input id="city" name="City" type="text" size=50 required></p>
+  <p><label for="country">Country:</label> * <input id="country" name="County" type="text" required></p>
 
-  <p>Position *:<br>
-  <input name="Position" type="radio" value="Student" required><label>Student (B.Sc./M.Sc./Ph.D./M.D.)</label><br>
-  <input name="Position" type="radio" value="Post-doc" required><label>Post-doc</label><br>
-  <input name="Position" type="radio" value="Industry" required><label>Industry</label><br>
+  <p>
+    <label for="rate">Rate:</label> * 
+    <select id="rate" name="Position" required>
+      <option value="Student">Student</option>
+      <option value="Post-doc">Post-doc</option>
+      <option value="industry">Industry</option>
+    </select>
   </p>
   
-  <p>Dietary preferences :<input name="Dietary" type="text"></p>
+  <p><label for="diet">Dietary preferences:</label> <input id="diet" name="Dietary" type="text"></p>
+  <p>
+    <label for="visa">Do you need a visa support letter?</label> * 
+    <select id="visa" name="Visa" required>
+      <option value="Student">No</option>
+      <option value="Post-doc">Yes</option>
+    </select>
+  </p>
+
+  <p><label for="comm">Do you have any comments or requests?</label> <textarea id="comm" name="Comments" rows=4 cols=50></p>
 
   <p><button type="submit">Register now!</button></p>
 </form>
@@ -51,7 +66,7 @@ window.addEventListener("load", function() {
     .then(response => response.json())
     .then(function(res) {
       if (res.result === 'success') {
-        alert("Success!");
+        //alert("Success!");
         var amount = 800;
         if (data.get("Position") === "Student") { amount = 500; }
         if (data.get("Position") === "Industry") { amount = 1200; }
