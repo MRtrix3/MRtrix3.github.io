@@ -34,17 +34,29 @@ permalink: /workshop2023/registration
       <option value="Industry">Industry</option>
     </select>
   </p>
+
+  <p>
+    <label for="pay">Preferred payment method:</label> * 
+    <select id="pay" name="Invoice" required>
+      <option value="No">Credit/debit card</option>
+      <option value="Yes">Invoice</option>
+    </select><br />
+    Please only request an invoice if necessary.
+  </p>
   
-  <p><label for="diet">Dietary preferences:</label> <input id="diet" name="Dietary" type="text"></p>
   <p>
     <label for="visa">Do you need a visa support letter?</label> * 
     <select id="visa" name="Visa" required>
-      <option value="Student">No</option>
-      <option value="Post-doc">Yes</option>
+      <option value="No">No</option>
+      <option value="Yes">Yes</option>
     </select>
   </p>
 
+  <p><label for="diet">Dietary preferences:</label> <input id="diet" name="Dietary" type="text"></p>
+
   <p><label for="comm">Do you have any comments or requests?</label><br /> <textarea id="comm" name="Comments" rows=4 cols=50></textarea></p>
+
+  <p>* <input if="terms" name="Terms" type="checkbox" required> <label for="terms">I accept the <a href="https://www.kuleuven.be/onderwijs/levenslangleren/permanentevorming/Docs/generalterms">General Terms and Conditions for Continuing Education at KU Leuven</a>.</label></p>
 
   <p><button type="submit">Register now!</button></p>
 </form>
@@ -72,8 +84,13 @@ window.addEventListener("load", function() {
         if (data.get("Position") === "Industry") { amount = 1000; }
         var message = "Registration " + data.get("First Name") + " " + data.get("Last Name");
         var link = encodeURI("http://www.kuleuven.be/sapredir/onlinebetaling?taal=en-US&ges_mededeling=400/0023/82805&amount=" + amount + "&omschrijving=" + message);
-        outputDiv.innerHTML = '<p>Your registration has been recorded successfully. Nice one!</p>' + 
-              '<p>Please proceed to the following page to pay the registration fee (&euro;' + amount + '): <a href="' + link + '">Payment Link.</a></p>';
+        var outputmessage = '<p>Your registration has been recorded successfully. Nice one!</p>';
+        if (data.get("Invoice") === "Yes") {
+          outputmessage += '<p>We will send you the invoice, including payment instructions, by email.</p>'
+        } else {
+          outputmessage += '<p>Please proceed to the following page to pay the registration fee (&euro;' + amount + '): <a href="' + link + '">Payment Link.</a></p>'; 
+        }
+        outputDiv.innerHTML = outputmessage;
       }
     })
   });
