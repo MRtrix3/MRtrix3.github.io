@@ -28,7 +28,7 @@ permalink: /workshop2023/registration
 
   <p>
     <label for="rate">Rate:</label> * 
-    <select id="rate" name="Position" required>
+    <select id="rate" name="Rate" required>
       <option value="Student">Student</option>
       <option value="Post-doc">Post-doc</option>
       <option value="Industry">Industry</option>
@@ -41,22 +41,26 @@ permalink: /workshop2023/registration
       <option value="No">Credit/debit card</option>
       <option value="Yes">Invoice</option>
     </select><br />
-    Please only request an invoice if necessary.
   </p>
   
   <p>
-    <label for="visa">Do you need a visa support letter?</label> * 
-    <select id="visa" name="Visa" required>
-      <option value="No">No</option>
-      <option value="Yes">Yes</option>
-    </select>
+    <input id="ads" name="ADS" type="hidden" value="No">
+    <input id="ads" name="ADS" type="checkbox" value="Yes">
+    <label for="ads">I am a PhD student at the KU Leuven Arenberg Doctoral School (Science &amp; Technology) and would like to apply for a registration waiver.</label>
   </p>
+
+  <p>
+    <input id="visa" name="Visa" type="hidden" value="No">
+    <input id="visa" name="Visa" type="checkbox" value="Yes">
+    <label for="visa">I request a letter of support for a travel visa application.</label>
+  </p>
+  <p><input id="visa" name="Visa" type="checkbox"> <label for="visa">I request a letter of support for a travel visa application.</label></p>
 
   <p><label for="diet">Dietary preferences:</label> <input id="diet" name="Dietary" type="text"></p>
 
   <p><label for="comm">Do you have any comments or requests?</label><br /> <textarea id="comm" name="Comments" rows=4 cols=50></textarea></p>
 
-  <p>* <input if="terms" name="Terms" type="checkbox" required> <label for="terms">I accept the <a href="https://www.kuleuven.be/onderwijs/levenslangleren/permanentevorming/Docs/generalterms">General Terms and Conditions for Continuing Education at KU Leuven</a>.</label></p>
+  <p>* <input id="terms" name="Terms" type="checkbox" required> <label for="terms">I accept the <a href="https://www.kuleuven.be/onderwijs/levenslangleren/permanentevorming/Docs/generalterms">General Terms and Conditions for Continuing Education at KU Leuven</a>.</label></p>
 
   <p><button type="submit">Register now!</button></p>
 </form>
@@ -78,17 +82,26 @@ window.addEventListener("load", function() {
     .then(response => response.json())
     .then(function(res) {
       if (res.result === 'success') {
-        //alert("Success!");
+        var outputmessage = '<p>Your registration has been recorded successfully. Nice one!</p>';
+        // data processing
         var amount = 800;
-        if (data.get("Position") === "Student") { amount = 500; }
-        if (data.get("Position") === "Industry") { amount = 1000; }
+        if (data.get("Rate") === "Student") {
+          amount = 500;
+          outputmessage += '<p>Please email a student verification letter to <a href="mailto:workshop@mrtrix.org">workshop@mrtrix.org</a></p>';
+        }
+        if (data.get("Rate") === "Industry") {
+          amount = 1000; 
+        }
         var message = "Registration " + data.get("First Name") + " " + data.get("Last Name");
         var link = encodeURI("http://www.kuleuven.be/sapredir/onlinebetaling?taal=en-US&ges_mededeling=400/0023/82805&amount=" + amount + "&omschrijving=" + message);
-        var outputmessage = '<p>Your registration has been recorded successfully. Nice one!</p>';
-        if (data.get("Invoice") === "Yes") {
-          outputmessage += '<p>We will send you the invoice, including payment instructions, by email.</p>'
+        if (data.get("ADS") === "Yes") {
+          outputmessage += '<p>We have limited number waivers available for ADS students. You do not need to pay the registration fee until we have processed your application.</p>';
         } else {
-          outputmessage += '<p>Please proceed to the following page to pay the registration fee (&euro;' + amount + '): <a href="' + link + '">Payment Link.</a></p>'; 
+          if (data.get("Invoice") === "Yes") {
+            outputmessage += '<p>We will send you the invoice, including payment instructions, by email.</p>'
+          } else {
+            outputmessage += '<p>Please proceed to the following page to pay the registration fee (&euro;' + amount + '): <a href="' + link + '">Payment Link.</a></p>'; 
+          }
         }
         outputDiv.innerHTML = outputmessage;
       }
