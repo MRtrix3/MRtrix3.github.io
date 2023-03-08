@@ -39,6 +39,7 @@ permalink: /workshop2023/registration
       <option value="Card">Credit/debit card</option>
       <option value="Invoice">Invoice</option>
     </select><br />
+    (Please note that we will <i>not</i> be able to send you an invoice later if you pay by card.)
   </p>
   
   <p>
@@ -77,7 +78,7 @@ window.addEventListener("load", function() {
     .then(response => response.json())
     .then(function(res) {
       if (res.result === 'success') {
-        var outputmessage = '<p>Your registration has been recorded successfully. Nice one!</p>';
+        var outputmessage = '<p>Your registration has been recorded successfully.</p>';
         // data processing
         var amount = (data.get("Rate") === "Industry") ? 1200 : 800;
         if (data.get("Rate") === "Student") {
