@@ -44,17 +44,14 @@ permalink: /workshop2023/registration
   </p>
   
   <p>
-    <input id="ads" name="ADS" type="hidden" value="No">
     <input id="ads" name="ADS" type="checkbox" value="Yes">
     <label for="ads">I am a PhD student at the KU Leuven Arenberg Doctoral School (Science &amp; Technology) and would like to apply for a registration waiver.</label>
   </p>
 
   <p>
-    <input id="visa" name="Visa" type="hidden" value="No">
     <input id="visa" name="Visa" type="checkbox" value="Yes">
     <label for="visa">I request a letter of support for a travel visa application.</label>
-  </p>
-  <p><input id="visa" name="Visa" type="checkbox"> <label for="visa">I request a letter of support for a travel visa application.</label></p>
+  </p> 
 
   <p><label for="diet">Dietary preferences:</label> <input id="diet" name="Dietary" type="text"></p>
 
@@ -94,7 +91,7 @@ window.addEventListener("load", function() {
         }
         var message = "Registration " + data.get("First Name") + " " + data.get("Last Name");
         var link = encodeURI("http://www.kuleuven.be/sapredir/onlinebetaling?taal=en-US&ges_mededeling=400/0023/82805&amount=" + amount + "&omschrijving=" + message);
-        if (data.get("ADS") === "Yes") {
+        if (data.get("ADS")) {
           outputmessage += '<p>We have limited number waivers available for ADS students. You do not need to pay the registration fee until we have processed your application.</p>';
         } else {
           if (data.get("Invoice") === "Yes") {
