@@ -15,7 +15,7 @@ We are pleased to announce that we will be hosting our fifth official *MRtrix3* 
 - **date & time:** Monday 11 till Thursday 14 September 2023, 9am -- 5pm.
 - **location:** [Arenberg Castle](https://goo.gl/maps/KFnviNRkMSH8N3qG8), KU Leuven, Belgium.
 - **attendance:** 30-45 delegates.
-- **registration fee:** *provisionally* set at €500 / €800 / €1000 for per person for student / academic / industry attendees. This will include venue hire, coffee breaks, lunches, and a welcome dinner, but will *exclude* accommodation. Registration will open in March 2023.
+- **registration fee:** €500 (student) / €800 (post-doc) / €1200 (industry). This will include venue hire, coffee breaks, lunches, and a welcome dinner, but will *exclude* accommodation. Registration will open in March 2023.
 
 **Note:** student attendees will need to provide a letter from their supervisor confirming their student status. This can be done after registration, but will be required before attendance. Please send these letters to workshop@mrtrix.org.
 
