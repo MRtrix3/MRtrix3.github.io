@@ -8,7 +8,11 @@ permalink: /workshop2023/registration
         
 <h1>MRtrix Workshop Registration</h1>
 
+<p><b><i>Registration is now fully booked!</i></b> You can fill out the form below to put your name on the <i>waiting list</i>.</p>
+
+<!--
 <p>Please fill out the form below to sign up for the MRtrix Workshop 2023 in Leuven, Belgium. After submitting the form, you will be redirected to the payment website. We will confirm your registration by email within one week. If you encounter any issues, please contact us at <a href="mailto:workshop@mrtrix.org">workshop@mrtrix.org</a></p>
+-->
 
 <form 
   method="POST" 
@@ -78,6 +82,8 @@ window.addEventListener("load", function() {
     .then(response => response.json())
     .then(function(res) {
       if (res.result === 'success') {
+        var outputmessage = '<p>Your name has been added to the <i>waiting list</i>. We will contact you if a spot opens up.</p>';
+        /*
         var outputmessage = '<p>Your registration has been recorded successfully.</p>';
         // data processing
         var amount = (data.get("Rate") === "Industry") ? 1200 : 800;
@@ -96,6 +102,7 @@ window.addEventListener("load", function() {
             outputmessage += '<p>Please proceed to the following page to pay the registration fee (&euro;' + amount + '): <a href="' + link + '">Payment Link.</a></p>'; 
           }
         }
+        */
         outputDiv.innerHTML = outputmessage;
       }
     })
