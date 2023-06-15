@@ -17,7 +17,7 @@ We are pleased to announce that we will be hosting our fifth official *MRtrix3* 
 - **attendance:** 30-45 delegates.
 - **registration fee:** €500 (student) / €800 (post-doc) / €1200 (industry). This will include venue hire, coffee breaks, lunches, and a welcome dinner, but will *exclude* accommodation.
 
-**Registrations are now live!** Please fill out the registration form [here](https://www.mrtrix.org/workshop2023/registration).
+You can **register** for the workshop [here](https://www.mrtrix.org/workshop2023/registration). ***We only have a few places left!*** Registration will *close on Friday 23 June 2023* or sooner if we're fully booked.
 
 **Note:** student attendees will need to provide a letter from their supervisor confirming their student status. This can be done after registration, but will be required before attendance. Please send these letters to workshop@mrtrix.org.
 
