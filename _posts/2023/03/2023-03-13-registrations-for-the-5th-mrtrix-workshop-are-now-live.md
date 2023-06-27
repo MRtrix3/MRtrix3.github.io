@@ -7,7 +7,7 @@ categories:
 summary: posted by Daan Christiaens on Mar 13, 2023
 ---
 We are pleased to announce that the upcoming MRtrix Workshop in Leuven, Belgium, is now open for registrations! 
-Please [visit our website](https://www.mrtrix.org/workshop/) for full details and a link to the [registration website](https://www.mrtrix.org/workshop2023/registration). 
+Please [visit our website](https://www.mrtrix.org/workshop/) for full details.
 
 Hope to see many of you there!
 All the best, 
