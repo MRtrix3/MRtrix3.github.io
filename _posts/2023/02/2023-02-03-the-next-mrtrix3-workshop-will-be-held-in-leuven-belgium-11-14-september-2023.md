@@ -34,12 +34,13 @@ Daan Christiaens
 
 ---
 
-## Preliminary programme:
+## Programme:
 
 | Day | Time || Session |
 | :-: | :-: | - | - |
 | **Monday** |||  **Introduction** |
-| *AM* | 9am - 10am || Introduction to MRtrix & mrview |
+| *AM* | 8:30am || _Registration & welcome_  |
+|| 9am - 10am || Introduction to MRtrix & mrview |
 || 10am - 11am || _Coffee break & practice time_ |
 ||  11am - 12pm || The Spherical Deconvolutionist’s Guide to Diffusion MRI |
 |||| _Lunch break_ |
@@ -47,7 +48,7 @@ Daan Christiaens
 | *PM* | 2pm - 3pm || Voxel-level modelling (basics) |
 || 3pm - 4pm || _Coffee break & practice time_ |
 || 4pm - 5pm || Fundamentals of tractography |
-| _Evening_ |  || _Welcome dinner_ |
+|| 6:30pm || _Welcome dinner_ |
 | | | | |
 | **Tuesday** ||| **Preparing the data** |
 | *AM* | 9am - 10am || Pre-processing |
@@ -64,13 +65,13 @@ Daan Christiaens
 || 10am - 11am || _Coffee break & practice time_ |
 || 11am - 12pm || Connectome construction |
 |||| _Lunch break_ |
-|||| **Registration & transformations** |
+|||| **Registration & template construction** |
 | *PM* | 2pm - 3pm || Image registration |
 || 3pm - 4pm || _Coffee break & practice time_ |
-|| 4pm - 5pm || ODF-based registration |
+|| 4pm - 5pm || Group-level quantitative dMRI analysis |
 |||||
 | **Thursday**||| **Fixel-Based Analysis** |
-| *AM* | 9am - 10am || Overview of the FBA pipeline |
+| *AM* | 9am - 10am || Preparing data for Fixel-Based Analysis |
 || 10am - 11am || _Coffee break & practice time_ |
 | | 11am - 12pm || The General Linear Model & permutation testing |
 |||| _Lunch break_ |
