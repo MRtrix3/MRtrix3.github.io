@@ -17,7 +17,7 @@ We are pleased to announce that we will be hosting our sixth official *MRtrix3* 
 * **attendance:** 40-60 delegates.
 * **registration fee:** TWD $4800 (student) / $9600 (academic) / $19200 (industry),  approximately USD $150 / $300 / $600 respectively. The fee will include venue hire, coffee breaks, lunches, and a welcome dinner, but will *exclude* accommodation.
 
-**Registration** will open in February 2024.
+**Registration:** Please visit [https://sites.google.com/view/6th-mrtrix3-workshop/home](https://sites.google.com/view/6th-mrtrix3-workshop/home) to sign up for the workshop and access information about the programme, speakers, and practical details!
 
 **Note:** student attendees will need to provide a letter from their supervisor confirming their student status. This can be done after registration, but will be required before attendance. Please send these letters to [workshop@mrtrix.org](mailto:workshop@mrtrix.org).
 
