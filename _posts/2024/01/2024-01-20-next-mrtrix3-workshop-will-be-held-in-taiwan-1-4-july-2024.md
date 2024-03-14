@@ -6,7 +6,7 @@ date: 2024-01-20 00:18:42
 categories:
 summary: posted by Chun-Hung Yeh on Jan 20, 2024
 ---
-![Banner_2024Taiwan|1920x740](upload://pCNrohiZ15yCqsvitB7y95hT9kr.jpeg)
+![Banner_2024Taiwan](upload://pCNrohiZ15yCqsvitB7y95hT9kr.jpeg)
 
 Hi everyone,
 
