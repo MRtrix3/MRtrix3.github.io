@@ -6,7 +6,7 @@ date: 2024-01-20 00:18:42
 categories:
 summary: posted by Chun-Hung Yeh on Jan 20, 2024
 ---
-![Banner_2024Taiwan](upload://pCNrohiZ15yCqsvitB7y95hT9kr.jpeg)
+![Banner_2024Taiwan](https://community.mrtrix.org/uploads/default/original/2X/b/b39914be3e05ad8dd6ccfc395c3386a3dcf7de0f.jpeg)
 
 Hi everyone,
 
