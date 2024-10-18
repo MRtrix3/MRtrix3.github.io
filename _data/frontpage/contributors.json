@@ -18,7 +18,8 @@
     "starred_url": "https://api.github.com/users/Lestropie/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/Lestropie/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/Lestropie"
+    "url": "https://api.github.com/users/Lestropie",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/3221000?v=4",
@@ -39,7 +40,8 @@
     "starred_url": "https://api.github.com/users/jdtournier/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/jdtournier/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/jdtournier"
+    "url": "https://api.github.com/users/jdtournier",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/2948458?v=4",
@@ -60,7 +62,8 @@
     "starred_url": "https://api.github.com/users/draffelt/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/draffelt/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/draffelt"
+    "url": "https://api.github.com/users/draffelt",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/10046944?v=4",
@@ -81,7 +84,8 @@
     "starred_url": "https://api.github.com/users/maxpietsch/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/maxpietsch/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/maxpietsch"
+    "url": "https://api.github.com/users/maxpietsch",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/11952694?v=4",
@@ -102,7 +106,8 @@
     "starred_url": "https://api.github.com/users/thijsdhollander/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/thijsdhollander/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/thijsdhollander"
+    "url": "https://api.github.com/users/thijsdhollander",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/7466983?v=4",
@@ -123,7 +128,8 @@
     "starred_url": "https://api.github.com/users/dchristiaens/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/dchristiaens/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/dchristiaens"
+    "url": "https://api.github.com/users/dchristiaens",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/3273442?v=4",
@@ -144,7 +150,8 @@
     "starred_url": "https://api.github.com/users/rtabbara/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/rtabbara/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/rtabbara"
+    "url": "https://api.github.com/users/rtabbara",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/5675416?v=4",
@@ -165,7 +172,8 @@
     "starred_url": "https://api.github.com/users/bjeurissen/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/bjeurissen/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/bjeurissen"
+    "url": "https://api.github.com/users/bjeurissen",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/76340?v=4",
@@ -186,7 +194,8 @@
     "starred_url": "https://api.github.com/users/blezek/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/blezek/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/blezek"
+    "url": "https://api.github.com/users/blezek",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/65320363?v=4",
@@ -207,7 +216,8 @@
     "starred_url": "https://api.github.com/users/MRtrixBot/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/MRtrixBot/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/MRtrixBot"
+    "url": "https://api.github.com/users/MRtrixBot",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/7785283?v=4",
@@ -228,7 +238,8 @@
     "starred_url": "https://api.github.com/users/matteofrigo/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/matteofrigo/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/matteofrigo"
+    "url": "https://api.github.com/users/matteofrigo",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/12027211?v=4",
@@ -249,7 +260,8 @@
     "starred_url": "https://api.github.com/users/chunhungyeh/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/chunhungyeh/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/chunhungyeh"
+    "url": "https://api.github.com/users/chunhungyeh",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/5771004?v=4",
@@ -270,7 +282,8 @@
     "starred_url": "https://api.github.com/users/sfrydman/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/sfrydman/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/sfrydman"
+    "url": "https://api.github.com/users/sfrydman",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/129752264?v=4",
@@ -291,7 +304,8 @@
     "starred_url": "https://api.github.com/users/daljit46/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/daljit46/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/daljit46"
+    "url": "https://api.github.com/users/daljit46",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/29856041?v=4",
@@ -312,7 +326,8 @@
     "starred_url": "https://api.github.com/users/matteomancini/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/matteomancini/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/matteomancini"
+    "url": "https://api.github.com/users/matteomancini",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/33662704?v=4",
@@ -333,7 +348,8 @@
     "starred_url": "https://api.github.com/users/fionaEyoung/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/fionaEyoung/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/fionaEyoung"
+    "url": "https://api.github.com/users/fionaEyoung",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/620876?v=4",
@@ -354,7 +370,8 @@
     "starred_url": "https://api.github.com/users/boegel/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/boegel/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/boegel"
+    "url": "https://api.github.com/users/boegel",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/7763205?v=4",
@@ -375,7 +392,8 @@
     "starred_url": "https://api.github.com/users/WillBrennan/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/WillBrennan/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/WillBrennan"
+    "url": "https://api.github.com/users/WillBrennan",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/82894985?v=4",
@@ -396,7 +414,8 @@
     "starred_url": "https://api.github.com/users/tbschuster/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/tbschuster/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/tbschuster"
+    "url": "https://api.github.com/users/tbschuster",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/1054870?v=4",
@@ -417,7 +436,8 @@
     "starred_url": "https://api.github.com/users/tclose/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/tclose/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/tclose"
+    "url": "https://api.github.com/users/tclose",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/11604020?v=4",
@@ -438,7 +458,8 @@
     "starred_url": "https://api.github.com/users/CanWood/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/CanWood/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/CanWood"
+    "url": "https://api.github.com/users/CanWood",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/64498982?v=4",
@@ -459,7 +480,8 @@
     "starred_url": "https://api.github.com/users/cbajada/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/cbajada/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/cbajada"
+    "url": "https://api.github.com/users/cbajada",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/24574541?v=4",
@@ -480,7 +502,8 @@
     "starred_url": "https://api.github.com/users/EmilieMcKinnon/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/EmilieMcKinnon/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/EmilieMcKinnon"
+    "url": "https://api.github.com/users/EmilieMcKinnon",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/17690870?v=4",
@@ -501,7 +524,8 @@
     "starred_url": "https://api.github.com/users/kaczmarj/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/kaczmarj/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/kaczmarj"
+    "url": "https://api.github.com/users/kaczmarj",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/5805185?v=4",
@@ -522,7 +546,8 @@
     "starred_url": "https://api.github.com/users/octomike/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/octomike/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/octomike"
+    "url": "https://api.github.com/users/octomike",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/33220837?v=4",
@@ -543,7 +568,8 @@
     "starred_url": "https://api.github.com/users/nicdc/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/nicdc/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/nicdc"
+    "url": "https://api.github.com/users/nicdc",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/8361320?v=4",
@@ -564,7 +590,8 @@
     "starred_url": "https://api.github.com/users/kpannek/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/kpannek/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/kpannek"
+    "url": "https://api.github.com/users/kpannek",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/34767384?v=4",
@@ -585,7 +612,8 @@
     "starred_url": "https://api.github.com/users/sertopexamgio/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/sertopexamgio/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/sertopexamgio"
+    "url": "https://api.github.com/users/sertopexamgio",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/1118942?v=4",
@@ -606,7 +634,8 @@
     "starred_url": "https://api.github.com/users/lrq3000/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/lrq3000/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/lrq3000"
+    "url": "https://api.github.com/users/lrq3000",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/8280611?v=4",
@@ -627,7 +656,8 @@
     "starred_url": "https://api.github.com/users/civier/starred{/owner}{/repo}",
     "subscriptions_url": "https://api.github.com/users/civier/subscriptions",
     "type": "User",
-    "url": "https://api.github.com/users/civier"
+    "url": "https://api.github.com/users/civier",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/48647918?v=4",
@@ -661,7 +691,8 @@
     "twitter_username": null,
     "type": "User",
     "updated_at": "2024-08-15T18:00:30Z",
-    "url": "https://api.github.com/users/JRosnarho"
+    "url": "https://api.github.com/users/JRosnarho",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/3585780?v=4",
@@ -695,7 +726,8 @@
     "twitter_username": null,
     "type": "User",
     "updated_at": "2024-10-13T14:15:06Z",
-    "url": "https://api.github.com/users/gianlo"
+    "url": "https://api.github.com/users/gianlo",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/16088468?v=4",
@@ -729,7 +761,8 @@
     "twitter_username": null,
     "type": "User",
     "updated_at": "2020-05-25T19:05:29Z",
-    "url": "https://api.github.com/users/kloewe"
+    "url": "https://api.github.com/users/kloewe",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/6860257?v=4",
@@ -763,7 +796,8 @@
     "twitter_username": null,
     "type": "User",
     "updated_at": "2024-08-29T16:07:34Z",
-    "url": "https://api.github.com/users/jelleveraart"
+    "url": "https://api.github.com/users/jelleveraart",
+    "user_view_type": "public"
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/29624303?v=4",
@@ -797,6 +831,7 @@
     "twitter_username": null,
     "type": "User",
     "updated_at": "2019-01-18T02:01:22Z",
-    "url": "https://api.github.com/users/alan-connelly"
+    "url": "https://api.github.com/users/alan-connelly",
+    "user_view_type": "public"
   }
 ]
