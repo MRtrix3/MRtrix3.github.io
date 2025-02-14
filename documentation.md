@@ -14,7 +14,7 @@ There are several sources of information to help you get the most out of *MRtrix
 
 - The [*MRtrix3* community forum](https://community.mrtrix.org/categories) is very active, and many of your questions may have already been answered there. You should of course feel free to start a new topic if you can't find the answers you're looking for!
 
-- The [B.A.T.M.A.N. tutorial](https://osf.io/fkyht/), authored by [Marlene Tahedl](https://community.mrtrix.org/u/martahedl/summary), provides an excellent overview of a full analysis pipeline using *MRtrix3*, with plenty of examples, helpful strategies and advice about common pitfalls.
+- The [B.A.T.M.A.N. tutorial](https://osf.io/fkyht/), and the associated [Nature Protocols paper](https://www.nature.com/articles/s41596-024-01129-1) authored by [Marlene Tahedl](https://community.mrtrix.org/u/martahedl/summary), provides an excellent overview of a full analysis pipeline using *MRtrix3*, with plenty of examples, helpful strategies and advice about common pitfalls.
 
 - [Andy's Brain Blog](https://www.andysbrainblog.com/), written by [Andrew Jahn](https://www.andysbrainblog.com/about), contains a wealth of information on various topics, including:
   - a [course on *MRtrix3*](https://andysbrainbook.readthedocs.io/en/latest/MRtrix/MRtrix_Introduction.html)

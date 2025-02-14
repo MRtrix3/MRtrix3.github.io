@@ -1,3 +1,9 @@
+-  title: "Structural connectome construction using constrained spherical deconvolution in multi-shell diffusion-weighted magnetic resonance imaging"
+   journal: "Nature Protocols, 2025, 10.1038/s41596-024-01129-1"
+   year: 2025
+   authors: "Tahedl, M.; Tournier, J.-D.; Smith, R. E."
+   internal: True
+   url: "https://www.nature.com/articles/s41596-024-01129-1"
 
 -  title: "MRtrix3: A fast, flexible and open software framework for medical image processing and visualisation"
    journal: "NeuroImage, 2019, 116137"
