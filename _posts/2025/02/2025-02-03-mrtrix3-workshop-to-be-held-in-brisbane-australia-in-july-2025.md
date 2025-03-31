@@ -17,7 +17,8 @@ We are pleased to announce that we will be hosting our seventh official *MRtrix3
 * **attendance:** 40-60 delegates.
 * **registration fee:** AU $500 (student) / $750 (academic) / $1,500 (industry),  approximately USD $300 / $500 / $950 respectively. The fee will include venue hire, coffee breaks, lunches, and a welcome dinner, but will *exclude* accommodation.
 
-**Registration:** _coming soon!_
+**Registration:** Please [visit the workshop registration page](https://payments.uq.edu.au/mrtrix3workshop2025) to sign up for the workshop.
+
 
 **Note:** student attendees will need to provide a letter from their supervisor confirming their student status. This can be done after registration, but will be required before attendance. Please send these letters to [workshop@mrtrix.org](mailto:workshop@mrtrix.org).
 
