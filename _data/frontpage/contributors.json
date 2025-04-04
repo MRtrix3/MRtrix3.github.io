@@ -1,7 +1,7 @@
 [
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/5637955?v=4",
-    "contributions": 3745,
+    "contributions": 3755,
     "events_url": "https://api.github.com/users/Lestropie/events{/privacy}",
     "followers_url": "https://api.github.com/users/Lestropie/followers",
     "following_url": "https://api.github.com/users/Lestropie/following{/other_user}",
@@ -23,7 +23,7 @@
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/3221000?v=4",
-    "contributions": 3418,
+    "contributions": 3420,
     "events_url": "https://api.github.com/users/jdtournier/events{/privacy}",
     "followers_url": "https://api.github.com/users/jdtournier/followers",
     "following_url": "https://api.github.com/users/jdtournier/following{/other_user}",
@@ -199,7 +199,7 @@
   },
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/65320363?v=4",
-    "contributions": 16,
+    "contributions": 17,
     "events_url": "https://api.github.com/users/MRtrixBot/events{/privacy}",
     "followers_url": "https://api.github.com/users/MRtrixBot/followers",
     "following_url": "https://api.github.com/users/MRtrixBot/following{/other_user}",
@@ -264,6 +264,28 @@
     "user_view_type": "public"
   },
   {
+    "avatar_url": "https://avatars.githubusercontent.com/u/129752264?v=4",
+    "contributions": 9,
+    "events_url": "https://api.github.com/users/daljit46/events{/privacy}",
+    "followers_url": "https://api.github.com/users/daljit46/followers",
+    "following_url": "https://api.github.com/users/daljit46/following{/other_user}",
+    "gists_url": "https://api.github.com/users/daljit46/gists{/gist_id}",
+    "gravatar_id": "",
+    "html_url": "https://github.com/daljit46",
+    "id": 129752264,
+    "login": "daljit46",
+    "node_id": "U_kgDOB7vcyA",
+    "organizations_url": "https://api.github.com/users/daljit46/orgs",
+    "received_events_url": "https://api.github.com/users/daljit46/received_events",
+    "repos_url": "https://api.github.com/users/daljit46/repos",
+    "site_admin": false,
+    "starred_url": "https://api.github.com/users/daljit46/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/daljit46/subscriptions",
+    "type": "User",
+    "url": "https://api.github.com/users/daljit46",
+    "user_view_type": "public"
+  },
+  {
     "avatar_url": "https://avatars.githubusercontent.com/u/5771004?v=4",
     "contributions": 8,
     "events_url": "https://api.github.com/users/sfrydman/events{/privacy}",
@@ -283,28 +305,6 @@
     "subscriptions_url": "https://api.github.com/users/sfrydman/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/sfrydman",
-    "user_view_type": "public"
-  },
-  {
-    "avatar_url": "https://avatars.githubusercontent.com/u/129752264?v=4",
-    "contributions": 8,
-    "events_url": "https://api.github.com/users/daljit46/events{/privacy}",
-    "followers_url": "https://api.github.com/users/daljit46/followers",
-    "following_url": "https://api.github.com/users/daljit46/following{/other_user}",
-    "gists_url": "https://api.github.com/users/daljit46/gists{/gist_id}",
-    "gravatar_id": "",
-    "html_url": "https://github.com/daljit46",
-    "id": 129752264,
-    "login": "daljit46",
-    "node_id": "U_kgDOB7vcyA",
-    "organizations_url": "https://api.github.com/users/daljit46/orgs",
-    "received_events_url": "https://api.github.com/users/daljit46/received_events",
-    "repos_url": "https://api.github.com/users/daljit46/repos",
-    "site_admin": false,
-    "starred_url": "https://api.github.com/users/daljit46/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/daljit46/subscriptions",
-    "type": "User",
-    "url": "https://api.github.com/users/daljit46",
     "user_view_type": "public"
   },
   {
