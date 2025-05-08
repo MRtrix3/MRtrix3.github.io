@@ -14,7 +14,7 @@ Instructions
 
 Open a terminal configured for anaconda/miniconda, and type:
 ```
-conda install -c mrtrix3 mrtrix3
+conda install -c conda-forge -c MRtrix3 mrtrix3 libstdcxx-ng
 ```
 
 
