@@ -76,6 +76,7 @@ The MRtrix3 team.
 | | 4pm - 5pm |  | Visualisation and other useful tricks|
 | | 5pm |  | *Adjournment*|
 
+---
 
 ## Practical information
 
