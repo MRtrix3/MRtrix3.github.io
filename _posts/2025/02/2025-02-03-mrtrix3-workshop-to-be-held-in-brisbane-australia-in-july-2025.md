@@ -76,6 +76,84 @@ The MRtrix3 team.
 | | 4pm - 5pm |  | Visualisation and other useful tricks|
 | | 5pm |  | *Adjournment*|
 
+
+## Practical information
+
+### Public Transport
+
+Use https://translink.com.au/ or download the Translink App to check for the closest stop to your hotel. All public transport is currently $0.50 per trip.
+
+Most public transport takes payment from your phone or card otherwise get yourself a GO card which can be purchased from most news agencies.
+
+There is an airport train line that runs to the city from both the international and domestic terminals.
+
+#### Buses from City to St Lucia
+- Route M2
+- Route 411
+- Route 412
+- Route P332
+
+#### Buses from South Bank to St Lucia
+- Route M2
+
+#### Train
+- Catch train from Brisbane City or South Bank to Toowong Station (Ipswich Line)
+- If catching from South Bank, you may need to change trains at Brisbane -Central or Roma Street to the Ipswich line
+- Catch either bus 412 or 402 to UQ campus from stop 14 (Benson Street, Toowong)
+
+#### Ferry
+You will get off at the UQ St Lucia ferry terminal
+
+Ferries from Brisbane City to UQ, St Lucia
+- QUT Gardens Point Ferry Terminal
+- Riverside Ferry Terminal
+- Howard Smith Wharves ferry terminal
+- North Quay ferry terminal
+
+Ferries from South Bank to UQ, St Lucia
+- South bank ferry terminal
+
+---
+
+### Food and drink 
+
+#### Brisbane City
+
+Restaurant/bar suggestions:
+- Brisbane Riverside has many dining and bar options
+- Howard Smith Wharves
+- Longwang Restaurant
+- Extensive list can be found here
+- New Star Casino precinct – Queens Wharf
+
+Cafes:
+
+- Marco Polo
+- Coffee Anthology
+- Two Sons Coffee Co
+- Extensive list can be found here
+
+#### South Bank
+
+- Extensive list can be found here
+- Rooftop dining and cocktails – Emporium Hotel
+
+---
+
+### Parking at UQ, St Lucia
+
+Download the CelloPark app, or use the Pay-by-Plate machines that are situated around campus near all street or multi-level carparks.
+
+[Click here for a PDF parking map](https://campuses.uq.edu.au/files/22445/ParkingMap-StLucia.pdf)
+
+[Click here gor information about parking zone and associated fees](https://campuses.uq.edu.au/information-and-services/parking-transport/parking/locations/st-lucia)
+
+---
+
+### Accommodation
+
+There is unfortunately no accommodation available through the University. Please use other booking sites to find accommodation options near the St Lucia campus, where the workshop is due to take place.
+
 ---
 
 *[View comments on the community site](https://community.mrtrix.org/t/8185)*
