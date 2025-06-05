@@ -15,7 +15,7 @@ We are pleased to announce that we will be hosting our seventh official *MRtrix3
 * **date & time:** Monday 30 June till Thursday 3 July 2025, 9am – 5pm.
 * **location:** [The University of Queensland](https://www.uq.edu.au/) (St Lucia Campus), Brisbane, Australia.
 * **attendance:** 40-60 delegates.
-* **registration fee:** AU $500 (student) / $750 (academic) / $1,500 (industry),  approximately USD $300 / $500 / $950 respectively. The fee will include venue hire, coffee breaks, lunches, and a welcome dinner, but will *exclude* accommodation.
+* **registration fee:** AU $500 (student) / $750 (academic) / $1,500 (industry),  approximately USD $300 / $500 / $950 respectively. The fee will include venue hire, coffee breaks, and lunches, but will *exclude* accommodation.
 
 **Registration:** Please [visit the workshop registration page](https://payments.uq.edu.au/mrtrix3workshop2025) to sign up for the workshop.
 
