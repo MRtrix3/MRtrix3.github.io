@@ -51,17 +51,17 @@ The MRtrix3 team.
 | | 11am - 12pm |  | Motion and distortion correction using dwifslpreproc|
 | |  |  | *Lunch break*|
 | |  |  | **Robust DWI modelling**|
-|*PM* | 2pm - 3pm |  | Voxel-level modelling (advanced)|
+|*PM* | 2pm - 3pm |  | Voxel-level modelling (advanced & quantitative)|
 | | 3pm - 4pm |  | *Coffee break & practice time*|
-| | 4pm - 5pm |  | Towards quantitative voxel-level modelling|
+| | 4pm - 5pm |  | ROI-based tractography|
 | |  |  | |
 |**Wednesday** |  |  | **Quantitative connectomics**|
-|*AM* | 9am - 10am |  | Quantitative tractography|
+|*AM* | 9am - 10am |  | Quantitative streamlines tractography|
 | | 10am - 11am |  | *Coffee break & practice time*|
 | | 11am - 12pm |  | Connectome construction|
 | |  |  | *Lunch break*|
 | |  |  | **Registration & template construction**|
-|*PM* | 2pm - 3pm |  | Image registration|
+|*PM* | 2pm - 3pm |  | Image registration for dMRI|
 | | 3pm - 4pm |  | *Coffee break & practice time*|
 | | 4pm - 5pm |  | Group-level quantitative dMRI analysis|
 | |  |  | |
@@ -73,7 +73,7 @@ The MRtrix3 team.
 | |  |  | **Statistics in FBA**|
 |*PM* | 2pm - 3pm |  | Statistical inference using CFE|
 | | 3pm - 4pm |  | *Coffee break & practice time*|
-| | 4pm - 5pm |  | Visualisation and other useful tricks|
+| | 4pm - 5pm |  | Visualisation, Q&A, tips & tricks|
 | | 5pm |  | *Adjournment*|
 
 ---
