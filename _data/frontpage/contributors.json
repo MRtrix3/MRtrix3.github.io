@@ -1,7 +1,7 @@
 [
   {
     "avatar_url": "https://avatars.githubusercontent.com/u/5637955?v=4",
-    "contributions": 3782,
+    "contributions": 3786,
     "events_url": "https://api.github.com/users/Lestropie/events{/privacy}",
     "followers_url": "https://api.github.com/users/Lestropie/followers",
     "following_url": "https://api.github.com/users/Lestropie/following{/other_user}",
@@ -440,28 +440,6 @@
     "user_view_type": "public"
   },
   {
-    "avatar_url": "https://avatars.githubusercontent.com/u/5189886?v=4",
-    "contributions": 3,
-    "events_url": "https://api.github.com/users/maedoc/events{/privacy}",
-    "followers_url": "https://api.github.com/users/maedoc/followers",
-    "following_url": "https://api.github.com/users/maedoc/following{/other_user}",
-    "gists_url": "https://api.github.com/users/maedoc/gists{/gist_id}",
-    "gravatar_id": "",
-    "html_url": "https://github.com/maedoc",
-    "id": 5189886,
-    "login": "maedoc",
-    "node_id": "MDQ6VXNlcjUxODk4ODY=",
-    "organizations_url": "https://api.github.com/users/maedoc/orgs",
-    "received_events_url": "https://api.github.com/users/maedoc/received_events",
-    "repos_url": "https://api.github.com/users/maedoc/repos",
-    "site_admin": false,
-    "starred_url": "https://api.github.com/users/maedoc/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/maedoc/subscriptions",
-    "type": "User",
-    "url": "https://api.github.com/users/maedoc",
-    "user_view_type": "public"
-  },
-  {
     "avatar_url": "https://avatars.githubusercontent.com/u/1054870?v=4",
     "contributions": 2,
     "events_url": "https://api.github.com/users/tclose/events{/privacy}",
@@ -657,6 +635,28 @@
     "subscriptions_url": "https://api.github.com/users/octomike/subscriptions",
     "type": "User",
     "url": "https://api.github.com/users/octomike",
+    "user_view_type": "public"
+  },
+  {
+    "avatar_url": "https://avatars.githubusercontent.com/u/17690870?v=4",
+    "contributions": 1,
+    "events_url": "https://api.github.com/users/kaczmarj/events{/privacy}",
+    "followers_url": "https://api.github.com/users/kaczmarj/followers",
+    "following_url": "https://api.github.com/users/kaczmarj/following{/other_user}",
+    "gists_url": "https://api.github.com/users/kaczmarj/gists{/gist_id}",
+    "gravatar_id": "",
+    "html_url": "https://github.com/kaczmarj",
+    "id": 17690870,
+    "login": "kaczmarj",
+    "node_id": "MDQ6VXNlcjE3NjkwODcw",
+    "organizations_url": "https://api.github.com/users/kaczmarj/orgs",
+    "received_events_url": "https://api.github.com/users/kaczmarj/received_events",
+    "repos_url": "https://api.github.com/users/kaczmarj/repos",
+    "site_admin": false,
+    "starred_url": "https://api.github.com/users/kaczmarj/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/kaczmarj/subscriptions",
+    "type": "User",
+    "url": "https://api.github.com/users/kaczmarj",
     "user_view_type": "public"
   },
   {
