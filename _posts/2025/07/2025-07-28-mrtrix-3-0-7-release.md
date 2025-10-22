@@ -12,7 +12,7 @@ This is a bug fix release, fixing a couple of issues that have become apparent s
 
 Note that we had released version `3.0.6` recently, but since further issues came to light soon after, we decided to fix those issues quickly and release this version. We recommend anyone who has recently installed versions `3.0.5` or `3.0.6` upgrade to `3.0.7` as soon as possible. 
 
-See the [full changelog](https://github.com/MRtrix3/mrtrix3/releases/tag/3.0.7) for details.
+See the [full changelog](https://community.mrtrix.org/t/mrtrix-3-0-7-release/8467/4) for details.
 
 All the best from the *MRtrix3* team!
 
